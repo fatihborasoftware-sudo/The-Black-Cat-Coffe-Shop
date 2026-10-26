@@ -1,0 +1,994 @@
+<title>Black Cat Yeni Tasarım</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: night-dark storefront, cat-eye amber as the single accent; dark and oat-paper bands alternate; real photography in framed panels */
+:root{
+  --night:#15110f; --night-2:#1f1916; --night-3:#2b231f;
+  --paper:#efe8dc; --paper-2:#e4dacb; --card:#f7f2ea;
+  --ink:#1a1512;
+  --muted-d:#a99c8f; --muted-l:#6b5e53;
+  --eye:#f2b33d; --eye-deep:#a96c0e;
+  --kraft:#c9a67a;
+  --line-d:rgba(239,232,220,.12); --line-l:rgba(26,21,18,.14);
+  --f-display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;
+  --f-body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --wrap:1180px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--night);color:var(--paper);font-family:var(--f-body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--night)}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit}
+img{display:block;max-width:100%}
+:focus-visible{outline:2px solid var(--eye);outline-offset:3px;border-radius:4px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.02;letter-spacing:-.01em}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--eye)}
+.paper{background:var(--paper);color:var(--ink)}
+.paper .eyebrow{color:var(--eye-deep)}
+.pad{padding-block:88px}
+.photo{border-radius:22px;overflow:hidden;position:relative;background:var(--night-3)}
+.photo img{width:100%;height:100%;object-fit:cover}
+.credit{position:absolute;right:10px;bottom:8px;font-family:var(--f-mono);font-size:10px;color:rgba(255,255,255,.75);text-shadow:0 1px 3px rgba(0,0,0,.7)}
+
+/* mockup ribbon */
+.mock{background:var(--eye);color:var(--ink);font-size:13px;font-weight:600}
+.mock .wrap{display:flex;justify-content:space-between;align-items:center;gap:10px 18px;flex-wrap:wrap;padding-block:7px}
+.mock .ctl{display:flex;gap:14px;align-items:center;flex-wrap:wrap;font-family:var(--f-mono);font-weight:500;font-size:12px}
+.mock select{background:var(--ink);color:var(--paper);border:0;border-radius:6px;padding:4px 8px;font-family:var(--f-mono);font-size:12px}
+
+/* utility bar */
+.util{border-bottom:1px solid var(--line-d);font-size:13px;color:var(--muted-d)}
+.util .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:8px}
+.util .soc{display:flex;gap:14px}
+.util a:hover{color:var(--paper)}
+.util .pin{display:flex;align-items:center;gap:8px}
+.util .pin::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--eye);box-shadow:0 0 10px var(--eye)}
+
+/* header */
+header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(21,17,15,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line-d)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:14px;position:relative}
+.logo{display:flex;align-items:center;gap:10px}
+.logo svg{width:38px;height:38px;flex:none}
+.logo b{font-family:var(--f-display);font-weight:800;font-size:21px;letter-spacing:.02em;line-height:1;display:block}
+.logo small{font-family:var(--f-mono);font-size:10px;letter-spacing:.3em;color:var(--muted-d);display:block;margin-top:3px}
+nav.main ul{list-style:none;margin:0;padding:0;display:flex;gap:24px;font-weight:500;font-size:15px}
+nav.main a{color:var(--muted-d);transition:color .2s}
+nav.main a:hover,nav.main a.on{color:var(--paper)}
+nav.main a.on{box-shadow:0 2px 0 var(--eye)}
+nav.main .dd{position:relative}
+nav.main .dd>a::after{content:" ▾";font-size:10px}
+nav.main .dd ul{position:absolute;top:100%;left:-14px;display:none;flex-direction:column;gap:2px;background:var(--night-2);border:1px solid var(--line-d);padding:8px;border-radius:10px;min-width:190px;margin-top:10px}
+nav.main .dd ul::before{content:"";position:absolute;left:0;right:0;top:-12px;height:12px}
+nav.main .dd:hover ul,nav.main .dd:focus-within ul{display:flex}
+nav.main .dd ul a{display:block;padding:6px 10px;border-radius:6px;box-shadow:none}
+nav.main .dd ul a:hover{background:var(--night-3)}
+.hdr-act{display:flex;align-items:center;gap:10px}
+.icon-btn{width:40px;height:40px;border-radius:50%;border:1px solid var(--line-d);background:none;color:var(--paper);display:grid;place-items:center;cursor:pointer;position:relative}
+.icon-btn svg{width:18px;height:18px}
+.icon-btn:hover{border-color:var(--eye)}
+.cart-n{position:absolute;top:-4px;right:-4px;background:var(--eye);color:var(--ink);font-size:11px;font-weight:700;min-width:18px;height:18px;border-radius:9px;display:grid;place-items:center;padding:0 4px;transition:transform .2s}
+.cart-n.bump{transform:scale(1.35)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 22px;border-radius:999px;font-weight:600;font-size:15px;border:1px solid transparent;cursor:pointer;transition:transform .15s,background .2s,color .2s}
+.btn:hover{transform:translateY(-1px)}
+.btn-eye{background:var(--eye);color:var(--ink)}
+.btn-eye:hover{background:#ffc657}
+.btn-ghost{border-color:var(--line-d);color:var(--paper);background:none}
+.btn-ghost:hover{border-color:var(--paper)}
+.btn-ink{background:var(--ink);color:var(--paper)}
+.paper .btn-ghost{border-color:var(--line-l);color:var(--ink)}
+.menu-btn{display:none}
+@media (max-width:1040px){
+  nav.main{display:none}
+  .menu-btn{display:grid}
+  .hdr-act .btn{display:none}
+  nav.main.open{display:block;position:absolute;left:0;right:0;top:100%;background:var(--night-2);border-bottom:1px solid var(--line-d);padding:12px max(16px,env(safe-area-inset-right,0px)) 18px max(16px,env(safe-area-inset-left,0px))}
+  nav.main.open ul{flex-direction:column;gap:2px}
+  nav.main.open a{display:block;padding:8px 0;box-shadow:none}
+  nav.main.open .dd ul{position:static;display:flex;border:0;background:none;padding:0 0 0 14px;min-width:0;margin:0}
+}
+@media (max-width:560px){.util .soc{display:none}}
+
+/* cart drawer */
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(400px,100%);background:var(--night-2);border-left:1px solid var(--line-d);z-index:80;display:flex;flex-direction:column;padding:calc(20px + env(safe-area-inset-top,0px)) max(22px,env(safe-area-inset-right,0px)) calc(20px + env(safe-area-inset-bottom,0px)) 22px;transform:translateX(105%);transition:transform .3s ease}
+.drawer.open{transform:none}
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:70}
+.drawer .dh{display:flex;justify-content:space-between;align-items:center;padding-bottom:16px;border-bottom:1px solid var(--line-d)}
+.drawer .dh h3{font-size:24px;text-transform:uppercase}
+.drawer .items{flex:1;overflow:auto;padding-block:12px;display:grid;gap:12px;align-content:start}
+.drawer .it{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:12px 0;border-bottom:1px dashed var(--line-d)}
+.drawer .it b{font-weight:600}
+.drawer .it span{font-family:var(--f-mono);font-size:12px;color:var(--muted-d)}
+.drawer .empty{color:var(--muted-d);padding:24px 0}
+.drawer .tot{display:flex;justify-content:space-between;font-family:var(--f-display);font-size:22px;font-weight:700;padding-block:14px;border-top:1px solid var(--line-d)}
+.drawer .free{font-size:13px;color:var(--muted-d);margin:0 0 12px}
+.bar{height:6px;background:var(--night-3);border-radius:3px;overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;background:var(--eye);width:0;transition:width .3s}
+
+/* page header (inner pages) */
+.phead{position:relative;overflow:hidden;border-bottom:1px solid var(--line-d)}
+.phead .bg{position:absolute;inset:0}
+.phead .bg img{width:100%;height:100%;object-fit:cover;opacity:.38}
+.phead .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--night) 25%,rgba(21,17,15,.4))}
+.phead .wrap{position:relative;padding-block:72px 60px}
+.crumb{font-family:var(--f-mono);font-size:12px;color:var(--muted-d);letter-spacing:.06em;display:flex;gap:8px;flex-wrap:wrap}
+.crumb a:hover{color:var(--eye)}
+.phead h1{font-size:clamp(46px,7.5vw,96px);font-weight:800;text-transform:uppercase;line-height:.92;margin-top:18px}
+.phead h1 em{font-style:normal;color:var(--eye)}
+.phead p{max-width:52ch;color:var(--muted-d);font-size:18px;margin:20px 0 0}
+
+/* hero (home) */
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding-block:64px 84px}
+.hero h1{font-size:clamp(52px,8.4vw,112px);font-weight:800;text-transform:uppercase;line-height:.9}
+.hero h1 em{font-style:normal;color:var(--eye);display:block}
+.hero p.lede{font-size:18px;color:var(--muted-d);max-width:46ch;margin:26px 0 32px}
+.ctas{display:flex;gap:12px;flex-wrap:wrap}
+.facts{display:flex;gap:32px;margin-top:44px;padding-top:24px;border-top:1px solid var(--line-d);flex-wrap:wrap}
+.facts div{font-family:var(--f-mono);font-size:12px;color:var(--muted-d);letter-spacing:.06em}
+.facts b{display:block;font-family:var(--f-display);font-size:28px;color:var(--paper);letter-spacing:0;font-weight:700}
+.hero-art{position:relative}
+.hero-art .photo{aspect-ratio:4/5;border-radius:200px 200px 24px 24px}
+.hero-art .tag{position:absolute;left:-18px;bottom:12%;background:var(--paper);color:var(--ink);border-radius:14px;padding:12px 16px;font-size:13px;box-shadow:0 18px 40px rgba(0,0,0,.45);transform:rotate(-3deg);display:flex;gap:12px;align-items:center}
+.hero-art .tag b{display:block;font-family:var(--f-display);font-size:17px}
+.hero-art .tag span{font-family:var(--f-mono);font-size:11px;color:var(--muted-l)}
+.hero-art .tag svg{width:34px;height:34px;flex:none}
+.hero-art .stamp{position:absolute;right:-10px;top:8%;width:118px;height:118px}
+.blink{animation:blink 5s infinite;transform-origin:center;transform-box:fill-box}
+@keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.08)}}
+.spin{animation:spin 26s linear infinite;transform-origin:center;transform-box:fill-box}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.blink,.spin{animation:none}}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr;padding-block:44px 64px}.hero-art{max-width:420px;margin:0 auto;width:100%}.hero-art .tag{left:0}.hero-art .stamp{right:0;width:96px;height:96px}}
+
+/* section heads */
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:44px}
+.sec-head h2{font-size:clamp(34px,5vw,56px);font-weight:800;text-transform:uppercase;margin-top:10px}
+.sec-head h2 span{font-weight:500;color:var(--muted-l)}
+.dark .sec-head h2 span,.sec-head.on-dark h2 span{color:var(--muted-d)}
+.sec-head p{max-width:40ch;color:var(--muted-l);margin:0}
+.dark .sec-head p{color:var(--muted-d)}
+
+/* process */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.step{display:flex;flex-direction:column;gap:12px}
+.step .photo{aspect-ratio:4/5;border-radius:16px}
+.step .n{font-family:var(--f-mono);font-size:12px;color:var(--eye-deep);letter-spacing:.1em;padding-top:12px;border-top:2px solid var(--ink)}
+.step h3{font-size:22px;font-weight:700;text-transform:uppercase;line-height:1.1}
+.step p{color:var(--muted-l);margin:0;font-size:15px}
+@media (max-width:860px){.steps{grid-template-columns:1fr 1fr}}
+@media (max-width:420px){.steps{grid-template-columns:1fr}.step .photo{aspect-ratio:16/10}}
+
+/* categories */
+.cat-grid{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:18px}
+.cat{position:relative;border-radius:22px;overflow:hidden;min-height:380px;padding:26px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid var(--line-d);isolation:isolate}
+.cat img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .5s}
+.cat::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(21,17,15,.35),rgba(21,17,15,.1) 40%,rgba(21,17,15,.88))}
+.cat:hover img{transform:scale(1.05)}
+.cat:hover{border-color:var(--eye)}
+.cat .meta{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:12px;color:var(--paper);letter-spacing:.08em}
+.cat h3{font-size:clamp(30px,3.4vw,42px);font-weight:800;text-transform:uppercase}
+.go{display:inline-flex;align-items:center;gap:8px;font-weight:600;margin-top:10px;color:var(--eye)}
+.go::after{content:"→";transition:transform .2s}
+a:hover .go::after,.go:hover::after{transform:translateX(4px)}
+@media (max-width:860px){.cat-grid{grid-template-columns:1fr}.cat{min-height:260px}}
+
+/* promo */
+.promo{background:var(--eye);color:var(--ink);overflow:hidden}
+.promo .wrap{display:grid;grid-template-columns:auto 1fr auto;gap:40px;align-items:center;padding-block:56px}
+.promo .pct{font-family:var(--f-display);font-weight:800;font-size:clamp(96px,15vw,190px);line-height:.8;letter-spacing:-.04em}
+.promo .pct sup{font-size:.38em;vertical-align:top;margin-right:4px;letter-spacing:0}
+.promo h2{font-size:clamp(28px,3.6vw,44px);font-weight:800;text-transform:uppercase}
+.promo p{margin:12px 0 0;max-width:44ch;font-weight:500}
+.promo .tm{width:150px}
+@media (max-width:860px){.promo .wrap{grid-template-columns:1fr;gap:20px}.promo .tm{display:none}}
+
+/* products */
+.filters{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1px solid var(--line-l);background:none;border-radius:999px;padding:8px 16px;font-size:14px;font-weight:600;cursor:pointer;color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--card);border:1px solid var(--line-l);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s;color:var(--ink)}
+.card:hover{transform:translateY(-3px);box-shadow:0 18px 36px rgba(26,21,18,.12)}
+.card .shot{background:var(--paper-2);aspect-ratio:4/3;display:grid;place-items:center;position:relative}
+.badge{position:absolute;top:14px;left:14px;font-family:var(--f-mono);font-size:11px;background:var(--ink);color:var(--paper);padding:4px 9px;border-radius:999px;letter-spacing:.06em}
+.bag{width:120px;height:160px;background:linear-gradient(100deg,#b88f5f,var(--kraft) 30%,#d8b88d 60%,#b38a5a);border-radius:6px 6px 10px 10px;position:relative;box-shadow:0 18px 24px rgba(26,21,18,.18)}
+.bag::before{content:"";position:absolute;top:0;left:0;right:0;height:16px;background:repeating-linear-gradient(90deg,rgba(0,0,0,.12) 0 2px,transparent 2px 5px);border-radius:6px 6px 0 0}
+.bag .lbl{position:absolute;left:14px;right:14px;top:52px;background:var(--card);border-radius:3px;padding:8px 6px;text-align:center}
+.bag .lbl i{display:block;font-style:normal;font-family:var(--f-display);font-weight:800;font-size:11px;color:#fff;padding:3px 0;border-radius:2px;letter-spacing:.06em}
+.bag .lbl svg{width:16px;height:16px;margin:5px auto 0;display:block}
+.prodsvg{width:130px;height:170px}
+.card .body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:12px;flex:1}
+.card h3{font-size:20px;font-weight:700;text-transform:uppercase;line-height:1.15}
+.card h3 a:hover{color:var(--eye-deep)}
+.card h3 .g{font-weight:500;color:var(--muted-l)}
+.card .notes{font-size:14px;color:var(--muted-l);margin:0}
+.specs{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;font-family:var(--f-mono);font-size:11.5px;color:var(--muted-l);margin:0}
+.specs dd{margin:0;color:var(--ink)}
+.card .foot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:auto;padding-top:14px;border-top:1px dashed var(--line-l)}
+.price{font-family:var(--f-display);font-weight:700;font-size:24px;font-variant-numeric:tabular-nums}
+.price small{font-family:var(--f-mono);font-size:11px;color:var(--muted-l);font-weight:400;margin-left:4px}
+.add{border:0;background:var(--ink);color:var(--paper);border-radius:999px;padding:10px 16px;font-weight:600;font-size:14px;cursor:pointer;transition:background .2s;white-space:nowrap}
+.add:hover{background:var(--night-3)}
+.add.ok{background:var(--eye);color:var(--ink)}
+@media (max-width:980px){.grid{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.grid{grid-template-columns:1fr}}
+
+/* tracking */
+.track .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.track p.desc{color:var(--muted-d);max-width:48ch;margin:18px 0 0}
+.panel{background:var(--night-2);border:1px solid var(--line-d);border-radius:22px;padding:30px;display:grid;gap:16px}
+.field label{display:block;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted-d);margin-bottom:7px}
+.field input,.field select,.field textarea{width:100%;background:var(--night);border:1px solid var(--line-d);color:var(--paper);border-radius:12px;padding:13px 14px;font-size:15px}
+.field textarea{min-height:120px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--eye)}
+.paper .panel{background:var(--card);border-color:var(--line-l)}
+.paper .field label{color:var(--muted-l)}
+.paper .field input,.paper .field select,.paper .field textarea{background:#fff;border-color:var(--line-l);color:var(--ink)}
+.paper .field input:focus,.paper .field select:focus,.paper .field textarea:focus{border-color:var(--eye-deep)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.check{display:flex;gap:10px;align-items:center;font-size:14px}
+.small{font-size:13px;color:var(--muted-d);margin:0}
+.paper .small{color:var(--muted-l)}
+.ok-msg{border:1px dashed var(--eye);border-radius:12px;padding:12px 14px;font-size:14px}
+.status{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:6px}
+.status div{font-size:12px;color:var(--muted-d);padding-top:10px;border-top:3px solid var(--night-3)}
+.status div.on{border-top-color:var(--eye);color:var(--paper)}
+@media (max-width:860px){.track .wrap{grid-template-columns:1fr;gap:32px}}
+@media (max-width:520px){.row2{grid-template-columns:1fr}}
+
+/* about */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.prose p{font-size:17px;max-width:60ch;margin:0 0 16px}
+.prose p.big{font-family:var(--f-display);font-size:clamp(24px,2.6vw,32px);line-height:1.2;font-weight:500}
+.split .photo{aspect-ratio:5/4}
+.roast{position:relative;overflow:hidden}
+.roast .bg{position:absolute;inset:0}
+.roast .bg img{width:100%;height:100%;object-fit:cover}
+.roast .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(21,17,15,.95) 30%,rgba(21,17,15,.35))}
+.roast .wrap{position:relative;padding-block:110px}
+.roast h2{font-size:clamp(44px,7vw,90px);font-weight:800;text-transform:uppercase;line-height:.9}
+.roast h2 em{font-style:normal;color:var(--eye)}
+.roast p{max-width:46ch;color:var(--muted-d);font-size:17px;margin:22px 0 0}
+.curve{display:flex;gap:28px;margin-top:34px;flex-wrap:wrap;font-family:var(--f-mono);font-size:12px;color:var(--muted-d)}
+.curve b{display:block;font-family:var(--f-display);font-size:30px;color:var(--paper)}
+.gal{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:240px 240px;gap:14px}
+.gal .photo:first-child{grid-row:span 2}
+.gal .photo{border-radius:18px}
+@media (max-width:860px){.split{grid-template-columns:1fr;gap:32px}.gal{grid-template-columns:1fr 1fr;grid-template-rows:200px 160px 160px}.gal .photo:first-child{grid-column:span 2;grid-row:auto}}
+
+/* shop */
+.shop{display:grid;grid-template-columns:230px 1fr;gap:40px;align-items:start}
+.shop aside{display:grid;gap:30px;position:sticky;top:calc(90px + env(safe-area-inset-top,0px))}
+.shop aside h4{font-family:var(--f-mono);font-weight:500;font-size:11px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px;color:var(--muted-l)}
+.catlist{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+.catlist a{display:flex;justify-content:space-between;padding:8px 12px;border-radius:10px;font-weight:600}
+.catlist a:hover{background:var(--paper-2)}
+.catlist a.on{background:var(--ink);color:var(--paper)}
+.catlist span{font-family:var(--f-mono);font-size:12px;opacity:.7}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tags span{border:1px solid var(--line-l);border-radius:999px;padding:4px 10px;font-size:13px}
+.range{display:grid;gap:8px;font-family:var(--f-mono);font-size:12px}
+.range input{width:100%;accent-color:var(--eye-deep)}
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:22px;padding-bottom:16px;border-bottom:1px solid var(--line-l)}
+.toolbar select{border:1px solid var(--line-l);background:#fff;border-radius:999px;padding:8px 14px;color:var(--ink)}
+.shop .grid{grid-template-columns:repeat(3,1fr)}
+@media (max-width:1100px){.shop .grid{grid-template-columns:1fr 1fr}}
+@media (max-width:860px){.shop{grid-template-columns:1fr}.shop aside{position:static;grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.shop .grid{grid-template-columns:1fr}.shop aside{grid-template-columns:1fr}}
+
+/* product page */
+.pdp{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:start}
+.stage{background:var(--paper-2);border-radius:26px;aspect-ratio:1/1;display:grid;place-items:center;position:relative;overflow:hidden}
+.stage .bag,.stage .prodsvg{transform:scale(1.9)}
+.thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+.thumbs .photo{aspect-ratio:1/1;border-radius:14px}
+.pdp h1{font-size:clamp(36px,4.6vw,58px);font-weight:800;text-transform:uppercase;line-height:.95;margin-top:14px}
+.pdp .price{font-size:34px;display:block;margin-top:14px}
+.pdp .notes{font-size:18px;color:var(--muted-l);margin:14px 0 0}
+.meter{margin-top:26px}
+.meter .lab{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:11px;color:var(--muted-l);letter-spacing:.08em}
+.meter .seg{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin-top:6px}
+.meter .seg i{height:10px;border-radius:3px;background:var(--paper-2)}
+.meter .seg i.on{background:var(--ink)}
+.opts{margin-top:24px}
+.opts .lab{font-family:var(--f-mono);font-size:11px;color:var(--muted-l);letter-spacing:.12em;text-transform:uppercase;margin-bottom:8px}
+.buy{display:flex;gap:12px;margin-top:26px;flex-wrap:wrap}
+.qty{display:flex;align-items:center;border:1px solid var(--line-l);border-radius:999px;background:#fff}
+.qty button{width:42px;height:46px;border:0;background:none;font-size:20px;cursor:pointer;color:var(--ink)}
+.qty output{min-width:28px;text-align:center;font-weight:700}
+.buy .btn{flex:1;min-width:180px}
+.perks{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px;font-size:14px;color:var(--muted-l)}
+.perks div{display:flex;gap:8px;align-items:center}
+.perks div::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--eye-deep);flex:none}
+.spectable{width:100%;border-collapse:collapse;margin-top:26px;font-size:14px}
+.spectable th,.spectable td{text-align:left;padding:10px 0;border-bottom:1px solid var(--line-l);color:var(--ink);font-size:14px}
+.spectable th{font-family:var(--f-mono);font-weight:500;font-size:11px;letter-spacing:.1em;color:var(--muted-l);width:38%}
+.tabs{display:flex;gap:8px;border-bottom:1px solid var(--line-l);margin-bottom:24px;flex-wrap:wrap}
+.tabs button{background:none;border:0;padding:12px 4px;margin-right:18px;font-weight:600;font-size:16px;cursor:pointer;color:var(--muted-l);border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--eye-deep)}
+.stars{display:flex;gap:4px}
+.stars button{background:none;border:0;font-size:26px;cursor:pointer;color:var(--paper-2);padding:0}
+.stars button.on{color:var(--eye-deep)}
+@media (max-width:900px){.pdp{grid-template-columns:1fr;gap:32px}}
+
+/* branches */
+.branches{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.br{background:var(--night-2);border:1px solid var(--line-d);border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
+.br .photo{aspect-ratio:16/10;border-radius:0}
+.br .b{padding:22px;display:grid;gap:12px}
+.br h3{font-size:30px;font-weight:800;text-transform:uppercase}
+.br dl{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0;font-size:14px}
+.br dt{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;color:var(--muted-d);padding-top:3px}
+.br dd{margin:0}
+.open-now{display:inline-flex;align-items:center;gap:6px;font-family:var(--f-mono);font-size:11px;color:var(--eye)}
+.open-now::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--eye);box-shadow:0 0 8px var(--eye)}
+.br.cta{background:var(--eye);color:var(--ink);justify-content:space-between;padding:26px;border:0}
+.br.cta h3{font-size:34px}
+@media (max-width:980px){.branches{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.branches{grid-template-columns:1fr}}
+
+/* franchise */
+.fsteps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:2px solid var(--ink)}
+.fsteps div{padding:22px 22px 6px 0}
+.fsteps div+div{padding-left:22px;border-left:1px solid var(--line-l)}
+.fsteps .n{font-family:var(--f-mono);font-size:12px;color:var(--eye-deep);letter-spacing:.1em}
+.fsteps h3{font-size:22px;text-transform:uppercase;margin-top:12px}
+.fsteps p{color:var(--muted-l);font-size:15px;margin:8px 0 0}
+@media (max-width:860px){.fsteps{grid-template-columns:1fr 1fr}.fsteps div:nth-child(3){padding-left:0;border-left:0}.fsteps div:nth-child(n+3){border-top:1px solid var(--line-l)}}
+@media (max-width:480px){.fsteps{grid-template-columns:1fr}.fsteps div,.fsteps div+div{padding-left:0;border-left:0}.fsteps div+div{border-top:1px solid var(--line-l)}}
+.why{display:grid;gap:18px;margin-top:28px}
+.why div{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start}
+.why b{font-family:var(--f-display);font-size:28px;color:var(--eye);line-height:1}
+.why p{margin:0;color:var(--muted-d)}
+
+/* blog */
+.posts{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}
+.post{display:flex;flex-direction:column;gap:14px;color:var(--ink)}
+.post .photo{aspect-ratio:16/10;border-radius:18px}
+.post .photo img{transition:transform .5s}
+.post:hover .photo img{transform:scale(1.04)}
+.post .m{font-family:var(--f-mono);font-size:12px;color:var(--muted-l);letter-spacing:.06em;display:flex;gap:12px}
+.post h3{font-size:clamp(26px,2.8vw,34px);font-weight:800;text-transform:uppercase}
+.post p{margin:0;color:var(--muted-l)}
+.post.lead{grid-column:span 2;display:grid;grid-template-columns:1.3fr 1fr;gap:32px;align-items:center}
+@media (max-width:760px){.posts{grid-template-columns:1fr}.post.lead{grid-column:auto;grid-template-columns:1fr}}
+.article{max-width:720px;margin:0 auto}
+.article .photo{aspect-ratio:16/9;margin:0 0 36px}
+.article p{font-size:18px;line-height:1.7;margin:0 0 20px}
+.article h2{font-size:30px;text-transform:uppercase;margin:36px 0 14px}
+.recipe{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:28px 0}
+.recipe div{background:var(--card);border:1px solid var(--line-l);border-radius:14px;padding:14px}
+.recipe b{display:block;font-family:var(--f-display);font-size:26px}
+.recipe span{font-family:var(--f-mono);font-size:11px;color:var(--muted-l);letter-spacing:.08em}
+.article ol{padding-left:22px;font-size:17px;display:grid;gap:8px}
+@media (max-width:600px){.recipe{grid-template-columns:1fr 1fr}}
+
+/* contact & account */
+.cinfo{display:grid;gap:22px}
+.cinfo .k{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;color:var(--muted-d);text-transform:uppercase}
+.cinfo .v{font-family:var(--f-display);font-size:28px;font-weight:700;user-select:all}
+.cinfo .soc{display:flex;gap:10px;flex-wrap:wrap}
+.cinfo .soc a{border:1px solid var(--line-d);border-radius:999px;padding:8px 16px}
+.cinfo .soc a:hover{border-color:var(--eye)}
+.acct{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.acct h2{font-size:32px;text-transform:uppercase}
+.acct .link{color:var(--eye-deep);font-weight:600;font-size:14px}
+@media (max-width:760px){.acct{grid-template-columns:1fr}}
+
+/* footer */
+footer{background:#0f0c0a;border-top:1px solid var(--line-d);font-size:14px;color:var(--muted-d)}
+footer .top{display:grid;grid-template-columns:1.4fr repeat(5,1fr);gap:28px;padding-block:64px 40px}
+footer h4{font-family:var(--f-mono);font-weight:500;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);margin:0 0 14px}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+footer a:hover{color:var(--eye)}
+footer .about p{margin:16px 0 0;max-width:32ch}
+footer .bottom{border-top:1px solid var(--line-d);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-block:20px;font-size:13px}
+.pay{display:flex;gap:8px;align-items:center;font-family:var(--f-mono);font-size:11px;flex-wrap:wrap}
+.pay span{border:1px solid var(--line-d);padding:4px 8px;border-radius:6px;color:var(--paper)}
+@media (max-width:980px){footer .top{grid-template-columns:1fr 1fr 1fr}footer .about{grid-column:1/-1}}
+@media (max-width:520px){footer .top{grid-template-columns:1fr 1fr}}
+
+/* review notes */
+.rv{display:inline-block;font-family:var(--f-mono);font-size:11px;background:rgba(242,179,61,.14);color:var(--eye);border:1px dashed var(--eye);border-radius:6px;padding:3px 8px;margin-top:14px;line-height:1.5}
+.paper .rv{background:rgba(169,108,14,.08);color:var(--eye-deep);border-color:var(--eye-deep)}
+body.clean .rv{display:none}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="cat" viewBox="0 0 64 64"><path fill="currentColor" d="M14 10 L22 22 Q32 18 42 22 L50 10 L52 30 Q54 44 44 50 Q38 54 32 54 Q26 54 20 50 Q10 44 12 30 Z"/></symbol>
+    <symbol id="mark" viewBox="0 0 64 64"><circle cx="32" cy="32" r="31" fill="#efe8dc"/><use href="#cat" style="color:#15110f" x="6" y="8" width="52" height="52"/><ellipse class="blink" cx="26.5" cy="38" rx="2.6" ry="3.2" fill="#f2b33d"/><ellipse class="blink" cx="37.5" cy="38" rx="2.6" ry="3.2" fill="#f2b33d"/></symbol>
+  </defs>
+</svg>
+
+<div class="mock"><div class="wrap">
+  <span>Tasarım taslağı · The Black Cat v2 (henüz canlı değil)</span>
+  <span class="ctl">
+    <label for="pg">Sayfa:</label>
+    <select id="pg">
+      <option value="anasayfa">Ana sayfa</option>
+      <option value="hakkimizda">The Black Cat (Hakkımızda)</option>
+      <option value="magaza">Mağaza</option>
+      <option value="kahveler">Kahveler</option>
+      <option value="aksesuarlar">Aksesuarlar</option>
+      <option value="hediye">Hediye Paketleri</option>
+      <option value="urun">Ürün sayfası</option>
+      <option value="subeler">Şubelerimiz</option>
+      <option value="franchise">Franchise</option>
+      <option value="blog">Blog</option>
+      <option value="yazi">Blog yazısı</option>
+      <option value="iletisim">İletişim</option>
+      <option value="hesabim">Hesabım</option>
+    </select>
+    <label style="cursor:pointer"><input type="checkbox" id="clean" style="vertical-align:middle;margin-right:6px">Notları gizle</label>
+  </span>
+</div></div>
+
+<div class="util"><div class="wrap">
+  <a href="#subeler" class="pin">Kahve Noktaları · 5 şehirde</a>
+  <div class="soc"><a href="#">Facebook</a><a href="#">X</a><a href="#">Instagram</a><a href="#">YouTube</a></div>
+</div></div>
+
+<header class="site"><div class="wrap">
+  <a href="#anasayfa" class="logo" aria-label="The Black Cat ana sayfa"><svg aria-hidden="true"><use href="#mark"/></svg><span><b>BLACK CAT</b><small>COFFEE SHOP</small></span></a>
+  <nav class="main" id="nav" aria-label="Ana menü"><ul>
+    <li class="dd"><a href="#hakkimizda" data-nav="hakkimizda hesabim">The Black Cat</a><ul><li><a href="#hakkimizda">Hakkımızda</a></li><li><a href="#hesabim">Hesabım</a></li></ul></li>
+    <li class="dd"><a href="#magaza" data-nav="magaza urun">Kahve Al!</a><ul><li><a href="#kahveler">Kahveler</a></li><li><a href="#aksesuarlar">Aksesuarlar</a></li><li><a href="#hediye">Hediye Paketleri</a></li></ul></li>
+    <li><a href="#subeler" data-nav="subeler">Şubelerimiz</a></li>
+    <li><a href="#franchise" data-nav="franchise">Franchise</a></li>
+    <li><a href="#blog" data-nav="blog yazi">Blog</a></li>
+    <li><a href="#iletisim" data-nav="iletisim">İletişim</a></li>
+  </ul></nav>
+  <div class="hdr-act">
+    <button class="icon-btn" aria-label="Ara"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button>
+    <button class="icon-btn" id="cartBtn" aria-label="Sepet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 8h14l-1.2 11H6.2z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="cart-n" id="cartN">0</span></button>
+    <a class="btn btn-eye" href="#subeler">Kahve Noktaları</a>
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menüyü aç" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</div></header>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" aria-label="Sepet">
+  <div class="dh"><h3>Sepetim</h3><button class="icon-btn" id="closeCart" aria-label="Sepeti kapat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+  <div class="items" id="cartItems"></div>
+  <div>
+    <p class="free" id="freeTxt"></p>
+    <div class="tot"><span>Ara toplam</span><span id="cartTot">₺0,00</span></div>
+    <div style="display:grid;gap:10px"><button class="btn btn-eye">Ödemeye geç</button><button class="btn btn-ghost">Sepeti görüntüle</button></div>
+    <span class="rv">Yeni: yan panel sepet. Ücretsiz kargo eşiği örnek (₺1.000).</span>
+  </div>
+</aside>
+
+<main>
+
+<!-- ============ ANA SAYFA ============ -->
+<div class="view" data-view="anasayfa">
+<section class="hero"><div class="wrap">
+  <div>
+    <div class="eyebrow">Kendi kavurduğumuz nitelikli kahve</div>
+    <h1 style="margin-top:16px">Gerçek kahveyi <em>keşfet!</em></h1>
+    <p class="lede">Tek kökenli çekirdekleri küçük partiler hâlinde kavuruyor, taze paketleyip kapınıza gönderiyoruz. İstersen şubemize uğra, istersen evde demle.</p>
+    <div class="ctas"><a class="btn btn-eye" href="#magaza">Kahve Al</a><a class="btn btn-ghost" href="#subeler">Kahve Noktaları</a></div>
+    <div class="facts"><div><b>5</b>ŞUBE</div><div><b>6</b>TEK KÖKEN</div><div><b>250 gr</b>TAZE PAKET</div></div>
+    <span class="rv">Yeni: kısa tanıtım metni ve ikinci buton (Kahve Al) eklendi</span>
+  </div>
+  <div class="hero-art">
+    <div class="photo"><img src="img/flatlay-cup-beans.jpg" alt="Siyah kahve fincanı ve kavrulmuş çekirdekler"></div>
+    <svg class="stamp" viewBox="0 0 120 120" aria-hidden="true">
+      <circle cx="60" cy="60" r="58" fill="#f2b33d"/>
+      <defs><path id="ring" d="M60 60 m-42 0 a42 42 0 1 1 84 0 a42 42 0 1 1 -84 0"/></defs>
+      <text class="spin" font-family="JetBrains Mono, monospace" font-size="10.5" letter-spacing="3" fill="#1a1512"><textPath href="#ring">TAZE KAVRUM · HER HAFTA · TAZE KAVRUM · </textPath></text>
+      <use href="#cat" x="40" y="40" width="40" height="40" style="color:#1a1512"/>
+    </svg>
+    <div class="tag"><svg aria-hidden="true"><use href="#mark"/></svg><div><b>Rwanda Karambi</b><span>Bu haftanın kavrumu · 250 gr</span></div></div>
+  </div>
+</div></section>
+
+<section class="paper"><div class="wrap pad">
+  <div class="sec-head">
+    <div><div class="eyebrow">Çekirdekten fincana</div><h2>Kahvemizi artık <span>kendimiz kavuruyoruz</span></h2></div>
+    <p>Her paket aynı dört adımdan geçer. Eski sitedeki dört özellik kartı, fotoğraflı bir süreç şeridine dönüştü.</p>
+  </div>
+  <div class="steps" id="steps">
+    <div class="step"><div class="photo"><img src="img/coffee-cherries.jpg" alt="Dalında olgun kahve meyveleri"></div><div class="n">01 / ÇEKİRDEK</div><h3>Kaliteli çekirdekler</h3><p>İyi bir kahve iyi bir çekirdek ile başlar!</p></div>
+    <div class="step"><div class="photo"><img src="img/roaster.jpg" alt="Kavurma makinesinde dönen çekirdekler"></div><div class="n">02 / KAVURMA</div><h3>En uygun kavurma</h3><p>Dünya standartlarında kavurma yöntemleri ile kavrulur!</p></div>
+    <div class="step"><div class="photo"><img src="img/coffee-bags-shelf.jpg" alt="Raflarda kraft kahve paketleri"></div><div class="n">03 / PAKETLEME</div><h3>Özel paketleme</h3><p>Uygun koşullarda dayanıklı kalacak şekilde paketlenir!</p></div>
+    <div class="step"><div class="photo"><img src="img/latte-art.jpg" alt="Latte art yapan barista"></div><div class="n">04 / AROMA</div><h3>Mükemmel aroma</h3><p>Sonucunda da mükemmel bir aroma verir!</p></div>
+  </div>
+</div></section>
+
+<section class="dark"><div class="wrap pad">
+  <div class="sec-head">
+    <div><div class="eyebrow">Online mağaza</div><h2><span>Online</span> ürünlerimiz</h2></div>
+    <p>Üç kategori, üç kart. Büyük kart kahveleri öne çıkarır.</p>
+  </div>
+  <div class="cat-grid">
+    <a class="cat" href="#kahveler"><img src="img/roasted-beans-macro.jpg" alt=""><div class="meta"><span>KAHVELER</span><span>6 ÜRÜN</span></div><div><h3>Kahveler</h3><span class="go">İncele</span></div></a>
+    <a class="cat" href="#aksesuarlar"><img src="img/takeaway-cup-portrait.jpg" alt=""><div class="meta"><span>AKSESUAR</span><span>3 ÜRÜN</span></div><div><h3>Aksesuar</h3><span class="go">İncele</span></div></a>
+    <a class="cat" href="#hediye"><img src="img/coffee-bags-shelf.jpg" alt=""><div class="meta"><span>HEDİYE</span><span>1 ÜRÜN</span></div><div><h3>Hediye paketleri</h3><span class="go">İncele</span></div></a>
+  </div>
+</div></section>
+
+<section class="promo"><div class="wrap">
+  <div class="pct"><sup>%</sup>20</div>
+  <div>
+    <h2>The Black Cat termosunu getir, indirimli kahveni al</h2>
+    <p>Kendi Black Cat termosunla gelen herkese tüm şubelerde %20 indirim.</p>
+    <a class="btn btn-ink" href="#aksesuarlar" style="margin-top:20px">Termoslar</a>
+  </div>
+  <svg class="tm" viewBox="0 0 120 200" aria-hidden="true"><rect x="22" y="6" width="76" height="22" rx="6" fill="#1a1512"/><path d="M26 28 h68 l-5 166 h-58z" fill="#15110f"/><use href="#cat" x="36" y="80" width="48" height="48" style="color:#f2b33d"/></svg>
+</div></section>
+
+<section class="paper"><div class="wrap pad">
+  <div class="sec-head">
+    <div><div class="eyebrow">Çok satanlar</div><h2><span>Popüler</span> ürünlerimiz</h2></div>
+    <div class="filters" role="group" aria-label="Kavrum filtresi">
+      <button class="chip" aria-pressed="true" data-f="all">Tümü</button>
+      <button class="chip" aria-pressed="false" data-f="orta">Orta kavrum</button>
+      <button class="chip" aria-pressed="false" data-f="koyu">Koyu kavrum</button>
+    </div>
+  </div>
+  <div class="grid" id="homeGrid"></div>
+  <span class="rv">Yeni: her kartta köken bilgisi ve tat notaları. Değerler örnektir, gerçek bilgilerle doldurulmalı.</span>
+</div></section>
+
+<section class="track dark" id="takipSec"><div class="wrap pad">
+  <div>
+    <div class="eyebrow">Sipariş takip</div>
+    <h2 style="font-size:clamp(34px,5vw,56px);font-weight:800;text-transform:uppercase;margin-top:10px">Kahven nerede?</h2>
+    <p class="desc">Siparişinizi takip etmek için sipariş numaranızı ve fatura e-posta adresinizi girin. Sipariş numaranızı, size gönderilen sipariş onay e-postasında bulabilirsiniz.</p>
+    <span class="rv">Yeni: sonuç sayfadan çıkmadan kartta görünür</span>
+  </div>
+  <form class="panel" id="trackForm" novalidate>
+    <div class="field"><label for="ord">Sipariş numarası</label><input id="ord" inputmode="numeric" value="10482"></div>
+    <div class="field"><label for="mail">Fatura e-posta adresi</label><input id="mail" type="email" value="ornek@eposta.com"></div>
+    <button class="btn btn-eye" type="submit">Takip et</button>
+    <div id="trackOut" hidden>
+      <p class="small">Sipariş <b id="ordNo" style="color:var(--paper)">#10482</b> · örnek durum</p>
+      <div class="status"><div class="on">Alındı</div><div class="on">Kavruldu</div><div class="on">Kargoda</div><div>Teslim</div></div>
+    </div>
+  </form>
+</div></section>
+</div>
+
+<!-- ============ HAKKIMIZDA ============ -->
+<div class="view" data-view="hakkimizda" hidden>
+<section class="phead"><div class="bg"><img src="img/cafe-interior.jpg" alt=""></div><div class="wrap">
+  <div class="crumb"><a href="#anasayfa">Ana sayfa</a><span>/</span><span>Hakkımızda</span></div>
+  <h1>Hakkımızda<br><em>The Black Cat</em></h1>
+  <p>Gece kadar koyu, sabah kadar taze. Küçük bir kavurma atölyesinden beş şehre uzanan bir kahve evi.</p>
+</div></section>
+<section class="paper"><div class="wrap pad">
+  <div class="split">
+    <div class="prose">
+      <div class="eyebrow" style="margin-bottom:14px">Hikâyemiz</div>
+      <p class="big">The Black Cat, iyi kahvenin karmaşık olmak zorunda olmadığına inanan küçük bir ekip olarak başladı.</p>
+      <p>Çekirdeklerimizi Kolombiya'dan Ruanda'ya farklı kökenlerden seçiyor, kendi atölyemizde küçük partiler hâlinde kavuruyoruz. Her kökenin kendine has tadını korumak için kavurma profillerini tek tek ayarlıyoruz.</p>
+      <p>Bugün beş şehirdeki şubelerimizde ve online mağazamızda, her paketi kavrumdan sonraki birkaç gün içinde size ulaştırmaya çalışıyoruz.</p>
+      <span class="rv">Taslak metin: sitedeki lorem ipsum yerine öneri. Kendi hikâyenizle değiştirin.</span>
+    </div>
+    <div class="photo"><img src="img/barista-dark-cafe.jpg" alt="Espresso hazırlayan barista"></div>
+  </div>
+</div></section>
+<section class="paper" style="border-top:1px solid var(--line-l)"><div class="wrap pad">
+  <div class="sec-head"><div><div class="eyebrow">Neye önem veriyoruz</div><h2>Dört adım, <span>tek standart</span></h2></div></div>
+  <div class="steps" id="stepsAbout"></div>
+</div></section>
+<section class="roast"><div class="bg"><img src="img/roaster.jpg" alt=""></div><div class="wrap">
+  <div class="eyebrow">Kavurma atölyesi</div>
+  <h2 style="margin-top:14px">Kahvemizi artık<br>kendimiz<br><em>kavuruyoruz!</em></h2>
+  <p>Çekirdek seçiminden soğutmaya kadar her partiyi kendi atölyemizde takip ediyoruz. Böylece rafta bekleyen değil, yeni kavrulmuş kahve satıyoruz.</p>
+  <div class="curve"><div><b>12 dk</b>ORTALAMA KAVURMA</div><div><b>205°C</b>BİTİŞ SICAKLIĞI</div><div><b>48 sa</b>DİNLENME</div></div>
+  <span class="rv">Rakamlar örnektir</span>
+</div></section>
+<section class="paper"><div class="wrap pad">
+  <div class="sec-head"><div><div class="eyebrow">Galeri</div><h2>Bizden <span>kareler</span></h2></div></div>
+  <div class="gal">
+    <div class="photo"><img src="img/cafe-interior.jpg" alt="Sıcak ışıklı kafe içi"></div>
+    <div class="photo"><img src="img/pour-over-v60.jpg" alt="V60 ile filtre kahve demleme"></div>
+    <div class="photo"><img src="img/espresso-extraction.jpg" alt="Espresso akışı"></div>
+    <div class="photo"><img src="img/latte-art.jpg" alt="Latte art"></div>
+    <div class="photo"><img src="img/iced-coffee.jpg" alt="Buzlu kahve"></div>
+  </div>
+</div></section>
+</div>
+
+<!-- ============ MAĞAZA ============ -->
+<div class="view" data-view="magaza" hidden>
+<section class="phead"><div class="bg"><img src="img/coffee-bags-shelf.jpg" alt=""></div><div class="wrap">
+  <div class="crumb"><a href="#anasayfa">Ana sayfa</a><span>/</span><a href="#magaza">Mağaza</a><span id="crumbCat"></span></div>
+  <h1 id="shopTitle">Mağaza</h1>
+  <p id="shopSub">Taze kavrulmuş kahveler, Black Cat termosları ve hediye paketleri.</p>
+</div></section>
+<section class="paper"><div class="wrap pad">
+  <div class="shop">
+    <aside>
+      <div><h4>Kategoriler</h4><ul class="catlist" id="catList"></ul></div>
+      <div><h4>Fiyata göre filtrele</h4>
+        <div class="range"><label for="maxP">En yüksek fiyat: <b id="maxPv">₺725</b></label><input type="range" id="maxP" min="385" max="725" step="10" value="725"></div>
+      </div>
+      <div><h4>Etiketler</h4><div class="tags"><span>hediye paketi</span><span>Termos</span><span>Yöresel Kahveler</span></div></div>
+    </aside>
+    <div>
+      <div class="toolbar"><span class="small" id="shopCount" style="color:var(--muted-l)"></span>
+        <label class="small" style="display:flex;gap:8px;align-items:center;color:var(--muted-l)">Sırala
+          <select id="sort"><option value="def">Varsayılan sıralama</option><option value="pop">En çok satılana göre</option><option value="new">En yeniye göre</option><option value="asc">Fiyat: düşükten yükseğe</option><option value="desc">Fiyat: yüksekten düşüğe</option></select>
+        </label>
+      </div>
+      <div class="grid" id="shopGrid"></div>
+      <span class="rv">Yeni: 10 ürün tek sayfada, canlı fiyat filtresi, kategoriye göre başlık</span>
+    </div>
+  </div>
+</div></section>
+</div>
+
+<!-- ============ ÜRÜN ============ -->
+<div class="view" data-view="urun" hidden>
+<section class="paper"><div class="wrap" style="padding-block:40px 88px">
+  <div class="crumb" style="color:var(--muted-l);margin-bottom:28px"><a href="#anasayfa">Ana sayfa</a><span>/</span><a href="#magaza">Mağaza</a><span>/</span><a id="pCatLink" href="#kahveler">Kahveler</a><span>/</span><span id="pCrumb"></span></div>
+  <div class="pdp">
+    <div>
+      <div class="stage" id="pStage"></div>
+      <div class="thumbs"><div class="photo"><img src="img/roasted-beans-macro.jpg" alt=""></div><div class="photo"><img src="img/pour-over-v60.jpg" alt=""></div><div class="photo"><img src="img/espresso-extraction.jpg" alt=""></div></div>
+    </div>
+    <div>
+      <div class="eyebrow" id="pEyebrow">Tek köken · 250 gr</div>
+      <h1 id="pName"></h1>
+      <span class="price" id="pPrice"></span>
+      <p class="notes" id="pNotes"></p>
+      <div class="meter" id="pMeter"><div class="lab"><span>AÇIK</span><span>KAVRUM</span><span>KOYU</span></div><div class="seg" id="pSeg"></div></div>
+      <div class="opts" id="pGrind"><div class="lab">Öğütme</div>
+        <div class="filters" role="group" aria-label="Öğütme seçimi">
+          <button class="chip" aria-pressed="true">Çekirdek</button><button class="chip" aria-pressed="false">Filtre</button><button class="chip" aria-pressed="false">Espresso</button><button class="chip" aria-pressed="false">French press</button><button class="chip" aria-pressed="false">Türk kahvesi</button>
+        </div>
+      </div>
+      <div class="buy">
+        <div class="qty"><button id="qMinus" aria-label="Azalt">−</button><output id="qVal">1</output><button id="qPlus" aria-label="Artır">+</button></div>
+        <button class="btn btn-ink" id="pAdd">Sepete Ekle</button>
+      </div>
+      <div class="perks"><div>Kavrumdan sonra 3 gün içinde kargo</div><div>₺1.000 üzeri ücretsiz kargo</div><div>PayTR ile güvenli ödeme</div><div>Şubeden teslim al</div></div>
+      <table class="spectable" id="pSpecs"></table>
+      <span class="rv">Yeni: öğütme seçimi, kavrum ölçeği, adet seçici ve köken tablosu. Kargo/öğütme seçenekleri örnektir.</span>
+    </div>
+  </div>
+  <div style="margin-top:72px">
+    <div class="tabs" role="tablist"><button role="tab" aria-selected="true" data-tab="t1">Açıklama</button><button role="tab" aria-selected="false" data-tab="t2">Değerlendirmeler (0)</button></div>
+    <div id="t1" class="prose"><p id="pDesc"></p></div>
+    <div id="t2" hidden>
+      <p style="margin:0 0 6px">Henüz değerlendirme yapılmadı.</p>
+      <p class="small" style="margin-bottom:20px">“<span id="pRevName"></span>” için yorum yapan ilk kişi siz olun</p>
+      <form class="panel" style="max-width:640px" id="revForm" novalidate>
+        <div class="field"><label>Derecelendirmeniz *</label><div class="stars" id="stars"><button type="button" aria-label="1 yıldız">★</button><button type="button" aria-label="2 yıldız">★</button><button type="button" aria-label="3 yıldız">★</button><button type="button" aria-label="4 yıldız">★</button><button type="button" aria-label="5 yıldız">★</button></div></div>
+        <div class="field"><label for="rv1">Değerlendirmeniz *</label><textarea id="rv1"></textarea></div>
+        <div class="row2"><div class="field"><label for="rv2">İsim *</label><input id="rv2"></div><div class="field"><label for="rv3">E-posta *</label><input id="rv3" type="email"></div></div>
+        <label class="check"><input type="checkbox" id="rv4"> Daha sonraki yorumlarımda kullanılması için adım ve e-posta adresim bu tarayıcıya kaydedilsin.</label>
+        <button class="btn btn-ink" type="submit">Gönder</button>
+        <div class="ok-msg" id="revOk" hidden>Taslak: gerçek sitede yorum onaya gönderilir.</div>
+      </form>
+    </div>
+  </div>
+  <div style="margin-top:80px">
+    <div class="sec-head"><div><div class="eyebrow">Bunları da sevebilirsin</div><h2><span>İlgili</span> ürünler</h2></div></div>
+    <div class="grid" id="relGrid"></div>
+  </div>
+</div></section>
+</div>
+
+<!-- ============ ŞUBELER ============ -->
+<div class="view" data-view="subeler" hidden>
+<section class="phead"><div class="bg"><img src="img/espresso-extraction.jpg" alt=""></div><div class="wrap">
+  <div class="crumb"><a href="#anasayfa">Ana sayfa</a><span>/</span><span>Şubelerimiz</span></div>
+  <h1>Şubelerimiz<br><em>The Black Cat</em></h1>
+  <p>Beş şehirde, aynı kahve. Size en yakın kahve noktasını bulun.</p>
+</div></section>
+<section class="dark"><div class="wrap pad">
+  <div class="filters" role="group" aria-label="Şehir seçimi" id="cityF" style="margin-bottom:28px"></div>
+  <div class="branches" id="brGrid"></div>
+  <span class="rv">Canlı sitede beş şubenin adresi ve telefonu aynı (Beyoğlu). Doğru adres, telefon ve saatler gerekli; fotoğraflar örnektir. Harita gömme yerine "Yol tarifi" bağlantısı önerildi.</span>
+</div></section>
+</div>
+
+<!-- ============ FRANCHISE ============ -->
+<div class="view" data-view="franchise" hidden>
+<section class="phead"><div class="bg"><img src="img/barista-dark-cafe.jpg" alt=""></div><div class="wrap">
+  <div class="crumb"><a href="#anasayfa">Ana sayfa</a><span>/</span><span>Franchise</span></div>
+  <h1>Franchise<br><em>Bayimiz olun!</em></h1>
+  <p>Kendi şehrinde bir Black Cat açmak ister misin? Kahveyi, eğitimi ve markayı biz getiriyoruz.</p>
+  <div class="ctas" style="margin-top:28px"><a class="btn btn-eye" href="#basvuru" id="toForm">Başvuru formu</a></div>
+</div></section>
+<section class="paper"><div class="wrap pad">
+  <div class="sec-head"><div><div class="eyebrow">Süreç</div><h2>Başvurudan <span>açılışa</span></h2></div><p>Dört adımda kendi Black Cat şubeniz.</p></div>
+  <div class="fsteps">
+    <div><div class="n">01</div><h3>Başvuru</h3><p>Aşağıdaki formu doldurun, bölgenizi ve hedeflerinizi paylaşın.</p></div>
+    <div><div class="n">02</div><h3>Tanışma</h3><p>Ekibimiz sizinle görüşür, lokasyon ve yatırım planını birlikte değerlendirir.</p></div>
+    <div><div class="n">03</div><h3>Eğitim</h3><p>Barista ve işletme eğitimleri, kavurma atölyemizde uygulamalı olarak verilir.</p></div>
+    <div><div class="n">04</div><h3>Açılış</h3><p>Kahve tedariki, tasarım ve açılış desteğiyle kapılarınızı açarsınız.</p></div>
+  </div>
+  <span class="rv">Süreç metinleri taslaktır (sitede lorem ipsum vardı)</span>
+</div></section>
+<section class="dark" id="basvuruSec"><div class="wrap pad">
+  <div class="split" style="align-items:start">
+    <div>
+      <div class="eyebrow">Başvuru formu</div>
+      <h2 style="font-size:clamp(34px,5vw,56px);font-weight:800;text-transform:uppercase;margin-top:10px">Bir kahve<br>noktası daha</h2>
+      <div class="why">
+        <div><b>01</b><p>Kendi kavurduğumuz kahve ile tutarlı lezzet</p></div>
+        <div><b>02</b><p>Barista ve işletme eğitimleri</p></div>
+        <div><b>03</b><p>Hazır online mağaza ve sipariş altyapısı</p></div>
+      </div>
+      <div class="photo" style="aspect-ratio:16/10;margin-top:32px"><img src="img/cafe-interior.jpg" alt="The Black Cat franchise kafe içi"></div>
+    </div>
+    <form class="panel" id="frForm" novalidate>
+      <div class="row2"><div class="field"><label for="f1">Adınız</label><input id="f1"></div><div class="field"><label for="f2">E-posta adresiniz</label><input id="f2" type="email"></div></div>
+      <div class="row2"><div class="field"><label for="f3">Konu</label><input id="f3" value="Franchise başvurusu"></div><div class="field"><label for="f4">Bölge</label><select id="f4"><option>İstanbul</option><option>Ankara</option><option>İzmir</option><option>Bursa</option><option>Antalya</option><option>Diğer</option></select></div></div>
+      <div class="field"><label for="f5">İletiniz (tercihe bağlı)</label><textarea id="f5"></textarea></div>
+      <button class="btn btn-eye" type="submit">Başvuruyu gönder</button>
+      <div class="ok-msg" id="frOk" hidden>Taslak: bu form bir yere gönderilmez. Gerçek sitede başvuru e-posta ile size ulaşır.</div>
+    </form>
+  </div>
+</div></section>
+</div>
+
+<!-- ============ BLOG ============ -->
+<div class="view" data-view="blog" hidden>
+<section class="phead"><div class="bg"><img src="img/pour-over-v60.jpg" alt=""></div><div class="wrap">
+  <div class="crumb"><a href="#anasayfa">Ana sayfa</a><span>/</span><span>Blog</span></div>
+  <h1>Blog</h1>
+  <p>Demleme rehberleri, kökenler ve Black Cat'ten haberler.</p>
+</div></section>
+<section class="paper"><div class="wrap pad">
+  <div class="posts" id="posts"></div>
+  <span class="rv">Canlı sitedeki 4 yazının hepsinde WordPress'in varsayılan metni var. Özetler taslaktır.</span>
+</div></section>
+</div>
+
+<!-- ============ YAZI ============ -->
+<div class="view" data-view="yazi" hidden>
+<section class="phead"><div class="wrap">
+  <div class="crumb"><a href="#anasayfa">Ana sayfa</a><span>/</span><a href="#blog">Blog</a><span>/</span><span id="aCrumb"></span></div>
+  <h1 id="aTitle" style="font-size:clamp(40px,6vw,76px)"></h1>
+  <p id="aMeta" style="font-family:var(--f-mono);font-size:13px"></p>
+</div></section>
+<section class="paper"><div class="wrap pad"><article class="article" id="article"></article></div></section>
+</div>
+
+<!-- ============ İLETİŞİM ============ -->
+<div class="view" data-view="iletisim" hidden>
+<section class="phead"><div class="bg"><img src="img/iced-coffee.jpg" alt=""></div><div class="wrap">
+  <div class="crumb"><a href="#anasayfa">Ana sayfa</a><span>/</span><span>İletişim</span></div>
+  <h1>The Black Cat<br><em>Bizimle iletişime geçin</em></h1>
+</div></section>
+<section class="dark"><div class="wrap pad">
+  <div class="split" style="align-items:start">
+    <div class="cinfo">
+      <div><div class="k">Çağrı merkezi</div><div class="v">444 11 844</div></div>
+      <div><div class="k">Merkez</div><div class="v" style="font-size:22px">Fevzipaşa Cd. No:1<br>Beyoğlu, İstanbul</div></div>
+      <div><div class="k">Çalışma saatleri</div><div class="v" style="font-size:22px">Her gün 08:00 – 22:00</div></div>
+      <div><div class="k">Sosyal medya</div><div class="soc" style="margin-top:8px"><a href="#">Facebook</a><a href="#">Twitter</a><a href="#">YouTube</a><a href="#">Instagram</a></div></div>
+      <span class="rv">Yeni: iletişim bilgileri sayfada görünür (canlı sitede yoktu). Saatler örnek.</span>
+    </div>
+    <form class="panel" id="ctForm" novalidate>
+      <div class="eyebrow">İletişim formu</div>
+      <div class="row2"><div class="field"><label for="c1">Adınız</label><input id="c1"></div><div class="field"><label for="c2">E-posta adresiniz</label><input id="c2" type="email"></div></div>
+      <div class="row2"><div class="field"><label for="c3">Konu</label><input id="c3"></div><div class="field"><label for="c4">Bölge</label><select id="c4"><option>İstanbul</option><option>Ankara</option><option>İzmir</option><option>Bursa</option><option>Antalya</option><option>Diğer</option></select></div></div>
+      <div class="field"><label for="c5">İletiniz (tercihe bağlı)</label><textarea id="c5"></textarea></div>
+      <button class="btn btn-eye" type="submit">Gönder</button>
+      <div class="ok-msg" id="ctOk" hidden>Taslak: bu form bir yere gönderilmez.</div>
+    </form>
+  </div>
+</div></section>
+</div>
+
+<!-- ============ HESABIM ============ -->
+<div class="view" data-view="hesabim" hidden>
+<section class="phead"><div class="bg"><img src="img/flatlay-cup-beans.jpg" alt=""></div><div class="wrap">
+  <div class="crumb"><a href="#anasayfa">Ana sayfa</a><span>/</span><span>Hesabım</span></div>
+  <h1>Hesabım</h1>
+  <p>Siparişlerinizi takip edin, adreslerinizi yönetin, favori kahvenizi tek tıkla yeniden sipariş edin.</p>
+</div></section>
+<section class="paper"><div class="wrap pad">
+  <div class="acct">
+    <form class="panel" novalidate onsubmit="event.preventDefault()">
+      <h2>Giriş yap</h2>
+      <div class="field"><label for="l1">Kullanıcı adı veya e-posta adresi *</label><input id="l1"></div>
+      <div class="field"><label for="l2">Parola *</label><input id="l2" type="password"></div>
+      <label class="check"><input type="checkbox" id="l3"> Beni hatırla</label>
+      <button class="btn btn-ink" type="submit">Giriş yap</button>
+      <a class="link" href="#">Parolanızı mı unuttunuz?</a>
+    </form>
+    <form class="panel" novalidate onsubmit="event.preventDefault()">
+      <h2>Üye ol</h2>
+      <div class="field"><label for="u1">E-posta adresi *</label><input id="u1" type="email"></div>
+      <p class="small">Yeni parola oluşturmanız için e-posta adresinize bir bağlantı gönderilecek.</p>
+      <p class="small">Kişisel verileriniz bu web sitesindeki deneyiminizi desteklemek, hesabınıza erişimi yönetmek ve <a href="#" style="text-decoration:underline">gizlilik ilkesi</a> sayfamızda açıklanan diğer amaçlar için kullanılacaktır.</p>
+      <button class="btn btn-eye" type="submit">Üye ol</button>
+    </form>
+  </div>
+</div></section>
+</div>
+
+</main>
+
+<footer><div class="wrap">
+  <div class="top">
+    <div class="about">
+      <a href="#anasayfa" class="logo"><svg aria-hidden="true"><use href="#mark"/></svg><span><b style="color:var(--paper)">BLACK CAT</b><small>COFFEE SHOP</small></span></a>
+      <p>İstanbul, İzmir, Ankara, Antalya ve Bursa'da. Taze kavrulmuş kahve, kapına kadar.</p>
+    </div>
+    <div><h4>Kahvelerimiz</h4><ul id="footCoffees"></ul></div>
+    <div><h4>Sözleşme &amp; Koşullar</h4><ul><li><a href="#">Mesafeli Satış Sözleşmesi</a></li><li><a href="#">Ön Bilgilendirme Formu</a></li><li><a href="#">Üyelik Sözleşmesi</a></li><li><a href="#">Açık Rıza Metni</a></li><li><a href="#">K.V.K.K.</a></li></ul></div>
+    <div><h4>Şubelerimiz</h4><ul><li><a href="#subeler">İstanbul Şubesi</a></li><li><a href="#subeler">Ankara Şubesi</a></li><li><a href="#subeler">İzmir Şubesi</a></li><li><a href="#subeler">Bursa Şubesi</a></li><li><a href="#subeler">Antalya Şubesi</a></li></ul></div>
+    <div><h4>Bağlantılar</h4><ul><li><a href="#hakkimizda">The Black Cat</a></li><li><a href="#magaza">Kahve Al!</a></li><li><a href="#subeler">Şubelerimiz</a></li><li><a href="#franchise">Franchise</a></li><li><a href="#iletisim">İletişim</a></li></ul></div>
+    <div><h4>Hesabım</h4><ul><li><a href="#hesabim">Giriş yap / Üye ol!</a></li><li><a href="#hesabim">Hesabım</a></li><li><a href="#takip">Sipariş Takip</a></li></ul></div>
+  </div>
+  <div class="bottom">
+    <span>© 2026 The Black Cat Coffee Shop · Fotoğraflar: Pexels</span>
+    <span class="pay">Güvenli ödeme <span>PayTR</span><span>VISA</span><span>Mastercard</span><span>Troy</span></span>
+  </div>
+</div></footer>
+
+<script>
+document.documentElement.lang="tr";
+const P=[
+ {id:"medellin",k:"kahve",n:"Colombia Medellin",g:"250 GR",p:385,c:"#2f6b45",lbl:"MEDELLIN",r:2,reg:"Antioquia, Kolombiya",alt:"1500–1800 m",pr:"Yıkanmış",v:"Castillo",h:"2025",t:"Bitter çikolata, fındık",pop:1,o:3},
+ {id:"rosado",k:"kahve",n:"Colombia San Rosado",g:"250 GR",p:585,c:"#b4622a",lbl:"SAN ROSADO",r:3,reg:"Risaralda, Kolombiya",alt:"1450–1630 m",pr:"Yıkanmış",v:"Castillo",h:"2025",t:"Narenciye, yeşil elma",b:"ÇOK SATAN",pop:1,o:1},
+ {id:"rosado2",k:"kahve",n:"Colombia San Rosado",g:"250 GR",p:385,c:"#3b3f46",lbl:"SAN ROSADO",r:4,reg:"Risaralda, Kolombiya",alt:"1450–1630 m",pr:"Yıkanmış",v:"Castillo",h:"2025",t:"Kavrulmuş fındık, kakao",pop:1,o:5},
+ {id:"guatemala",k:"kahve",n:"Guatemala",g:"250 GR",p:485,c:"#7a2f2f",lbl:"GUATEMALA",r:3,reg:"Huehuetenango, Guatemala",alt:"1600–1900 m",pr:"Yıkanmış",v:"Bourbon, Caturra",h:"2025",t:"Karamel, kırmızı meyve",pop:1,o:2},
+ {id:"sumatra",k:"kahve",n:"Indonesia Sumatra",g:"250 GR",p:425,c:"#6b5a1e",lbl:"SUMATRA",r:5,reg:"Aceh, Endonezya",alt:"1200–1500 m",pr:"Islak kabuk",v:"Ateng, Tim Tim",h:"2025",t:"Toprak, baharat, bitter",pop:1,o:4},
+ {id:"karambi",k:"kahve",n:"Rwanda Karambi",g:"250 GR",p:725,c:"#5a2d6b",lbl:"KARAMBI",r:2,reg:"Nyamasheke, Ruanda",alt:"1700–1900 m",pr:"Yıkanmış",v:"Red Bourbon",h:"2025",t:"Siyah çay, frenk üzümü",b:"YENİ KAVRUM",pop:1,o:0},
+ {id:"bardak",k:"aksesuar",n:"Bardak Termos",p:595,col:"#2b231f",eye:"#efe8dc",t:"Black Cat logolu, kapaklı seyahat bardağı",o:6},
+ {id:"gumus",k:"aksesuar",n:"Gümüş Termos",p:595,col:"#b9b4ad",eye:"#15110f",t:"Paslanmaz çelik, çift cidarlı termos",o:7},
+ {id:"siyah",k:"aksesuar",n:"Siyah Termos",p:595,col:"#15110f",eye:"#f2b33d",t:"Mat siyah gövde, amber kedi logosu",o:8},
+ {id:"hediye",k:"hediye",n:"Hediye Paketi",p:595,t:"Seçtiğiniz kahve ve Black Cat termosu, hediye kutusunda",o:9}
+];
+const byId=Object.fromEntries(P.map(x=>[x.id,x]));
+const fmt=v=>"₺"+v.toLocaleString("tr-TR",{minimumFractionDigits:2});
+const roastName=r=>["","Açık","Orta-açık","Orta","Orta-koyu","Koyu"][r];
+function art(x){
+  if(x.k==="kahve")return `<div class="bag"><div class="lbl"><i style="background:${x.c}">${x.lbl}</i><svg viewBox="0 0 64 64"><use href="#cat" style="color:#15110f"/></svg></div></div>`;
+  if(x.k==="aksesuar")return `<svg class="prodsvg" viewBox="0 0 120 170" aria-hidden="true"><rect x="30" y="4" width="60" height="20" rx="6" fill="${x.col}" opacity=".85"/><path d="M33 24 h54 l-4 142 h-46z" fill="${x.col}"/><path d="M40 30 v126" stroke="rgba(255,255,255,.18)" stroke-width="5"/><use href="#cat" x="42" y="70" width="36" height="36" style="color:${x.eye}"/></svg>`;
+  return `<svg class="prodsvg" viewBox="0 0 120 170" aria-hidden="true"><rect x="14" y="66" width="92" height="94" fill="#15110f"/><rect x="8" y="50" width="104" height="24" fill="#2b231f"/><rect x="52" y="50" width="16" height="110" fill="#f2b33d"/><path d="M60 50 q-34 -34 -42 -8 q-3 12 42 8z M60 50 q34 -34 42 -8 q3 12 -42 8z" fill="#f2b33d"/><use href="#cat" x="20" y="100" width="26" height="26" style="color:#efe8dc"/></svg>`;
+}
+function card(x){
+  const specs=x.k==="kahve"?`<dl class="specs"><dt>BÖLGE</dt><dd>${x.reg.split(",")[0]}</dd><dt>RAKIM</dt><dd>${x.alt}</dd><dt>İŞLEM</dt><dd>${x.pr}</dd><dt>KAVRUM</dt><dd>${roastName(x.r)}</dd></dl>`:"";
+  return `<article class="card"><a class="shot" href="#urun" data-id="${x.id}">${x.b?`<span class="badge">${x.b}</span>`:""}${art(x)}</a>
+  <div class="body"><h3><a href="#urun" data-id="${x.id}">${x.n}</a>${x.g?` <span class="g">${x.g}</span>`:""}</h3><p class="notes">${x.t}</p>${specs}
+  <div class="foot"><span class="price">${fmt(x.p)}<small>KDV dahil</small></span><button class="add" data-add="${x.id}">Sepete Ekle</button></div></div></article>`;
+}
+/* cart */
+const cart={};const cn=document.getElementById("cartN");
+function addToCart(id,q=1){cart[id]=(cart[id]||0)+q;renderCart();cn.classList.add("bump");setTimeout(()=>cn.classList.remove("bump"),200)}
+function renderCart(){
+  const ids=Object.keys(cart);let n=0,t=0;
+  document.getElementById("cartItems").innerHTML=ids.length?ids.map(id=>{const x=byId[id],q=cart[id];n+=q;t+=q*x.p;return `<div class="it"><b>${x.n}${x.g?" "+x.g:""}</b><b>${fmt(q*x.p)}</b><span>${q} adet × ${fmt(x.p)}</span></div>`}).join(""):`<p class="empty">Sepetinizde ürün bulunmuyor.</p>`;
+  cn.textContent=n;document.getElementById("cartTot").textContent=fmt(t);
+  const left=1000-t;document.getElementById("freeTxt").innerHTML=(left>0?`Ücretsiz kargoya <b>${fmt(left)}</b> kaldı`:"Kargo ücretsiz!")+`<span class="bar"><i style="width:${Math.min(100,t/10)}%"></i></span>`;
+}
+const drawer=document.getElementById("drawer"),scrim=document.getElementById("scrim");
+const openCart=o=>{drawer.classList.toggle("open",o);scrim.hidden=!o};
+document.getElementById("cartBtn").onclick=()=>openCart(true);
+document.getElementById("closeCart").onclick=()=>openCart(false);
+scrim.onclick=()=>openCart(false);
+document.addEventListener("keydown",e=>{if(e.key==="Escape")openCart(false)});
+let curId="medellin";
+document.addEventListener("click",e=>{
+  const a=e.target.closest("[data-add]");
+  if(a){addToCart(a.dataset.add);a.textContent="Eklendi ✓";a.classList.add("ok");setTimeout(()=>{a.textContent="Sepete Ekle";a.classList.remove("ok")},1400);return}
+  const l=e.target.closest("[data-id]");if(l)curId=l.dataset.id;
+  const pl=e.target.closest("[data-post]");if(pl)curPost=+pl.dataset.post;
+  if((l&&location.hash==="#urun")||(pl&&location.hash==="#yazi"))setTimeout(()=>show(location.hash.slice(1)));
+});
+/* home */
+const homeGrid=document.getElementById("homeGrid");
+homeGrid.innerHTML=P.filter(x=>x.pop).map(card).join("");
+document.querySelectorAll('[data-view="anasayfa"] .chip').forEach(c=>c.addEventListener("click",()=>{
+  document.querySelectorAll('[data-view="anasayfa"] .chip').forEach(o=>o.setAttribute("aria-pressed",o===c));
+  const f=c.dataset.f;[...homeGrid.children].forEach((k,i)=>{const r=P.filter(x=>x.pop)[i].r;k.hidden=!(f==="all"||(f==="orta"?r<=3:r>3))})}));
+document.getElementById("trackForm").addEventListener("submit",e=>{e.preventDefault();document.getElementById("ordNo").textContent="#"+(document.getElementById("ord").value.trim()||"10482");document.getElementById("trackOut").hidden=false});
+document.getElementById("stepsAbout").innerHTML=document.getElementById("steps").innerHTML;
+document.getElementById("footCoffees").innerHTML=P.filter(x=>x.k==="kahve").map(x=>`<li><a href="#urun" data-id="${x.id}">${x.n}</a></li>`).join("")+`<li><a href="#aksesuarlar">Termoslar</a></li><li><a href="#hediye">Hediye Paketleri</a></li>`;
+/* shop */
+let shopCat="all";
+const CATS=[["all","magaza","Tümü"],["kahve","kahveler","Kahveler"],["aksesuar","aksesuarlar","Aksesuarlar"],["hediye","hediye","Hediye Paketleri"]];
+function renderShop(){
+  const max=+document.getElementById("maxP").value;document.getElementById("maxPv").textContent="₺"+max;
+  let list=P.filter(x=>(shopCat==="all"||x.k===shopCat)&&x.p<=max);
+  const s=document.getElementById("sort").value;
+  if(s==="asc")list.sort((a,b)=>a.p-b.p);if(s==="desc")list.sort((a,b)=>b.p-a.p);if(s==="pop")list.sort((a,b)=>(b.b?1:0)-(a.b?1:0));if(s==="new")list.sort((a,b)=>a.o-b.o);
+  document.getElementById("shopGrid").innerHTML=list.length?list.map(card).join(""):`<p class="small">Bu fiyat aralığında ürün yok. Fiyat filtresini artırın.</p>`;
+  document.getElementById("shopCount").textContent=`${list.length} ürün gösteriliyor`;
+  const c=CATS.find(c=>c[0]===shopCat);
+  document.getElementById("shopTitle").textContent=shopCat==="all"?"Mağaza":c[2];
+  document.getElementById("crumbCat").textContent=shopCat==="all"?"":" / "+c[2];
+  document.getElementById("catList").innerHTML=CATS.map(([k,h,l])=>`<li><a href="#${h}" class="${k===shopCat?"on":""}">${l}<span>${k==="all"?P.length:P.filter(x=>x.k===k).length}</span></a></li>`).join("");
+}
+document.getElementById("maxP").addEventListener("input",renderShop);
+document.getElementById("sort").addEventListener("change",renderShop);
+/* product */
+let qty=1;
+function renderPdp(){
+  const x=byId[curId]||P[0];qty=1;document.getElementById("qVal").textContent=1;
+  const coffee=x.k==="kahve";
+  document.getElementById("pStage").innerHTML=(x.b?`<span class="badge">${x.b}</span>`:"")+art(x);
+  document.getElementById("pName").textContent=x.n+(x.g?" "+x.g:"");
+  document.getElementById("pCrumb").textContent=x.n;
+  const c=CATS.find(c=>c[0]===x.k);const cl=document.getElementById("pCatLink");cl.textContent=c[2];cl.href="#"+c[1];
+  document.getElementById("pEyebrow").textContent=coffee?"Tek köken · 250 gr":c[2];
+  document.getElementById("pPrice").textContent=fmt(x.p);
+  document.getElementById("pNotes").textContent=coffee?"Tat notaları: "+x.t:x.t;
+  document.getElementById("pMeter").hidden=!coffee;document.getElementById("pGrind").hidden=!coffee;
+  document.getElementById("pSeg").innerHTML=[1,2,3,4,5].map(i=>`<i class="${i<=x.r?"on":""}"></i>`).join("");
+  document.getElementById("pSpecs").innerHTML=coffee?[["BÖLGE",x.reg],["ÇEŞİT",x.v],["İŞLEM",x.pr],["RAKIM",x.alt],["HASAT",x.h],["KAVRUM",roastName(x.r)]].map(r=>`<tr><th>${r[0]}</th><td>${r[1]}</td></tr>`).join(""):"";
+  document.getElementById("pDesc").textContent=coffee?`${x.n}, ${x.reg} bölgesinde ${x.alt} rakımda yetişen ${x.v} çeşidinden. ${x.pr.toLowerCase()} işlemle hazırlanan çekirdekleri ${roastName(x.r).toLowerCase()} kavrumda ${x.t.toLowerCase()} notalarını öne çıkarıyor. Filtre kahve ve espresso için uygundur.`:x.t+". Detaylı ürün açıklaması eklenecek.";
+  document.getElementById("pRevName").textContent=x.n;
+  document.getElementById("relGrid").innerHTML=P.filter(y=>y.k===x.k&&y.id!==x.id).concat(P.filter(y=>y.k!==x.k)).slice(0,3).map(card).join("");
+}
+document.getElementById("qMinus").onclick=()=>{qty=Math.max(1,qty-1);document.getElementById("qVal").textContent=qty};
+document.getElementById("qPlus").onclick=()=>{qty++;document.getElementById("qVal").textContent=qty};
+document.getElementById("pAdd").onclick=e=>{addToCart(curId,qty);openCart(true)};
+document.querySelectorAll("#pGrind .chip").forEach(c=>c.onclick=()=>document.querySelectorAll("#pGrind .chip").forEach(o=>o.setAttribute("aria-pressed",o===c)));
+document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tabs button").forEach(o=>{o.setAttribute("aria-selected",o===b);document.getElementById(o.dataset.tab).hidden=o!==b})});
+document.querySelectorAll("#stars button").forEach((s,i,all)=>s.onclick=()=>all.forEach((o,j)=>o.classList.toggle("on",j<=i)));
+const okForm=(f,m)=>document.getElementById(f).addEventListener("submit",e=>{e.preventDefault();document.getElementById(m).hidden=false});
+okForm("revForm","revOk");okForm("frForm","frOk");okForm("ctForm","ctOk");
+/* branches */
+const BR=[["İstanbul","cafe-interior","Fevzipaşa Cd. No:1, Beyoğlu"],["İzmir","barista-dark-cafe","Adres eklenecek"],["Antalya","latte-art","Adres eklenecek"],["Ankara","espresso-extraction","Adres eklenecek"],["Bursa","pour-over-v60","Adres eklenecek"]];
+let city="Tümü";
+function renderBr(){
+  document.getElementById("cityF").innerHTML=["Tümü",...BR.map(b=>b[0])].map(c=>`<button class="chip" style="color:var(--paper);border-color:var(--line-d);${c===city?"background:var(--eye);color:var(--ink);border-color:var(--eye)":""}" data-city="${c}">${c}</button>`).join("");
+  document.getElementById("brGrid").innerHTML=BR.filter(b=>city==="Tümü"||b[0]===city).map(([c,img,adr])=>`<div class="br"><div class="photo"><img src="img/${img}.jpg" alt="${c} şubesi"></div><div class="b"><span class="open-now">Şu an açık</span><h3>${c} Şube</h3><dl><dt>ADRES</dt><dd>${adr}</dd><dt>TELEFON</dt><dd>444 11 844</dd><dt>SAATLER</dt><dd>Her gün 08:00 – 22:00</dd></dl><a class="go" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent("The Black Cat Coffee "+c)}" target="_blank" rel="noopener">Yol tarifi al</a></div></div>`).join("")+(city==="Tümü"?`<a class="br cta" href="#franchise"><span class="eyebrow" style="color:var(--ink)">Franchise</span><div><h3>Şehrinde Black Cat yok mu?</h3><span class="go" style="color:var(--ink)">Bayimiz olun</span></div></a>`:"");
+}
+document.getElementById("cityF").addEventListener("click",e=>{const b=e.target.closest("[data-city]");if(b){city=b.dataset.city;renderBr()}});
+/* blog */
+const POSTS=[
+ {t:"Filtre Kahve Deneyimi",d:"10 Mart 2024",img:"pour-over-v60",r:"5 dk",x:"V60 ile evde filtre kahve: oran, öğütme ve su sıcaklığı. Kafedeki tadı evde yakalamanın en kısa yolu."},
+ {t:"Kahve Çeşitleri",d:"10 Mart 2024",img:"espresso-extraction",r:"4 dk",x:"Espresso, filtre, Türk kahvesi… Hangi demleme yöntemi hangi çekirdekle daha iyi sonuç verir, kısa bir rehber."},
+ {t:"Kahve Günü!",d:"10 Mart 2024",img:"latte-art",r:"3 dk",x:"Dünya Kahve Günü'nü şubelerimizde nasıl kutladığımıza bir göz atın."},
+ {t:"Neden Biz?",d:"9 Mart 2024",img:"roaster",r:"3 dk",x:"Çekirdeği seçmekten paketlemeye kadar her adımı neden kendimiz yapıyoruz?"}
+];
+let curPost=0;
+document.getElementById("posts").innerHTML=POSTS.map((p,i)=>`<a class="post${i===0?" lead":""}" href="#yazi" data-post="${i}"><div class="photo"><img src="img/${p.img}.jpg" alt=""></div><div style="display:grid;gap:12px"><div class="m"><span>${p.d.toUpperCase()}</span><span>BLOG</span><span>${p.r} OKUMA</span></div><h3>${p.t}</h3><p>${p.x}</p><span class="go" style="color:var(--eye-deep)">Devamını oku</span></div></a>`).join("");
+function renderPost(){
+  const p=POSTS[curPost];
+  document.getElementById("aTitle").textContent=p.t;document.getElementById("aCrumb").textContent=p.t;
+  document.getElementById("aMeta").textContent=`${p.d} · Blog · ${p.r} okuma`;
+  const body=curPost===0?`<p style="font-size:21px;font-family:var(--f-display);line-height:1.35">${p.x}</p>
+   <div class="recipe"><div><b>15 g</b><span>KAHVE</span></div><div><b>250 ml</b><span>SU</span></div><div><b>93°C</b><span>SICAKLIK</span></div><div><b>3:00</b><span>DAKİKA</span></div></div>
+   <h2>Adım adım</h2><ol><li>Kâğıt filtreyi sıcak suyla ıslatın, suyu dökün.</li><li>15 g kahveyi orta-ince öğütün ve filtreye koyun.</li><li>30 ml su ile kahveyi ıslatın, 30 saniye demlenmeye bırakın.</li><li>Kalan suyu dairesel hareketlerle, yavaşça ekleyin.</li><li>Toplam süre 2:30 ile 3:00 arasında bitsin.</li></ol>
+   <h2>Hangi kahve?</h2><p>Meyvemsi ve parlak bir fincan için Rwanda Karambi veya Colombia San Rosado'yu deneyin. Daha gövdeli bir tat isterseniz Guatemala iyi bir başlangıç.</p>`
+   :`<p style="font-size:21px;font-family:var(--f-display);line-height:1.35">${p.x}</p><p class="small">Yazı içeriği eklenecek. Canlı sitede bu yazıda WordPress'in varsayılan metni duruyor.</p>`;
+  document.getElementById("article").innerHTML=`<div class="photo"><img src="img/${p.img}.jpg" alt=""></div>${body}<span class="rv">Taslak içerik</span><div style="margin-top:36px"><a class="go" href="#blog" style="color:var(--eye-deep)">Tüm yazılar</a></div>`;
+}
+/* router */
+const views=[...document.querySelectorAll(".view")];
+const SHOPCAT={magaza:"all",kahveler:"kahve",aksesuarlar:"aksesuar",hediye:"hediye"};
+function show(tok){
+  let v=tok;
+  if(tok in SHOPCAT){shopCat=SHOPCAT[tok];v="magaza";renderShop()}
+  if(tok==="takip")v="anasayfa";
+  if(tok==="basvuru")v="franchise";
+  if(!views.some(x=>x.dataset.view===v))v="anasayfa";
+  if(v==="urun")renderPdp();
+  if(v==="yazi")renderPost();
+  if(v==="subeler")renderBr();
+  views.forEach(x=>x.hidden=x.dataset.view!==v);
+  document.querySelectorAll("nav.main [data-nav]").forEach(a=>a.classList.toggle("on",a.dataset.nav.split(" ").includes(v)));
+  const sel=document.getElementById("pg");if([...sel.options].some(o=>o.value===tok))sel.value=tok;else sel.value=v;
+  document.getElementById("nav").classList.remove("open");openCart(false);
+  if(tok==="takip")document.getElementById("takipSec").scrollIntoView();
+  else if(tok==="basvuru")document.getElementById("basvuruSec").scrollIntoView();
+  else window.scrollTo(0,0);
+}
+window.addEventListener("hashchange",()=>{const t=location.hash.slice(1);if(t)show(t)});
+document.getElementById("pg").addEventListener("change",e=>{location.hash=e.target.value});
+document.getElementById("toForm").addEventListener("click",e=>{e.preventDefault();document.getElementById("basvuruSec").scrollIntoView({behavior:"smooth"})});
+const mb=document.getElementById("menuBtn"),nav=document.getElementById("nav");
+mb.addEventListener("click",()=>{const o=nav.classList.toggle("open");mb.setAttribute("aria-expanded",o)});
+document.getElementById("clean").addEventListener("change",e=>document.body.classList.toggle("clean",e.target.checked));
+renderCart();renderShop();show(location.hash.slice(1)||"anasayfa");
+</script>
