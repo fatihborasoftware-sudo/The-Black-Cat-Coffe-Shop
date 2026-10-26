@@ -44,3 +44,32 @@ body{font-family:"Poppins",system-ui,sans-serif}
 #masthead .main-navigation .primary-menu-container>ul>li.menu-item>a{white-space:nowrap;font-size:15px;color:#4A5568;padding-left:.7em;padding-right:.7em}
 #masthead .main-navigation .primary-menu-container>ul>li.current-menu-item>a{color:#1A202C;font-weight:600}
 @media (max-width:1200px){#masthead .main-navigation .primary-menu-container>ul>li.menu-item>a{font-size:14px;padding-left:.5em;padding-right:.5em}#masthead .header-button-wrap .header-button{padding:9px 14px;font-size:12px}}
+
+/* Theme page headers (shop, cart, checkout, account, categories, blog) styled like the Elementor page headers */
+.entry-hero{background:#EDF2F7;position:relative;overflow:hidden}
+.entry-hero .entry-hero-container-inner{background:transparent}
+.entry-hero .hero-container{padding-top:58px;padding-bottom:58px}
+.entry-hero .entry-header{min-height:0!important;align-items:center;text-align:center;position:relative;z-index:1}
+.entry-hero .kadence-breadcrumbs{font-size:13px;color:#718096;margin:0 auto 10px}
+.entry-hero .kadence-breadcrumbs a{color:#2D3748}
+.entry-hero .kadence-bc-home span{font-size:0}
+.entry-hero .kadence-bc-home span::after{content:"Ana sayfa";font-size:13px}
+.entry-hero h1{--bc-h:56px;font-size:var(--bc-h);line-height:1.1;font-weight:300;color:#718096;text-transform:uppercase;margin:0}
+.entry-hero h1::after{content:" THE BLACK CAT";font-size:var(--bc-h);font-weight:700;color:#2D3748}
+.entry-hero .archive-description{color:#4A5568;margin-top:12px}
+.entry-hero::before{content:"Black Cat";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-family:"Poppins",sans-serif;font-size:160px;font-weight:800;line-height:.9;color:transparent;-webkit-text-stroke:1.5px rgba(45,55,72,.16);white-space:nowrap;pointer-events:none;z-index:0}
+body.woocommerce-shop .entry-hero::before{content:"Mağaza"}
+body.woocommerce-cart .entry-hero::before{content:"Sepet"}
+body.woocommerce-checkout .entry-hero::before{content:"Ödeme"}
+body.woocommerce-account .entry-hero::before{content:"Hesabım"}
+body.blog .entry-hero::before,body.category .entry-hero::before{content:"Blog"}
+body.term-kahveler .entry-hero::before{content:"Kahveler"}
+body.term-aksesuarlar .entry-hero::before{content:"Aksesuar"}
+body.term-hediye-paketleri .entry-hero::before{content:"Hediye"}
+body.search .entry-hero::before{content:"Arama"}
+/* "i" in Hediye Paketleri needs the Turkish capital İ */
+body.term-hediye-paketleri .entry-hero h1{font-size:0}
+body.term-hediye-paketleri .entry-hero h1::before{content:"HEDİYE PAKETLERİ";font-size:var(--bc-h)}
+@media (max-width:1024px){.entry-hero h1{--bc-h:44px}.entry-hero::before{font-size:110px}}
+@media (max-width:767px){.entry-hero h1{--bc-h:30px}.entry-hero::before{font-size:70px}.entry-hero .hero-container{padding-top:44px;padding-bottom:44px}}
+.entry-hero .kadence-breadcrumbs a{text-decoration:none}
