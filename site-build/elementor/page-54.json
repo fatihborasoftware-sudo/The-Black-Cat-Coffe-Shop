@@ -90,7 +90,7 @@
     "elType": "widget",
     "widgetType": "heading",
     "settings": {
-     "title": "<span>Şubelerimiz</span> The Black Cat",
+     "title": "<span>ŞUBELERİMİZ</span> THE BLACK CAT",
      "header_size": "h1",
      "align": "center",
      "title_color": "#2D3748",
@@ -404,7 +404,7 @@
         "elType": "widget",
         "widgetType": "button",
         "settings": {
-         "text": "Haritalar'da aç",
+         "text": "HARİTALAR'DA AÇ",
          "link": {
           "url": "https://www.google.com/maps/search/?api=1&query=The%20Black%20Cat%20Coffee%20%C4%B0stanbul"
          },
@@ -667,7 +667,7 @@
         "elType": "widget",
         "widgetType": "button",
         "settings": {
-         "text": "Haritalar'da aç",
+         "text": "HARİTALAR'DA AÇ",
          "link": {
           "url": "https://www.google.com/maps/search/?api=1&query=The%20Black%20Cat%20Coffee%20%C4%B0zmir"
          },
@@ -930,7 +930,7 @@
         "elType": "widget",
         "widgetType": "button",
         "settings": {
-         "text": "Haritalar'da aç",
+         "text": "HARİTALAR'DA AÇ",
          "link": {
           "url": "https://www.google.com/maps/search/?api=1&query=The%20Black%20Cat%20Coffee%20Antalya"
          },
@@ -1193,7 +1193,7 @@
         "elType": "widget",
         "widgetType": "button",
         "settings": {
-         "text": "Haritalar'da aç",
+         "text": "HARİTALAR'DA AÇ",
          "link": {
           "url": "https://www.google.com/maps/search/?api=1&query=The%20Black%20Cat%20Coffee%20Ankara"
          },
@@ -1456,7 +1456,7 @@
         "elType": "widget",
         "widgetType": "button",
         "settings": {
-         "text": "Haritalar'da aç",
+         "text": "HARİTALAR'DA AÇ",
          "link": {
           "url": "https://www.google.com/maps/search/?api=1&query=The%20Black%20Cat%20Coffee%20Bursa"
          },

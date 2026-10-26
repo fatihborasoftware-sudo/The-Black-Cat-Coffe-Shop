@@ -105,7 +105,7 @@
         "elType": "widget",
         "widgetType": "heading",
         "settings": {
-         "title": "Gerçek kahveyi<br>keşfet!",
+         "title": "GERÇEK KAHVEYİ<br>KEŞFET!",
          "header_size": "h1",
          "align": "left",
          "title_color": "#2D3748",
@@ -473,7 +473,7 @@
         "elType": "widget",
         "widgetType": "heading",
         "settings": {
-         "title": "Kaliteli çekirdekler",
+         "title": "KALİTELİ ÇEKİRDEKLER",
          "header_size": "h3",
          "align": "center",
          "title_color": "#2D3748",
@@ -944,7 +944,7 @@
     "elType": "widget",
     "widgetType": "heading",
     "settings": {
-     "title": "<span>Online</span> ürünlerimiz",
+     "title": "<span>ONLINE</span> ÜRÜNLERİMİZ",
      "header_size": "h2",
      "align": "center",
      "title_color": "#2D3748",
@@ -1346,7 +1346,7 @@
         "elType": "widget",
         "widgetType": "heading",
         "settings": {
-         "title": "Hediye<br>paketleri",
+         "title": "HEDİYE<br>PAKETLERİ",
          "header_size": "h3",
          "align": "left",
          "title_color": "#2D3748",
@@ -1561,7 +1561,7 @@
          "typography_typography": "custom",
          "typography_font_size": {
           "unit": "px",
-          "size": 92
+          "size": 68
          },
          "typography_font_weight": "800",
          "typography_line_height": {
@@ -1570,11 +1570,11 @@
          },
          "typography_font_size_tablet": {
           "unit": "px",
-          "size": 64
+          "size": 56
          },
          "typography_font_size_mobile": {
           "unit": "px",
-          "size": 50
+          "size": 40
          },
          "_css_classes": "bc-ghost"
         },
@@ -1585,7 +1585,7 @@
         "elType": "widget",
         "widgetType": "heading",
         "settings": {
-         "title": "The Black Cat termosunu getir",
+         "title": "THE BLACK CAT TERMOSUNU GETİR",
          "header_size": "h2",
          "align": "left",
          "title_color": "#2D3748",
@@ -1648,7 +1648,7 @@
         "elType": "widget",
         "widgetType": "heading",
         "settings": {
-         "title": "İndirimli kahveni al",
+         "title": "İNDİRİMLİ KAHVENİ AL",
          "header_size": "h3",
          "align": "left",
          "title_color": "#2D3748",
@@ -1824,7 +1824,7 @@
     "elType": "widget",
     "widgetType": "heading",
     "settings": {
-     "title": "<span>Popüler</span> ürünlerimiz",
+     "title": "<span>POPÜLER</span> ÜRÜNLERİMİZ",
      "header_size": "h2",
      "align": "center",
      "title_color": "#2D3748",
@@ -2001,7 +2001,7 @@
     "elType": "widget",
     "widgetType": "heading",
     "settings": {
-     "title": "<span>Sipariş</span> takip",
+     "title": "<span>SİPARİŞ</span> TAKİP",
      "header_size": "h2",
      "align": "center",
      "title_color": "#2D3748",

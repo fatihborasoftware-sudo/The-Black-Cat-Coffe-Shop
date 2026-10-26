@@ -525,7 +525,7 @@
         "elType": "widget",
         "widgetType": "heading",
         "settings": {
-         "title": "Kaliteli çekirdekler",
+         "title": "KALİTELİ ÇEKİRDEKLER",
          "header_size": "h3",
          "align": "center",
          "title_color": "#2D3748",
@@ -1080,7 +1080,7 @@
         "elType": "widget",
         "widgetType": "heading",
         "settings": {
-         "title": "<span>Kahvemizi artık</span><br>kendimiz kavuruyoruz!",
+         "title": "<span>KAHVEMİZİ ARTIK</span><br>KENDİMİZ KAVURUYORUZ!",
          "header_size": "h2",
          "align": "left",
          "title_color": "#2D3748",
@@ -1472,7 +1472,7 @@
     "elType": "widget",
     "widgetType": "heading",
     "settings": {
-     "title": "<span>Bizden</span> kareler",
+     "title": "<span>BİZDEN</span> KARELER",
      "header_size": "h2",
      "align": "center",
      "title_color": "#2D3748",

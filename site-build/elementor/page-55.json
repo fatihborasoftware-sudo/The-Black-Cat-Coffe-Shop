@@ -90,7 +90,7 @@
     "elType": "widget",
     "widgetType": "heading",
     "settings": {
-     "title": "<span>Franchise</span> bayimiz olun!",
+     "title": "<span>FRANCHISE</span> BAYİMİZ OLUN!",
      "header_size": "h1",
      "align": "center",
      "title_color": "#2D3748",
@@ -311,7 +311,7 @@
         "elType": "widget",
         "widgetType": "heading",
         "settings": {
-         "title": "<span>Kahvemizi artık</span><br>kendimiz kavuruyoruz!",
+         "title": "<span>KAHVEMİZİ ARTIK</span><br>KENDİMİZ KAVURUYORUZ!",
          "header_size": "h2",
          "align": "left",
          "title_color": "#2D3748",
@@ -806,7 +806,7 @@
         "elType": "widget",
         "widgetType": "heading",
         "settings": {
-         "title": "Eğitim",
+         "title": "EĞİTİM",
          "header_size": "h3",
          "align": "left",
          "title_color": "#2D3748",

@@ -90,7 +90,7 @@
     "elType": "widget",
     "widgetType": "heading",
     "settings": {
-     "title": "<span>The Black Cat</span> bizimle iletişime geçin",
+     "title": "<span>THE BLACK CAT</span> BİZİMLE İLETİŞİME GEÇİN",
      "header_size": "h1",
      "align": "center",
      "title_color": "#2D3748",
@@ -544,7 +544,7 @@
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-           "title": "İletişim formu",
+           "title": "İLETİŞİM FORMU",
            "header_size": "h2",
            "align": "left",
            "title_color": "#2D3748",
