@@ -3,7 +3,21 @@
 Redesign of the Black Cat Coffee Shop website (Turkish, WordPress + Kadence + Elementor).
 
 - Old site: https://fbsoftwarethemes.com.tr/blackcat/
-- New site (being built): https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/
+- New site (live): https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/
+
+## Ekran görüntüleri (live theme)
+
+| Ana sayfa | Mobil |
+|---|---|
+| <img src="screenshots/ana-sayfa.jpg" width="560"> | <img src="screenshots/mobil-ana-sayfa.jpg" width="200"> |
+
+| Mağaza | Şubelerimiz |
+|---|---|
+| <img src="screenshots/magaza.jpg" width="400"> | <img src="screenshots/subelerimiz.jpg" width="400"> |
+
+| Hakkımızda | Franchise | İletişim |
+|---|---|---|
+| <img src="screenshots/hakkimizda.jpg" width="270"> | <img src="screenshots/franchise.jpg" width="270"> | <img src="screenshots/iletisim.jpg" width="270"> |
 
 ## Mockups
 
