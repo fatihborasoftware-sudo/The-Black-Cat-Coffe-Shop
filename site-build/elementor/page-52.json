@@ -1,1 +1,2163 @@
-[{"id":"bc00007","elType":"container","settings":{"content_width":"full","css_classes":"bc-page","flex_gap":{"unit":"px","size":0,"column":"0","row":"0"},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":true}},"elements":[{"id":"bc00001","elType":"widget","widgetType":"html","settings":{"html":"<div class=\"bc\"><section class=\"hero\"><div class=\"wrap\"><div><h1>Gerçek kahveyi<br>keşfet!</h1><p>Kendi kavurduğumuz çekirdekler, beş şehirdeki şubelerimizde ve online mağazamızda.</p><div class=\"ctas\"><a class=\"btn\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?page_id=54\">Kahve Noktaları</a><a class=\"btn line\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/shop/\">Kahve Al!</a></div></div><img class=\"cup\" src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/KAHVE.png\" alt=\"Black Cat logolu fincandan sıçrayan kahve ve çekirdekler\"></div></section></div>"},"elements":[]},{"id":"bc00002","elType":"widget","widgetType":"html","settings":{"html":"<div class=\"bc\"><section class=\"soft\"><div class=\"wrap pad\"><div class=\"feat\"><div class=\"grid4\"><div class=\"fc\"><span class=\"dot\">01</span><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_01.png\" alt=\"Fincan ikonu\"><h3>Kaliteli çekirdekler</h3><p>İyi bir kahve iyi bir çekirdek ile başlar!</p></div><div class=\"fc\"><span class=\"dot\">02</span><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_02.png\" alt=\"Madalya ikonu\"><h3>En uygun kavurma</h3><p>Dünya standartlarında kavurma yöntemleri ile kavrulur!</p></div><div class=\"fc\"><span class=\"dot\">03</span><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_03.png\" alt=\"Kahve çekirdeği ikonu\"><h3>Özel paketleme</h3><p>Uygun koşullarda dayanıklı kalacak şekilde paketlenir!</p></div><div class=\"fc\"><span class=\"dot\">04</span><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_04.png\" alt=\"Kahve paketi ikonu\"><h3>Mükemmel aroma</h3><p>Sonucunda da mükemmel bir aroma verir!</p></div></div></div></div></section></div>"},"elements":[]},{"id":"bc00003","elType":"widget","widgetType":"html","settings":{"html":"<div class=\"bc\"><section><div class=\"wrap pad\"><h2 class=\"st\"><span>Online</span> <b>ürünlerimiz</b></h2><div class=\"cats\"><a class=\"cat\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=kahveler\"><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/kahve2.jpg\" alt=\"Kahveler kategorisi\"><div class=\"t\"><h3>Kahveler</h3><span class=\"btn\">İncele</span></div></a><a class=\"cat\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=aksesuarlar\"><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/aksesuar-1.jpg\" alt=\"Aksesuar kategorisi\"><div class=\"t\"><h3>Aksesuar</h3><span class=\"btn\">İncele</span></div></a><a class=\"cat\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=hediye-paketleri\"><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/hediye.jpg\" alt=\"Hediye paketleri kategorisi\"><div class=\"t\"><h3>Hediye paketleri</h3><span class=\"btn\">İncele</span></div></a></div></div></section></div>"},"elements":[]},{"id":"bc00004","elType":"widget","widgetType":"html","settings":{"html":"<div class=\"bc\"><section class=\"pattern\"><div class=\"wrap\" style=\"padding-block:20px 84px\"><div class=\"promo-in\"><div class=\"txt\"><div class=\"ghost\" aria-hidden=\"true\">The Black Cat</div><h2>The Black Cat termosunu getir</h2><div class=\"pct\">%20</div><h3>İndirimli kahveni al</h3><a class=\"btn line\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=aksesuarlar\">Termoslar</a></div><div class=\"pic\" role=\"img\" aria-label=\"Black Cat termosu ve kahve çekirdekleri\"></div></div></div></section></div>"},"elements":[]},{"id":"bc00005","elType":"widget","widgetType":"html","settings":{"html":"<div class=\"bc\"><section class=\"pattern\" style=\"border-top:1px solid var(--line)\"><div class=\"wrap pad\"><h2 class=\"st\"><span>Popüler</span> <b>ürünlerimiz</b></h2><div class=\"grid\" id=\"homeGrid\"><article class=\"card\"><a class=\"shot\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Colombia%20Medellin%20250%20GR&post_type=product\"><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/1.jpg\" alt=\"Colombia Medellin 250 GR kahve paketi\" loading=\"lazy\"></a><div class=\"body\"><h3><a href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Colombia%20Medellin%20250%20GR&post_type=product\">Colombia Medellin 250 GR</a></h3><p class=\"notes\">Bitter çikolata, fındık</p><div class=\"foot\"><span class=\"price\">₺385,00</span><a class=\"add\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Colombia%20Medellin%20250%20GR&post_type=product\">İncele</a></div></div></article><article class=\"card\"><a class=\"shot\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Colombia%20San%20Rosado%20250%20GR&post_type=product\"><span class=badge>ÇOK SATAN</span><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/2.jpg\" alt=\"Colombia San Rosado 250 GR kahve paketi\" loading=\"lazy\"></a><div class=\"body\"><h3><a href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Colombia%20San%20Rosado%20250%20GR&post_type=product\">Colombia San Rosado 250 GR</a></h3><p class=\"notes\">Narenciye, yeşil elma</p><div class=\"foot\"><span class=\"price\">₺585,00</span><a class=\"add\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Colombia%20San%20Rosado%20250%20GR&post_type=product\">İncele</a></div></div></article><article class=\"card\"><a class=\"shot\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Colombia%20San%20Rosado%20250%20GR&post_type=product\"><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/3.jpg\" alt=\"Colombia San Rosado 250 GR kahve paketi\" loading=\"lazy\"></a><div class=\"body\"><h3><a href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Colombia%20San%20Rosado%20250%20GR&post_type=product\">Colombia San Rosado 250 GR</a></h3><p class=\"notes\">Kavrulmuş fındık, kakao</p><div class=\"foot\"><span class=\"price\">₺385,00</span><a class=\"add\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Colombia%20San%20Rosado%20250%20GR&post_type=product\">İncele</a></div></div></article><article class=\"card\"><a class=\"shot\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Guatemala%20250%20GR&post_type=product\"><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/4.jpg\" alt=\"Guatemala 250 GR kahve paketi\" loading=\"lazy\"></a><div class=\"body\"><h3><a href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Guatemala%20250%20GR&post_type=product\">Guatemala 250 GR</a></h3><p class=\"notes\">Karamel, kırmızı meyve</p><div class=\"foot\"><span class=\"price\">₺485,00</span><a class=\"add\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Guatemala%20250%20GR&post_type=product\">İncele</a></div></div></article><article class=\"card\"><a class=\"shot\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Indonesia%20Sumatra%20250%20GR&post_type=product\"><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/5.jpg\" alt=\"Indonesia Sumatra 250 GR kahve paketi\" loading=\"lazy\"></a><div class=\"body\"><h3><a href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Indonesia%20Sumatra%20250%20GR&post_type=product\">Indonesia Sumatra 250 GR</a></h3><p class=\"notes\">Toprak, baharat, bitter</p><div class=\"foot\"><span class=\"price\">₺425,00</span><a class=\"add\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Indonesia%20Sumatra%20250%20GR&post_type=product\">İncele</a></div></div></article><article class=\"card\"><a class=\"shot\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Rwanda%20Karambi%20250%20GR&post_type=product\"><span class=badge>YENİ</span><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/6.jpg\" alt=\"Rwanda Karambi 250 GR kahve paketi\" loading=\"lazy\"></a><div class=\"body\"><h3><a href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Rwanda%20Karambi%20250%20GR&post_type=product\">Rwanda Karambi 250 GR</a></h3><p class=\"notes\">Siyah çay, frenk üzümü</p><div class=\"foot\"><span class=\"price\">₺725,00</span><a class=\"add\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?s=Rwanda%20Karambi%20250%20GR&post_type=product\">İncele</a></div></div></article></div><div class=\"center\" style=\"margin-top:36px\"><a class=\"btn line\" href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/shop/\">Tüm ürünler</a></div></div></section></div>"},"elements":[]},{"id":"bc00006","elType":"widget","widgetType":"text-editor","settings":{"editor":"<div class=\"bc\"><section class=\"soft\" id=\"takip\"><div class=\"wrap pad\"><h2 class=\"st\"><span>Sipariş</span> <b>takip</b></h2><div class=\"track\"><div>[woocommerce_order_tracking]</div><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/4-1.png\" alt=\"Kedi silüetinde Black Cat ekibi fotoğrafları\"></div></div></section></div>"},"elements":[]}]}]
+[
+ {
+  "id": "b00000a",
+  "elType": "container",
+  "settings": {
+   "content_width": "boxed",
+   "boxed_width": {
+    "unit": "px",
+    "size": 1240
+   },
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "row": "0",
+    "unit": "px",
+    "isLinked": true,
+    "size": 0
+   },
+   "padding": {
+    "unit": "px",
+    "top": "40",
+    "right": "16",
+    "bottom": "40",
+    "left": "16",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#FFFFFF",
+   "background_image": {
+    "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/BACKGROUND.png",
+    "id": 17
+   },
+   "background_position": "center center",
+   "background_repeat": "no-repeat",
+   "background_size": "contain"
+  },
+  "elements": [
+   {
+    "id": "b000009",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_gap": {
+      "column": "32",
+      "row": "32",
+      "unit": "px",
+      "isLinked": true,
+      "size": 32
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "flex_align_items": "center",
+     "flex_wrap": "nowrap",
+     "flex_direction_mobile": "column"
+    },
+    "elements": [
+     {
+      "id": "b000006",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "0",
+        "row": "0",
+        "unit": "px",
+        "isLinked": true,
+        "size": 0
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "width": {
+        "unit": "%",
+        "size": 50
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100
+       }
+      },
+      "elements": [
+       {
+        "id": "b000001",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Gerçek kahveyi<br>keşfet!",
+         "header_size": "h1",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 78
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.02
+         },
+         "typography_text_transform": "uppercase",
+         "typography_font_size_tablet": {
+          "unit": "px",
+          "size": 56
+         },
+         "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 44
+         },
+         "align_mobile": "center"
+        },
+        "elements": []
+       },
+       {
+        "id": "b000002",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Kendi kavurduğumuz çekirdekler, beş şehirdeki şubelerimizde ve online mağazamızda.</p>",
+         "text_color": "#4A5568",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 17
+         },
+         "typography_font_weight": "400",
+         "align": "left",
+         "align_mobile": "center",
+         "_margin": {
+          "unit": "px",
+          "top": "22",
+          "right": "0",
+          "bottom": "30",
+          "left": "0",
+          "isLinked": false
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "b000005",
+        "elType": "container",
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "row",
+         "flex_gap": {
+          "column": "12",
+          "row": "12",
+          "unit": "px",
+          "isLinked": true,
+          "size": 12
+         },
+         "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+         },
+         "flex_align_items": "center",
+         "flex_wrap": "wrap",
+         "flex_justify_content_mobile": "center"
+        },
+        "elements": [
+         {
+          "id": "b000003",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+           "text": "Kahve Noktaları",
+           "link": {
+            "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?page_id=54"
+           },
+           "align": "left"
+          },
+          "elements": []
+         },
+         {
+          "id": "b000004",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+           "text": "Kahve Al!",
+           "link": {
+            "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/shop/"
+           },
+           "align": "left",
+           "button_text_color": "#2D3748",
+           "background_background": "classic",
+           "background_color": "rgba(255,255,255,0)",
+           "border_border": "solid",
+           "border_width": {
+            "unit": "px",
+            "top": "2",
+            "right": "2",
+            "bottom": "2",
+            "left": "2",
+            "isLinked": true
+           },
+           "border_color": "#2D3748",
+           "hover_color": "#FFFFFF",
+           "button_background_hover_background": "classic",
+           "button_background_hover_color": "#2D3748",
+           "button_hover_border_color": "#2D3748"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": false
+       }
+      ],
+      "isInner": false
+     },
+     {
+      "id": "b000008",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "0",
+        "row": "0",
+        "unit": "px",
+        "isLinked": true,
+        "size": 0
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "width": {
+        "unit": "%",
+        "size": 50
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100
+       }
+      },
+      "elements": [
+       {
+        "id": "b000007",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/KAHVE.png",
+          "id": 16,
+          "alt": "Black Cat logolu fincandan sıçrayan kahve ve çekirdekler"
+         },
+         "image_size": "full",
+         "align": "right",
+         "width": {
+          "unit": "%",
+          "size": 100
+         },
+         "_css_classes": "bc-float",
+         "align_mobile": "center",
+         "width_mobile": {
+          "unit": "%",
+          "size": 80
+         }
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "b000020",
+  "elType": "container",
+  "settings": {
+   "content_width": "boxed",
+   "boxed_width": {
+    "unit": "px",
+    "size": 1240
+   },
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "row": "0",
+    "unit": "px",
+    "isLinked": true,
+    "size": 0
+   },
+   "padding": {
+    "unit": "px",
+    "top": "84",
+    "right": "16",
+    "bottom": "84",
+    "left": "16",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#F7FAFC"
+  },
+  "elements": [
+   {
+    "id": "b00001f",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "column",
+     "flex_gap": {
+      "column": "0",
+      "row": "0",
+      "unit": "px",
+      "isLinked": true,
+      "size": 0
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "container_type": "grid",
+     "grid_columns_grid": {
+      "unit": "fr",
+      "size": 4
+     },
+     "grid_columns_grid_tablet": {
+      "unit": "fr",
+      "size": 2
+     },
+     "grid_columns_grid_mobile": {
+      "unit": "fr",
+      "size": 1
+     },
+     "grid_rows_grid": {
+      "unit": "fr",
+      "size": 1
+     },
+     "grid_gaps": {
+      "column": "20",
+      "row": "20",
+      "unit": "px",
+      "isLinked": true
+     },
+     "grid_auto_flow": "row"
+    },
+    "elements": [
+     {
+      "id": "b00000f",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "10",
+        "row": "10",
+        "unit": "px",
+        "isLinked": true,
+        "size": 10
+       },
+       "padding": {
+        "unit": "px",
+        "top": "26",
+        "right": "22",
+        "bottom": "26",
+        "left": "22",
+        "isLinked": false
+       },
+       "background_background": "classic",
+       "background_color": "#FFFFFF",
+       "border_radius": {
+        "unit": "px",
+        "top": "8",
+        "right": "8",
+        "bottom": "8",
+        "left": "8",
+        "isLinked": true
+       },
+       "flex_align_items": "center",
+       "overflow": "hidden",
+       "box_shadow_box_shadow_type": "yes",
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 10,
+        "blur": 30,
+        "spread": 0,
+        "color": "rgba(26,32,44,0.08)"
+       }
+      },
+      "elements": [
+       {
+        "id": "b00000b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "01",
+         "header_size": "div",
+         "align": "center",
+         "title_color": "#718096",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 12
+         },
+         "typography_font_weight": "600",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase",
+         "_css_classes": "bc-dot"
+        },
+        "elements": []
+       },
+       {
+        "id": "b00000c",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_01.png",
+          "id": 20,
+          "alt": "Fincan ikonu"
+         },
+         "image_size": "full",
+         "align": "center",
+         "width": {
+          "unit": "px",
+          "size": 36
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "b00000d",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Kaliteli çekirdekler",
+         "header_size": "h3",
+         "align": "center",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 16
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase"
+        },
+        "elements": []
+       },
+       {
+        "id": "b00000e",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>İyi bir kahve iyi bir çekirdek ile başlar!</p>",
+         "text_color": "#718096",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 13
+         },
+         "typography_font_weight": "400",
+         "align": "center"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     },
+     {
+      "id": "b000014",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "10",
+        "row": "10",
+        "unit": "px",
+        "isLinked": true,
+        "size": 10
+       },
+       "padding": {
+        "unit": "px",
+        "top": "26",
+        "right": "22",
+        "bottom": "26",
+        "left": "22",
+        "isLinked": false
+       },
+       "background_background": "classic",
+       "background_color": "#FFFFFF",
+       "border_radius": {
+        "unit": "px",
+        "top": "8",
+        "right": "8",
+        "bottom": "8",
+        "left": "8",
+        "isLinked": true
+       },
+       "flex_align_items": "center",
+       "overflow": "hidden",
+       "box_shadow_box_shadow_type": "yes",
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 10,
+        "blur": 30,
+        "spread": 0,
+        "color": "rgba(26,32,44,0.08)"
+       }
+      },
+      "elements": [
+       {
+        "id": "b000010",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "02",
+         "header_size": "div",
+         "align": "center",
+         "title_color": "#718096",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 12
+         },
+         "typography_font_weight": "600",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase",
+         "_css_classes": "bc-dot"
+        },
+        "elements": []
+       },
+       {
+        "id": "b000011",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_02.png",
+          "id": 21,
+          "alt": "Madalya ikonu"
+         },
+         "image_size": "full",
+         "align": "center",
+         "width": {
+          "unit": "px",
+          "size": 36
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "b000012",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "En uygun kavurma",
+         "header_size": "h3",
+         "align": "center",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 16
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase"
+        },
+        "elements": []
+       },
+       {
+        "id": "b000013",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Dünya standartlarında kavurma yöntemleri ile kavrulur!</p>",
+         "text_color": "#718096",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 13
+         },
+         "typography_font_weight": "400",
+         "align": "center"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     },
+     {
+      "id": "b000019",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "10",
+        "row": "10",
+        "unit": "px",
+        "isLinked": true,
+        "size": 10
+       },
+       "padding": {
+        "unit": "px",
+        "top": "26",
+        "right": "22",
+        "bottom": "26",
+        "left": "22",
+        "isLinked": false
+       },
+       "background_background": "classic",
+       "background_color": "#FFFFFF",
+       "border_radius": {
+        "unit": "px",
+        "top": "8",
+        "right": "8",
+        "bottom": "8",
+        "left": "8",
+        "isLinked": true
+       },
+       "flex_align_items": "center",
+       "overflow": "hidden",
+       "box_shadow_box_shadow_type": "yes",
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 10,
+        "blur": 30,
+        "spread": 0,
+        "color": "rgba(26,32,44,0.08)"
+       }
+      },
+      "elements": [
+       {
+        "id": "b000015",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "03",
+         "header_size": "div",
+         "align": "center",
+         "title_color": "#718096",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 12
+         },
+         "typography_font_weight": "600",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase",
+         "_css_classes": "bc-dot"
+        },
+        "elements": []
+       },
+       {
+        "id": "b000016",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_03.png",
+          "id": 22,
+          "alt": "Kahve çekirdeği ikonu"
+         },
+         "image_size": "full",
+         "align": "center",
+         "width": {
+          "unit": "px",
+          "size": 36
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "b000017",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Özel paketleme",
+         "header_size": "h3",
+         "align": "center",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 16
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase"
+        },
+        "elements": []
+       },
+       {
+        "id": "b000018",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Uygun koşullarda dayanıklı kalacak şekilde paketlenir!</p>",
+         "text_color": "#718096",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 13
+         },
+         "typography_font_weight": "400",
+         "align": "center"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     },
+     {
+      "id": "b00001e",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "10",
+        "row": "10",
+        "unit": "px",
+        "isLinked": true,
+        "size": 10
+       },
+       "padding": {
+        "unit": "px",
+        "top": "26",
+        "right": "22",
+        "bottom": "26",
+        "left": "22",
+        "isLinked": false
+       },
+       "background_background": "classic",
+       "background_color": "#FFFFFF",
+       "border_radius": {
+        "unit": "px",
+        "top": "8",
+        "right": "8",
+        "bottom": "8",
+        "left": "8",
+        "isLinked": true
+       },
+       "flex_align_items": "center",
+       "overflow": "hidden",
+       "box_shadow_box_shadow_type": "yes",
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 10,
+        "blur": 30,
+        "spread": 0,
+        "color": "rgba(26,32,44,0.08)"
+       }
+      },
+      "elements": [
+       {
+        "id": "b00001a",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "04",
+         "header_size": "div",
+         "align": "center",
+         "title_color": "#718096",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 12
+         },
+         "typography_font_weight": "600",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase",
+         "_css_classes": "bc-dot"
+        },
+        "elements": []
+       },
+       {
+        "id": "b00001b",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_04.png",
+          "id": 23,
+          "alt": "Kahve paketi ikonu"
+         },
+         "image_size": "full",
+         "align": "center",
+         "width": {
+          "unit": "px",
+          "size": 36
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "b00001c",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Mükemmel aroma",
+         "header_size": "h3",
+         "align": "center",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 16
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase"
+        },
+        "elements": []
+       },
+       {
+        "id": "b00001d",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Sonucunda da mükemmel bir aroma verir!</p>",
+         "text_color": "#718096",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 13
+         },
+         "typography_font_weight": "400",
+         "align": "center"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "b00002c",
+  "elType": "container",
+  "settings": {
+   "content_width": "boxed",
+   "boxed_width": {
+    "unit": "px",
+    "size": 1240
+   },
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "row": "0",
+    "unit": "px",
+    "isLinked": true,
+    "size": 0
+   },
+   "padding": {
+    "unit": "px",
+    "top": "84",
+    "right": "16",
+    "bottom": "84",
+    "left": "16",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   }
+  },
+  "elements": [
+   {
+    "id": "b000021",
+    "elType": "widget",
+    "widgetType": "heading",
+    "settings": {
+     "title": "<span>Online</span> ürünlerimiz",
+     "header_size": "h2",
+     "align": "center",
+     "title_color": "#2D3748",
+     "typography_typography": "custom",
+     "typography_font_size": {
+      "unit": "px",
+      "size": 38
+     },
+     "typography_font_weight": "700",
+     "typography_line_height": {
+      "unit": "em",
+      "size": 1.1
+     },
+     "typography_text_transform": "uppercase",
+     "typography_font_size_mobile": {
+      "unit": "px",
+      "size": 26
+     },
+     "_css_classes": "bc-st",
+     "_margin": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "44",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": []
+   },
+   {
+    "id": "b00002b",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "column",
+     "flex_gap": {
+      "column": "0",
+      "row": "0",
+      "unit": "px",
+      "isLinked": true,
+      "size": 0
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "container_type": "grid",
+     "grid_columns_grid": {
+      "unit": "fr",
+      "size": 3
+     },
+     "grid_columns_grid_tablet": {
+      "unit": "fr",
+      "size": 1
+     },
+     "grid_columns_grid_mobile": {
+      "unit": "fr",
+      "size": 1
+     },
+     "grid_rows_grid": {
+      "unit": "fr",
+      "size": 1
+     },
+     "grid_gaps": {
+      "column": "20",
+      "row": "20",
+      "unit": "px",
+      "isLinked": true
+     },
+     "grid_auto_flow": "row"
+    },
+    "elements": [
+     {
+      "id": "b000024",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "12",
+        "row": "12",
+        "unit": "px",
+        "isLinked": true,
+        "size": 12
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "22",
+        "bottom": "0",
+        "left": "22",
+        "isLinked": false
+       },
+       "background_background": "classic",
+       "background_image": {
+        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/kahve2.jpg",
+        "id": 24
+       },
+       "background_size": "cover",
+       "background_position": "center center",
+       "min_height": {
+        "unit": "px",
+        "size": 214
+       },
+       "min_height_mobile": {
+        "unit": "px",
+        "size": 160
+       },
+       "flex_justify_content": "center",
+       "flex_align_items": "flex-start",
+       "border_radius": {
+        "unit": "px",
+        "top": "8",
+        "right": "8",
+        "bottom": "8",
+        "left": "8",
+        "isLinked": true
+       },
+       "overflow": "hidden",
+       "box_shadow_box_shadow_type": "yes",
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 10,
+        "blur": 30,
+        "spread": 0,
+        "color": "rgba(26,32,44,0.08)"
+       }
+      },
+      "elements": [
+       {
+        "id": "b000022",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Kahveler",
+         "header_size": "h3",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 24
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase",
+         "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 22
+         },
+         "_css_classes": "bc-cat-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "b000023",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+         "text": "İncele",
+         "link": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=kahveler"
+         },
+         "align": "left",
+         "button_text_color": "#2D3748",
+         "background_background": "classic",
+         "background_color": "#FFFFFF",
+         "border_border": "solid",
+         "border_width": {
+          "unit": "px",
+          "top": "2",
+          "right": "2",
+          "bottom": "2",
+          "left": "2",
+          "isLinked": true
+         },
+         "border_color": "#FFFFFF",
+         "hover_color": "#FFFFFF",
+         "button_background_hover_background": "classic",
+         "button_background_hover_color": "#2D3748",
+         "button_hover_border_color": "#2D3748",
+         "text_padding": {
+          "unit": "px",
+          "top": "7",
+          "right": "16",
+          "bottom": "7",
+          "left": "16",
+          "isLinked": false
+         },
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 12
+         }
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     },
+     {
+      "id": "b000027",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "12",
+        "row": "12",
+        "unit": "px",
+        "isLinked": true,
+        "size": 12
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "22",
+        "bottom": "0",
+        "left": "22",
+        "isLinked": false
+       },
+       "background_background": "classic",
+       "background_image": {
+        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/aksesuar-1.jpg",
+        "id": 25
+       },
+       "background_size": "cover",
+       "background_position": "center center",
+       "min_height": {
+        "unit": "px",
+        "size": 214
+       },
+       "min_height_mobile": {
+        "unit": "px",
+        "size": 160
+       },
+       "flex_justify_content": "center",
+       "flex_align_items": "flex-start",
+       "border_radius": {
+        "unit": "px",
+        "top": "8",
+        "right": "8",
+        "bottom": "8",
+        "left": "8",
+        "isLinked": true
+       },
+       "overflow": "hidden",
+       "box_shadow_box_shadow_type": "yes",
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 10,
+        "blur": 30,
+        "spread": 0,
+        "color": "rgba(26,32,44,0.08)"
+       }
+      },
+      "elements": [
+       {
+        "id": "b000025",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Aksesuar",
+         "header_size": "h3",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 24
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase",
+         "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 22
+         },
+         "_css_classes": "bc-cat-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "b000026",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+         "text": "İncele",
+         "link": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=aksesuarlar"
+         },
+         "align": "left",
+         "button_text_color": "#2D3748",
+         "background_background": "classic",
+         "background_color": "#FFFFFF",
+         "border_border": "solid",
+         "border_width": {
+          "unit": "px",
+          "top": "2",
+          "right": "2",
+          "bottom": "2",
+          "left": "2",
+          "isLinked": true
+         },
+         "border_color": "#FFFFFF",
+         "hover_color": "#FFFFFF",
+         "button_background_hover_background": "classic",
+         "button_background_hover_color": "#2D3748",
+         "button_hover_border_color": "#2D3748",
+         "text_padding": {
+          "unit": "px",
+          "top": "7",
+          "right": "16",
+          "bottom": "7",
+          "left": "16",
+          "isLinked": false
+         },
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 12
+         }
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     },
+     {
+      "id": "b00002a",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "12",
+        "row": "12",
+        "unit": "px",
+        "isLinked": true,
+        "size": 12
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "22",
+        "bottom": "0",
+        "left": "22",
+        "isLinked": false
+       },
+       "background_background": "classic",
+       "background_image": {
+        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/hediye.jpg",
+        "id": 26
+       },
+       "background_size": "cover",
+       "background_position": "center center",
+       "min_height": {
+        "unit": "px",
+        "size": 214
+       },
+       "min_height_mobile": {
+        "unit": "px",
+        "size": 160
+       },
+       "flex_justify_content": "center",
+       "flex_align_items": "flex-start",
+       "border_radius": {
+        "unit": "px",
+        "top": "8",
+        "right": "8",
+        "bottom": "8",
+        "left": "8",
+        "isLinked": true
+       },
+       "overflow": "hidden",
+       "box_shadow_box_shadow_type": "yes",
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 10,
+        "blur": 30,
+        "spread": 0,
+        "color": "rgba(26,32,44,0.08)"
+       }
+      },
+      "elements": [
+       {
+        "id": "b000028",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Hediye<br>paketleri",
+         "header_size": "h3",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 24
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase",
+         "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 22
+         },
+         "_css_classes": "bc-cat-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "b000029",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+         "text": "İncele",
+         "link": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=hediye-paketleri"
+         },
+         "align": "left",
+         "button_text_color": "#2D3748",
+         "background_background": "classic",
+         "background_color": "#FFFFFF",
+         "border_border": "solid",
+         "border_width": {
+          "unit": "px",
+          "top": "2",
+          "right": "2",
+          "bottom": "2",
+          "left": "2",
+          "isLinked": true
+         },
+         "border_color": "#FFFFFF",
+         "hover_color": "#FFFFFF",
+         "button_background_hover_background": "classic",
+         "button_background_hover_color": "#2D3748",
+         "button_hover_border_color": "#2D3748",
+         "text_padding": {
+          "unit": "px",
+          "top": "7",
+          "right": "16",
+          "bottom": "7",
+          "left": "16",
+          "isLinked": false
+         },
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 12
+         }
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "b000035",
+  "elType": "container",
+  "settings": {
+   "content_width": "boxed",
+   "boxed_width": {
+    "unit": "px",
+    "size": 1240
+   },
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "row": "0",
+    "unit": "px",
+    "isLinked": true,
+    "size": 0
+   },
+   "padding": {
+    "unit": "px",
+    "top": "20",
+    "right": "16",
+    "bottom": "20",
+    "left": "16",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#FFFFFF",
+   "background_image": {
+    "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/background-SMALL.png",
+    "id": 18
+   },
+   "background_repeat": "repeat",
+   "background_position": "top left",
+   "background_size": "initial"
+  },
+  "elements": [
+   {
+    "id": "b000034",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_gap": {
+      "column": "20",
+      "row": "20",
+      "unit": "px",
+      "isLinked": true,
+      "size": 20
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "flex_align_items": "stretch",
+     "flex_wrap": "nowrap",
+     "flex_direction_mobile": "column",
+     "background_background": "classic",
+     "background_color": "#FFFFFF",
+     "border_radius": {
+      "unit": "px",
+      "top": "10",
+      "right": "10",
+      "bottom": "10",
+      "left": "10",
+      "isLinked": true
+     },
+     "overflow": "hidden",
+     "box_shadow_box_shadow_type": "yes",
+     "box_shadow_box_shadow": {
+      "horizontal": 0,
+      "vertical": 10,
+      "blur": 30,
+      "spread": 0,
+      "color": "rgba(26,32,44,0.08)"
+     }
+    },
+    "elements": [
+     {
+      "id": "b000032",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "0",
+        "row": "0",
+        "unit": "px",
+        "isLinked": true,
+        "size": 0
+       },
+       "padding": {
+        "unit": "px",
+        "top": "40",
+        "right": "0",
+        "bottom": "40",
+        "left": "44",
+        "isLinked": false
+       },
+       "width": {
+        "unit": "%",
+        "size": 50
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100
+       },
+       "padding_mobile": {
+        "unit": "px",
+        "top": "30",
+        "right": "22",
+        "bottom": "0",
+        "left": "22",
+        "isLinked": false
+       }
+      },
+      "elements": [
+       {
+        "id": "b00002d",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "The Black Cat",
+         "header_size": "h2",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 92
+         },
+         "typography_font_weight": "800",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 0.9
+         },
+         "typography_font_size_tablet": {
+          "unit": "px",
+          "size": 64
+         },
+         "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 50
+         },
+         "_css_classes": "bc-ghost"
+        },
+        "elements": []
+       },
+       {
+        "id": "b00002e",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "The Black Cat termosunu getir",
+         "header_size": "h2",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 28
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase",
+         "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 20
+         },
+         "_margin": {
+          "unit": "px",
+          "top": "-30",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "b00002f",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "%20",
+         "header_size": "div",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 128
+         },
+         "typography_font_weight": "300",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1
+         },
+         "typography_text_transform": "uppercase",
+         "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 80
+         },
+         "_css_classes": "bc-outline"
+        },
+        "elements": []
+       },
+       {
+        "id": "b000030",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "İndirimli kahveni al",
+         "header_size": "h3",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 28
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase",
+         "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 20
+         },
+         "_margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "22",
+          "left": "0",
+          "isLinked": false
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "b000031",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+         "text": "Termoslar",
+         "link": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=aksesuarlar"
+         },
+         "align": "left",
+         "button_text_color": "#2D3748",
+         "background_background": "classic",
+         "background_color": "rgba(255,255,255,0)",
+         "border_border": "solid",
+         "border_width": {
+          "unit": "px",
+          "top": "2",
+          "right": "2",
+          "bottom": "2",
+          "left": "2",
+          "isLinked": true
+         },
+         "border_color": "#2D3748",
+         "hover_color": "#FFFFFF",
+         "button_background_hover_background": "classic",
+         "button_background_hover_color": "#2D3748",
+         "button_hover_border_color": "#2D3748"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     },
+     {
+      "id": "b000033",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "0",
+        "row": "0",
+        "unit": "px",
+        "isLinked": true,
+        "size": 0
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "width": {
+        "unit": "%",
+        "size": 50
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100
+       },
+       "min_height": {
+        "unit": "px",
+        "size": 340
+       },
+       "min_height_mobile": {
+        "unit": "px",
+        "size": 220
+       },
+       "background_background": "classic",
+       "background_image": {
+        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/BACKGROUND.jpg",
+        "id": 19
+       },
+       "background_size": "cover",
+       "background_position": "center right"
+      },
+      "elements": [],
+      "isInner": false
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "b00003b",
+  "elType": "container",
+  "settings": {
+   "content_width": "boxed",
+   "boxed_width": {
+    "unit": "px",
+    "size": 1240
+   },
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "row": "0",
+    "unit": "px",
+    "isLinked": true,
+    "size": 0
+   },
+   "padding": {
+    "unit": "px",
+    "top": "84",
+    "right": "16",
+    "bottom": "84",
+    "left": "16",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#FFFFFF",
+   "background_image": {
+    "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/background-SMALL.png",
+    "id": 18
+   },
+   "background_repeat": "repeat",
+   "background_position": "top left",
+   "background_size": "initial",
+   "border_border": "solid",
+   "border_width": {
+    "unit": "px",
+    "top": "1",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "border_color": "#E2E8F0"
+  },
+  "elements": [
+   {
+    "id": "b000036",
+    "elType": "widget",
+    "widgetType": "heading",
+    "settings": {
+     "title": "<span>Popüler</span> ürünlerimiz",
+     "header_size": "h2",
+     "align": "center",
+     "title_color": "#2D3748",
+     "typography_typography": "custom",
+     "typography_font_size": {
+      "unit": "px",
+      "size": 38
+     },
+     "typography_font_weight": "700",
+     "typography_line_height": {
+      "unit": "em",
+      "size": 1.1
+     },
+     "typography_text_transform": "uppercase",
+     "typography_font_size_mobile": {
+      "unit": "px",
+      "size": 26
+     },
+     "_css_classes": "bc-st",
+     "_margin": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "44",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": []
+   },
+   {
+    "id": "b000038",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "column",
+     "flex_gap": {
+      "column": "0",
+      "row": "0",
+      "unit": "px",
+      "isLinked": true,
+      "size": 0
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "css_classes": "bc-products"
+    },
+    "elements": [
+     {
+      "id": "b000037",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "settings": {
+       "shortcode": "[products limit=\"6\" columns=\"3\" orderby=\"popularity\" category=\"kahveler\"]"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": false
+   },
+   {
+    "id": "b00003a",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "column",
+     "flex_gap": {
+      "column": "0",
+      "row": "0",
+      "unit": "px",
+      "isLinked": true,
+      "size": 0
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "margin": {
+      "unit": "px",
+      "top": "24",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": [
+     {
+      "id": "b000039",
+      "elType": "widget",
+      "widgetType": "button",
+      "settings": {
+       "text": "Tüm ürünler",
+       "link": {
+        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/shop/"
+       },
+       "align": "center",
+       "button_text_color": "#2D3748",
+       "background_background": "classic",
+       "background_color": "rgba(255,255,255,0)",
+       "border_border": "solid",
+       "border_width": {
+        "unit": "px",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": true
+       },
+       "border_color": "#2D3748",
+       "hover_color": "#FFFFFF",
+       "button_background_hover_background": "classic",
+       "button_background_hover_color": "#2D3748",
+       "button_hover_border_color": "#2D3748"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "b000042",
+  "elType": "container",
+  "settings": {
+   "content_width": "boxed",
+   "boxed_width": {
+    "unit": "px",
+    "size": 1240
+   },
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "row": "0",
+    "unit": "px",
+    "isLinked": true,
+    "size": 0
+   },
+   "padding": {
+    "unit": "px",
+    "top": "84",
+    "right": "16",
+    "bottom": "84",
+    "left": "16",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#F7FAFC",
+   "_element_id": "takip"
+  },
+  "elements": [
+   {
+    "id": "b00003c",
+    "elType": "widget",
+    "widgetType": "heading",
+    "settings": {
+     "title": "<span>Sipariş</span> takip",
+     "header_size": "h2",
+     "align": "center",
+     "title_color": "#2D3748",
+     "typography_typography": "custom",
+     "typography_font_size": {
+      "unit": "px",
+      "size": 38
+     },
+     "typography_font_weight": "700",
+     "typography_line_height": {
+      "unit": "em",
+      "size": 1.1
+     },
+     "typography_text_transform": "uppercase",
+     "typography_font_size_mobile": {
+      "unit": "px",
+      "size": 26
+     },
+     "_css_classes": "bc-st",
+     "_margin": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "44",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": []
+   },
+   {
+    "id": "b000041",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_gap": {
+      "column": "40",
+      "row": "40",
+      "unit": "px",
+      "isLinked": true,
+      "size": 40
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "flex_align_items": "center",
+     "flex_wrap": "nowrap",
+     "flex_direction_mobile": "column"
+    },
+    "elements": [
+     {
+      "id": "b00003e",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "0",
+        "row": "0",
+        "unit": "px",
+        "isLinked": true,
+        "size": 0
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "width": {
+        "unit": "%",
+        "size": 55
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100
+       }
+      },
+      "elements": [
+       {
+        "id": "b00003d",
+        "elType": "widget",
+        "widgetType": "shortcode",
+        "settings": {
+         "shortcode": "[woocommerce_order_tracking]"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     },
+     {
+      "id": "b000040",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "0",
+        "row": "0",
+        "unit": "px",
+        "isLinked": true,
+        "size": 0
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "width": {
+        "unit": "%",
+        "size": 45
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100
+       }
+      },
+      "elements": [
+       {
+        "id": "b00003f",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/4-1.png",
+          "id": 27,
+          "alt": "Kedi silüetinde Black Cat ekibi fotoğrafları"
+         },
+         "image_size": "full",
+         "align": "center",
+         "width": {
+          "unit": "%",
+          "size": 100
+         }
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ }
+]

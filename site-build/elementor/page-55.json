@@ -1,1 +1,1145 @@
-[{"id":"bc00015","elType":"container","settings":{"content_width":"full","css_classes":"bc-page","flex_gap":{"unit":"px","size":0,"column":"0","row":"0"},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":true}},"elements":[{"id":"bc00011","elType":"widget","widgetType":"html","settings":{"html":"<div class=\"bc\"><section class=\"phead\"><div class=\"ghost\" aria-hidden=\"true\">Franchise</div><div class=\"wrap\"><div class=\"crumb\"><a href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/\">Ana sayfa</a><span>/</span><span>Franchise</span></div><h1><span>Franchise</span> bayimiz olun!</h1><p>Kendi şehrinde bir Black Cat açmak ister misin? Kahveyi, eğitimi ve markayı biz getiriyoruz.</p></div></section></div>"},"elements":[]},{"id":"bc00012","elType":"widget","widgetType":"html","settings":{"html":"<div class=\"bc\"><section><div class=\"wrap pad\"><div class=\"split\"><img src=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/2-1.jpg\" alt=\"İzmir şubesinde kahve hazırlayan barista\" style=\"border-radius:10px\"><div class=\"prose\"><h2 class=\"st left\" style=\"margin-bottom:18px\"><span>Kahvemizi artık</span><br><b>kendimiz kavuruyoruz!</b></h2><p class=\"lead\">Kendi kavurduğumuz kahve, hazır online mağaza altyapısı ve tanınan bir marka ile kendi kahve noktanızı açın.</p><p>Lokasyon seçiminden açılışa kadar her adımda yanınızdayız.</p><p><a class=\"btn\" href=\"#basvuru\">Başvuru formu</a></p></div></div></div></section></div>"},"elements":[]},{"id":"bc00013","elType":"widget","widgetType":"html","settings":{"html":"<div class=\"bc\"><section class=\"soft\"><div class=\"wrap pad\"><h2 class=\"st\"><span>Başvurudan</span> <b>açılışa</b></h2><div class=\"fsteps\"><div><div class=\"n\">01</div><h3>Başvuru</h3><p>Formu doldurun, bölgenizi ve hedeflerinizi paylaşın.</p></div><div><div class=\"n\">02</div><h3>Tanışma</h3><p>Ekibimiz sizinle görüşür, lokasyonu birlikte değerlendiririz.</p></div><div><div class=\"n\">03</div><h3>Eğitim</h3><p>Barista ve işletme eğitimleri kavurma atölyemizde verilir.</p></div><div><div class=\"n\">04</div><h3>Açılış</h3><p>Tedarik, tasarım ve açılış desteğiyle kapılarınızı açarsınız.</p></div></div></div></section></div>"},"elements":[]},{"id":"bc00014","elType":"widget","widgetType":"text-editor","settings":{"editor":"<div class=\"bc\"><section class=\"pattern\" id=\"basvuru\"><div class=\"wrap pad\"><h2 class=\"st\"><span>Başvuru</span> <b>formu</b></h2><div class=\"panel\" style=\"max-width:760px;margin:0 auto\">[contact-form-7 id=\"51\" title=\"Franchise Başvuru Formu\"]</div></div></section></div>"},"elements":[]}]}]
+[
+ {
+  "id": "b0000b8",
+  "elType": "container",
+  "settings": {
+   "content_width": "boxed",
+   "boxed_width": {
+    "unit": "px",
+    "size": 1240
+   },
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "row": "0",
+    "unit": "px",
+    "isLinked": true,
+    "size": 0
+   },
+   "padding": {
+    "unit": "px",
+    "top": "58",
+    "right": "16",
+    "bottom": "58",
+    "left": "16",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "44",
+    "right": "16",
+    "bottom": "44",
+    "left": "16",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#EDF2F7",
+   "css_classes": "bc-phead"
+  },
+  "elements": [
+   {
+    "id": "b0000b4",
+    "elType": "widget",
+    "widgetType": "heading",
+    "settings": {
+     "title": "Franchise",
+     "header_size": "h2",
+     "align": "center",
+     "title_color": "#2D3748",
+     "typography_typography": "custom",
+     "typography_font_size": {
+      "unit": "px",
+      "size": 160
+     },
+     "typography_font_weight": "800",
+     "typography_line_height": {
+      "unit": "em",
+      "size": 0.9
+     },
+     "typography_font_size_tablet": {
+      "unit": "px",
+      "size": 110
+     },
+     "typography_font_size_mobile": {
+      "unit": "px",
+      "size": 70
+     },
+     "_css_classes": "bc-ghost bc-ghost-center"
+    },
+    "elements": []
+   },
+   {
+    "id": "b0000b5",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "settings": {
+     "editor": "<a href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/\">Ana sayfa</a> / Franchise",
+     "text_color": "#718096",
+     "typography_typography": "custom",
+     "typography_font_size": {
+      "unit": "px",
+      "size": 13
+     },
+     "typography_font_weight": "400",
+     "align": "center"
+    },
+    "elements": []
+   },
+   {
+    "id": "b0000b6",
+    "elType": "widget",
+    "widgetType": "heading",
+    "settings": {
+     "title": "<span>Franchise</span> bayimiz olun!",
+     "header_size": "h1",
+     "align": "center",
+     "title_color": "#2D3748",
+     "typography_typography": "custom",
+     "typography_font_size": {
+      "unit": "px",
+      "size": 56
+     },
+     "typography_font_weight": "700",
+     "typography_line_height": {
+      "unit": "em",
+      "size": 1.1
+     },
+     "typography_text_transform": "uppercase",
+     "typography_font_size_tablet": {
+      "unit": "px",
+      "size": 44
+     },
+     "typography_font_size_mobile": {
+      "unit": "px",
+      "size": 34
+     },
+     "_css_classes": "bc-st",
+     "_margin": {
+      "unit": "px",
+      "top": "10",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": []
+   },
+   {
+    "id": "b0000b7",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "settings": {
+     "editor": "<p>Kendi şehrinde bir Black Cat açmak ister misin? Kahveyi, eğitimi ve markayı biz getiriyoruz.</p>",
+     "text_color": "#4A5568",
+     "typography_typography": "custom",
+     "typography_font_size": {
+      "unit": "px",
+      "size": 16
+     },
+     "typography_font_weight": "400",
+     "align": "center",
+     "_margin": {
+      "unit": "px",
+      "top": "12",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": []
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "b0000c1",
+  "elType": "container",
+  "settings": {
+   "content_width": "boxed",
+   "boxed_width": {
+    "unit": "px",
+    "size": 1240
+   },
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "row": "0",
+    "unit": "px",
+    "isLinked": true,
+    "size": 0
+   },
+   "padding": {
+    "unit": "px",
+    "top": "84",
+    "right": "16",
+    "bottom": "84",
+    "left": "16",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   }
+  },
+  "elements": [
+   {
+    "id": "b0000c0",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_gap": {
+      "column": "56",
+      "row": "56",
+      "unit": "px",
+      "isLinked": true,
+      "size": 56
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "flex_align_items": "center",
+     "flex_wrap": "nowrap",
+     "flex_direction_mobile": "column"
+    },
+    "elements": [
+     {
+      "id": "b0000ba",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "0",
+        "row": "0",
+        "unit": "px",
+        "isLinked": true,
+        "size": 0
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "width": {
+        "unit": "%",
+        "size": 50
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100
+       }
+      },
+      "elements": [
+       {
+        "id": "b0000b9",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/2-1.jpg",
+          "id": 43,
+          "alt": "İzmir şubesinde kahve hazırlayan barista"
+         },
+         "image_size": "full",
+         "align": "center",
+         "width": {
+          "unit": "%",
+          "size": 100
+         },
+         "image_border_radius": {
+          "unit": "px",
+          "top": "10",
+          "right": "10",
+          "bottom": "10",
+          "left": "10",
+          "isLinked": true
+         }
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     },
+     {
+      "id": "b0000bf",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "8",
+        "row": "8",
+        "unit": "px",
+        "isLinked": true,
+        "size": 8
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "width": {
+        "unit": "%",
+        "size": 50
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100
+       }
+      },
+      "elements": [
+       {
+        "id": "b0000bb",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "<span>Kahvemizi artık</span><br>kendimiz kavuruyoruz!",
+         "header_size": "h2",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 38
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase",
+         "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 26
+         },
+         "_css_classes": "bc-st",
+         "_margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "18",
+          "left": "0",
+          "isLinked": false
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "b0000bc",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Kendi kavurduğumuz kahve, hazır online mağaza altyapısı ve tanınan bir marka ile kendi kahve noktanızı açın.</p>",
+         "text_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 20
+         },
+         "typography_font_weight": "500"
+        },
+        "elements": []
+       },
+       {
+        "id": "b0000bd",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Lokasyon seçiminden açılışa kadar her adımda yanınızdayız.</p>",
+         "text_color": "#4A5568",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 15
+         },
+         "typography_font_weight": "400"
+        },
+        "elements": []
+       },
+       {
+        "id": "b0000be",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+         "text": "Başvuru formu",
+         "link": {
+          "url": "#basvuru"
+         },
+         "align": "left"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "b0000d4",
+  "elType": "container",
+  "settings": {
+   "content_width": "boxed",
+   "boxed_width": {
+    "unit": "px",
+    "size": 1240
+   },
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "row": "0",
+    "unit": "px",
+    "isLinked": true,
+    "size": 0
+   },
+   "padding": {
+    "unit": "px",
+    "top": "84",
+    "right": "16",
+    "bottom": "84",
+    "left": "16",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#F7FAFC"
+  },
+  "elements": [
+   {
+    "id": "b0000c2",
+    "elType": "widget",
+    "widgetType": "heading",
+    "settings": {
+     "title": "<span>Başvurudan</span> açılışa",
+     "header_size": "h2",
+     "align": "center",
+     "title_color": "#2D3748",
+     "typography_typography": "custom",
+     "typography_font_size": {
+      "unit": "px",
+      "size": 38
+     },
+     "typography_font_weight": "700",
+     "typography_line_height": {
+      "unit": "em",
+      "size": 1.1
+     },
+     "typography_text_transform": "uppercase",
+     "typography_font_size_mobile": {
+      "unit": "px",
+      "size": 26
+     },
+     "_css_classes": "bc-st",
+     "_margin": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "44",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": []
+   },
+   {
+    "id": "b0000d3",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "column",
+     "flex_gap": {
+      "column": "0",
+      "row": "0",
+      "unit": "px",
+      "isLinked": true,
+      "size": 0
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "container_type": "grid",
+     "grid_columns_grid": {
+      "unit": "fr",
+      "size": 4
+     },
+     "grid_columns_grid_tablet": {
+      "unit": "fr",
+      "size": 2
+     },
+     "grid_columns_grid_mobile": {
+      "unit": "fr",
+      "size": 1
+     },
+     "grid_rows_grid": {
+      "unit": "fr",
+      "size": 1
+     },
+     "grid_gaps": {
+      "column": "20",
+      "row": "20",
+      "unit": "px",
+      "isLinked": true
+     },
+     "grid_auto_flow": "row"
+    },
+    "elements": [
+     {
+      "id": "b0000c6",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "10",
+        "row": "10",
+        "unit": "px",
+        "isLinked": true,
+        "size": 10
+       },
+       "padding": {
+        "unit": "px",
+        "top": "24",
+        "right": "24",
+        "bottom": "24",
+        "left": "24",
+        "isLinked": true
+       },
+       "background_background": "classic",
+       "background_color": "#FFFFFF",
+       "border_radius": {
+        "unit": "px",
+        "top": "8",
+        "right": "8",
+        "bottom": "8",
+        "left": "8",
+        "isLinked": true
+       },
+       "flex_align_items": "flex-start",
+       "overflow": "hidden",
+       "box_shadow_box_shadow_type": "yes",
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 10,
+        "blur": 30,
+        "spread": 0,
+        "color": "rgba(26,32,44,0.08)"
+       }
+      },
+      "elements": [
+       {
+        "id": "b0000c3",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "01",
+         "header_size": "div",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 40
+         },
+         "typography_font_weight": "300",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1
+         },
+         "typography_text_transform": "uppercase",
+         "_css_classes": "bc-outline"
+        },
+        "elements": []
+       },
+       {
+        "id": "b0000c4",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Başvuru",
+         "header_size": "h3",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 17
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase"
+        },
+        "elements": []
+       },
+       {
+        "id": "b0000c5",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Formu doldurun, bölgenizi ve hedeflerinizi paylaşın.</p>",
+         "text_color": "#718096",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 13.5
+         },
+         "typography_font_weight": "400"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     },
+     {
+      "id": "b0000ca",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "10",
+        "row": "10",
+        "unit": "px",
+        "isLinked": true,
+        "size": 10
+       },
+       "padding": {
+        "unit": "px",
+        "top": "24",
+        "right": "24",
+        "bottom": "24",
+        "left": "24",
+        "isLinked": true
+       },
+       "background_background": "classic",
+       "background_color": "#FFFFFF",
+       "border_radius": {
+        "unit": "px",
+        "top": "8",
+        "right": "8",
+        "bottom": "8",
+        "left": "8",
+        "isLinked": true
+       },
+       "flex_align_items": "flex-start",
+       "overflow": "hidden",
+       "box_shadow_box_shadow_type": "yes",
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 10,
+        "blur": 30,
+        "spread": 0,
+        "color": "rgba(26,32,44,0.08)"
+       }
+      },
+      "elements": [
+       {
+        "id": "b0000c7",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "02",
+         "header_size": "div",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 40
+         },
+         "typography_font_weight": "300",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1
+         },
+         "typography_text_transform": "uppercase",
+         "_css_classes": "bc-outline"
+        },
+        "elements": []
+       },
+       {
+        "id": "b0000c8",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Tanışma",
+         "header_size": "h3",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 17
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase"
+        },
+        "elements": []
+       },
+       {
+        "id": "b0000c9",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Ekibimiz sizinle görüşür, lokasyonu birlikte değerlendiririz.</p>",
+         "text_color": "#718096",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 13.5
+         },
+         "typography_font_weight": "400"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     },
+     {
+      "id": "b0000ce",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "10",
+        "row": "10",
+        "unit": "px",
+        "isLinked": true,
+        "size": 10
+       },
+       "padding": {
+        "unit": "px",
+        "top": "24",
+        "right": "24",
+        "bottom": "24",
+        "left": "24",
+        "isLinked": true
+       },
+       "background_background": "classic",
+       "background_color": "#FFFFFF",
+       "border_radius": {
+        "unit": "px",
+        "top": "8",
+        "right": "8",
+        "bottom": "8",
+        "left": "8",
+        "isLinked": true
+       },
+       "flex_align_items": "flex-start",
+       "overflow": "hidden",
+       "box_shadow_box_shadow_type": "yes",
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 10,
+        "blur": 30,
+        "spread": 0,
+        "color": "rgba(26,32,44,0.08)"
+       }
+      },
+      "elements": [
+       {
+        "id": "b0000cb",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "03",
+         "header_size": "div",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 40
+         },
+         "typography_font_weight": "300",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1
+         },
+         "typography_text_transform": "uppercase",
+         "_css_classes": "bc-outline"
+        },
+        "elements": []
+       },
+       {
+        "id": "b0000cc",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Eğitim",
+         "header_size": "h3",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 17
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase"
+        },
+        "elements": []
+       },
+       {
+        "id": "b0000cd",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Barista ve işletme eğitimleri kavurma atölyemizde verilir.</p>",
+         "text_color": "#718096",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 13.5
+         },
+         "typography_font_weight": "400"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     },
+     {
+      "id": "b0000d2",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "10",
+        "row": "10",
+        "unit": "px",
+        "isLinked": true,
+        "size": 10
+       },
+       "padding": {
+        "unit": "px",
+        "top": "24",
+        "right": "24",
+        "bottom": "24",
+        "left": "24",
+        "isLinked": true
+       },
+       "background_background": "classic",
+       "background_color": "#FFFFFF",
+       "border_radius": {
+        "unit": "px",
+        "top": "8",
+        "right": "8",
+        "bottom": "8",
+        "left": "8",
+        "isLinked": true
+       },
+       "flex_align_items": "flex-start",
+       "overflow": "hidden",
+       "box_shadow_box_shadow_type": "yes",
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 10,
+        "blur": 30,
+        "spread": 0,
+        "color": "rgba(26,32,44,0.08)"
+       }
+      },
+      "elements": [
+       {
+        "id": "b0000cf",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "04",
+         "header_size": "div",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 40
+         },
+         "typography_font_weight": "300",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1
+         },
+         "typography_text_transform": "uppercase",
+         "_css_classes": "bc-outline"
+        },
+        "elements": []
+       },
+       {
+        "id": "b0000d0",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Açılış",
+         "header_size": "h3",
+         "align": "left",
+         "title_color": "#2D3748",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 17
+         },
+         "typography_font_weight": "700",
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.1
+         },
+         "typography_text_transform": "uppercase"
+        },
+        "elements": []
+       },
+       {
+        "id": "b0000d1",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Tedarik, tasarım ve açılış desteğiyle kapılarınızı açarsınız.</p>",
+         "text_color": "#718096",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 13.5
+         },
+         "typography_font_weight": "400"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "b0000d9",
+  "elType": "container",
+  "settings": {
+   "content_width": "boxed",
+   "boxed_width": {
+    "unit": "px",
+    "size": 1240
+   },
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "row": "0",
+    "unit": "px",
+    "isLinked": true,
+    "size": 0
+   },
+   "padding": {
+    "unit": "px",
+    "top": "84",
+    "right": "16",
+    "bottom": "84",
+    "left": "16",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#FFFFFF",
+   "background_image": {
+    "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/background-SMALL.png",
+    "id": 18
+   },
+   "background_repeat": "repeat",
+   "background_position": "top left",
+   "background_size": "initial",
+   "_element_id": "basvuru",
+   "flex_align_items": "center"
+  },
+  "elements": [
+   {
+    "id": "b0000d5",
+    "elType": "widget",
+    "widgetType": "heading",
+    "settings": {
+     "title": "<span>Başvuru</span> formu",
+     "header_size": "h2",
+     "align": "center",
+     "title_color": "#2D3748",
+     "typography_typography": "custom",
+     "typography_font_size": {
+      "unit": "px",
+      "size": 38
+     },
+     "typography_font_weight": "700",
+     "typography_line_height": {
+      "unit": "em",
+      "size": 1.1
+     },
+     "typography_text_transform": "uppercase",
+     "typography_font_size_mobile": {
+      "unit": "px",
+      "size": 26
+     },
+     "_css_classes": "bc-st",
+     "_margin": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "44",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": []
+   },
+   {
+    "id": "b0000d8",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "column",
+     "flex_gap": {
+      "column": "0",
+      "row": "0",
+      "unit": "px",
+      "isLinked": true,
+      "size": 0
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "max_width": {
+      "unit": "px",
+      "size": 760
+     },
+     "width": {
+      "unit": "%",
+      "size": 100
+     },
+     "margin": {
+      "unit": "px",
+      "top": "0",
+      "right": "auto",
+      "bottom": "0",
+      "left": "auto",
+      "isLinked": false
+     },
+     "flex_align_items": "stretch"
+    },
+    "elements": [
+     {
+      "id": "b0000d7",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "10",
+        "row": "10",
+        "unit": "px",
+        "isLinked": true,
+        "size": 10
+       },
+       "padding": {
+        "unit": "px",
+        "top": "30",
+        "right": "30",
+        "bottom": "30",
+        "left": "30",
+        "isLinked": true
+       },
+       "background_background": "classic",
+       "background_color": "#FFFFFF",
+       "border_radius": {
+        "unit": "px",
+        "top": "8",
+        "right": "8",
+        "bottom": "8",
+        "left": "8",
+        "isLinked": true
+       },
+       "flex_align_items": "stretch",
+       "overflow": "hidden",
+       "box_shadow_box_shadow_type": "yes",
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 10,
+        "blur": 30,
+        "spread": 0,
+        "color": "rgba(26,32,44,0.08)"
+       },
+       "css_classes": "bc-form"
+      },
+      "elements": [
+       {
+        "id": "b0000d6",
+        "elType": "widget",
+        "widgetType": "shortcode",
+        "settings": {
+         "shortcode": "[contact-form-7 id=\"51\" title=\"Franchise Başvuru Formu\"]"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": false
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ }
+]

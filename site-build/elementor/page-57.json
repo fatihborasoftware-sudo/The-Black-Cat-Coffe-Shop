@@ -1,1 +1,586 @@
-[{"id":"bc0001b","elType":"container","settings":{"content_width":"full","css_classes":"bc-page","flex_gap":{"unit":"px","size":0,"column":"0","row":"0"},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":true}},"elements":[{"id":"bc00019","elType":"widget","widgetType":"html","settings":{"html":"<div class=\"bc\"><section class=\"phead\"><div class=\"ghost\" aria-hidden=\"true\">İletişim</div><div class=\"wrap\"><div class=\"crumb\"><a href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/\">Ana sayfa</a><span>/</span><span>İletişim</span></div><h1><span>The Black Cat</span> bizimle iletişime geçin</h1></div></section></div>"},"elements":[]},{"id":"bc0001a","elType":"widget","widgetType":"text-editor","settings":{"editor":"<div class=\"bc\"><section class=\"pattern\"><div class=\"wrap pad\"><div class=\"split\" style=\"align-items:start\"><div class=\"cinfo\"><div><div class=\"k\">Çağrı merkezi</div><div class=\"v\"><a href=\"tel:4441184\">444 11 844</a></div></div><div><div class=\"k\">Merkez</div><div class=\"v\">Fevzipaşa Cd. No:1<br>Beyoğlu, İstanbul</div></div><div><div class=\"k\">Çalışma saatleri</div><div class=\"v\">Her gün 08:00 – 22:00</div></div><div><div class=\"k\">E-posta</div><div class=\"v\" style=\"font-size:17px\"><a href=\"mailto:info@fbsoftwarethemes.com.tr\">info@fbsoftwarethemes.com.tr</a></div></div></div><div class=\"panel\"><h2>İletişim formu</h2>[contact-form-7 id=\"50\" title=\"İletişim Formu\"]</div></div></div></section></div>"},"elements":[]}]}]
+[
+ {
+  "id": "b0000ff",
+  "elType": "container",
+  "settings": {
+   "content_width": "boxed",
+   "boxed_width": {
+    "unit": "px",
+    "size": 1240
+   },
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "row": "0",
+    "unit": "px",
+    "isLinked": true,
+    "size": 0
+   },
+   "padding": {
+    "unit": "px",
+    "top": "58",
+    "right": "16",
+    "bottom": "58",
+    "left": "16",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "44",
+    "right": "16",
+    "bottom": "44",
+    "left": "16",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#EDF2F7",
+   "css_classes": "bc-phead"
+  },
+  "elements": [
+   {
+    "id": "b0000fc",
+    "elType": "widget",
+    "widgetType": "heading",
+    "settings": {
+     "title": "İletişim",
+     "header_size": "h2",
+     "align": "center",
+     "title_color": "#2D3748",
+     "typography_typography": "custom",
+     "typography_font_size": {
+      "unit": "px",
+      "size": 160
+     },
+     "typography_font_weight": "800",
+     "typography_line_height": {
+      "unit": "em",
+      "size": 0.9
+     },
+     "typography_font_size_tablet": {
+      "unit": "px",
+      "size": 110
+     },
+     "typography_font_size_mobile": {
+      "unit": "px",
+      "size": 70
+     },
+     "_css_classes": "bc-ghost bc-ghost-center"
+    },
+    "elements": []
+   },
+   {
+    "id": "b0000fd",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "settings": {
+     "editor": "<a href=\"https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/\">Ana sayfa</a> / İletişim",
+     "text_color": "#718096",
+     "typography_typography": "custom",
+     "typography_font_size": {
+      "unit": "px",
+      "size": 13
+     },
+     "typography_font_weight": "400",
+     "align": "center"
+    },
+    "elements": []
+   },
+   {
+    "id": "b0000fe",
+    "elType": "widget",
+    "widgetType": "heading",
+    "settings": {
+     "title": "<span>The Black Cat</span> bizimle iletişime geçin",
+     "header_size": "h1",
+     "align": "center",
+     "title_color": "#2D3748",
+     "typography_typography": "custom",
+     "typography_font_size": {
+      "unit": "px",
+      "size": 56
+     },
+     "typography_font_weight": "700",
+     "typography_line_height": {
+      "unit": "em",
+      "size": 1.1
+     },
+     "typography_text_transform": "uppercase",
+     "typography_font_size_tablet": {
+      "unit": "px",
+      "size": 44
+     },
+     "typography_font_size_mobile": {
+      "unit": "px",
+      "size": 34
+     },
+     "_css_classes": "bc-st",
+     "_margin": {
+      "unit": "px",
+      "top": "10",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": []
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "b000112",
+  "elType": "container",
+  "settings": {
+   "content_width": "boxed",
+   "boxed_width": {
+    "unit": "px",
+    "size": 1240
+   },
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "row": "0",
+    "unit": "px",
+    "isLinked": true,
+    "size": 0
+   },
+   "padding": {
+    "unit": "px",
+    "top": "84",
+    "right": "16",
+    "bottom": "84",
+    "left": "16",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#FFFFFF",
+   "background_image": {
+    "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/background-SMALL.png",
+    "id": 18
+   },
+   "background_repeat": "repeat",
+   "background_position": "top left",
+   "background_size": "initial"
+  },
+  "elements": [
+   {
+    "id": "b000111",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_gap": {
+      "column": "56",
+      "row": "56",
+      "unit": "px",
+      "isLinked": true,
+      "size": 56
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "flex_align_items": "flex-start",
+     "flex_wrap": "nowrap",
+     "flex_direction_mobile": "column"
+    },
+    "elements": [
+     {
+      "id": "b00010c",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "22",
+        "row": "22",
+        "unit": "px",
+        "isLinked": true,
+        "size": 22
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "width": {
+        "unit": "%",
+        "size": 45
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100
+       }
+      },
+      "elements": [
+       {
+        "id": "b000102",
+        "elType": "container",
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "flex_gap": {
+          "column": "0",
+          "row": "0",
+          "unit": "px",
+          "isLinked": true,
+          "size": 0
+         },
+         "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+         }
+        },
+        "elements": [
+         {
+          "id": "b000100",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>ÇAĞRI MERKEZİ</p>",
+           "text_color": "#718096",
+           "typography_typography": "custom",
+           "typography_font_size": {
+            "unit": "px",
+            "size": 11
+           },
+           "typography_font_weight": "600"
+          },
+          "elements": []
+         },
+         {
+          "id": "b000101",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p><a href=\"tel:44411844\">444 11 844</a></p>",
+           "text_color": "#2D3748",
+           "typography_typography": "custom",
+           "typography_font_size": {
+            "unit": "px",
+            "size": 20
+           },
+           "typography_font_weight": "600"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": false
+       },
+       {
+        "id": "b000105",
+        "elType": "container",
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "flex_gap": {
+          "column": "0",
+          "row": "0",
+          "unit": "px",
+          "isLinked": true,
+          "size": 0
+         },
+         "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+         }
+        },
+        "elements": [
+         {
+          "id": "b000103",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>MERKEZ</p>",
+           "text_color": "#718096",
+           "typography_typography": "custom",
+           "typography_font_size": {
+            "unit": "px",
+            "size": 11
+           },
+           "typography_font_weight": "600"
+          },
+          "elements": []
+         },
+         {
+          "id": "b000104",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>Fevzipaşa Cd. No:1<br>Beyoğlu, İstanbul</p>",
+           "text_color": "#2D3748",
+           "typography_typography": "custom",
+           "typography_font_size": {
+            "unit": "px",
+            "size": 20
+           },
+           "typography_font_weight": "600"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": false
+       },
+       {
+        "id": "b000108",
+        "elType": "container",
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "flex_gap": {
+          "column": "0",
+          "row": "0",
+          "unit": "px",
+          "isLinked": true,
+          "size": 0
+         },
+         "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+         }
+        },
+        "elements": [
+         {
+          "id": "b000106",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>ÇALIŞMA SAATLERİ</p>",
+           "text_color": "#718096",
+           "typography_typography": "custom",
+           "typography_font_size": {
+            "unit": "px",
+            "size": 11
+           },
+           "typography_font_weight": "600"
+          },
+          "elements": []
+         },
+         {
+          "id": "b000107",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>Her gün 08:00 – 22:00</p>",
+           "text_color": "#2D3748",
+           "typography_typography": "custom",
+           "typography_font_size": {
+            "unit": "px",
+            "size": 20
+           },
+           "typography_font_weight": "600"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": false
+       },
+       {
+        "id": "b00010b",
+        "elType": "container",
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "flex_gap": {
+          "column": "0",
+          "row": "0",
+          "unit": "px",
+          "isLinked": true,
+          "size": 0
+         },
+         "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+         }
+        },
+        "elements": [
+         {
+          "id": "b000109",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>E-POSTA</p>",
+           "text_color": "#718096",
+           "typography_typography": "custom",
+           "typography_font_size": {
+            "unit": "px",
+            "size": 11
+           },
+           "typography_font_weight": "600"
+          },
+          "elements": []
+         },
+         {
+          "id": "b00010a",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p><a href=\"mailto:info@fbsoftwarethemes.com.tr\">info@fbsoftwarethemes.com.tr</a></p>",
+           "text_color": "#2D3748",
+           "typography_typography": "custom",
+           "typography_font_size": {
+            "unit": "px",
+            "size": 20
+           },
+           "typography_font_weight": "600"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": false
+       }
+      ],
+      "isInner": false
+     },
+     {
+      "id": "b000110",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "0",
+        "row": "0",
+        "unit": "px",
+        "isLinked": true,
+        "size": 0
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "width": {
+        "unit": "%",
+        "size": 55
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100
+       }
+      },
+      "elements": [
+       {
+        "id": "b00010f",
+        "elType": "container",
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "flex_gap": {
+          "column": "10",
+          "row": "10",
+          "unit": "px",
+          "isLinked": true,
+          "size": 10
+         },
+         "padding": {
+          "unit": "px",
+          "top": "30",
+          "right": "30",
+          "bottom": "30",
+          "left": "30",
+          "isLinked": true
+         },
+         "background_background": "classic",
+         "background_color": "#FFFFFF",
+         "border_radius": {
+          "unit": "px",
+          "top": "8",
+          "right": "8",
+          "bottom": "8",
+          "left": "8",
+          "isLinked": true
+         },
+         "flex_align_items": "stretch",
+         "overflow": "hidden",
+         "box_shadow_box_shadow_type": "yes",
+         "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 10,
+          "blur": 30,
+          "spread": 0,
+          "color": "rgba(26,32,44,0.08)"
+         },
+         "css_classes": "bc-form"
+        },
+        "elements": [
+         {
+          "id": "b00010d",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+           "title": "İletişim formu",
+           "header_size": "h2",
+           "align": "left",
+           "title_color": "#2D3748",
+           "typography_typography": "custom",
+           "typography_font_size": {
+            "unit": "px",
+            "size": 22
+           },
+           "typography_font_weight": "700",
+           "typography_line_height": {
+            "unit": "em",
+            "size": 1.1
+           },
+           "typography_text_transform": "uppercase"
+          },
+          "elements": []
+         },
+         {
+          "id": "b00010e",
+          "elType": "widget",
+          "widgetType": "shortcode",
+          "settings": {
+           "shortcode": "[contact-form-7 id=\"50\" title=\"İletişim Formu\"]"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": false
+       }
+      ],
+      "isInner": false
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ }
+]
