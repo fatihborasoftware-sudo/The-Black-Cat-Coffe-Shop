@@ -3,44 +3,44 @@
   "id": "b00000a",
   "elType": "container",
   "settings": {
-   "content_width": "boxed",
-   "boxed_width": {
-    "unit": "px",
-    "size": 1240
-   },
-   "flex_direction": "column",
-   "flex_gap": {
-    "column": "0",
-    "row": "0",
-    "unit": "px",
-    "isLinked": true,
-    "size": 0
-   },
-   "padding": {
-    "unit": "px",
-    "top": "40",
-    "right": "16",
-    "bottom": "40",
-    "left": "16",
-    "isLinked": false
-   },
-   "padding_mobile": {
-    "unit": "px",
-    "top": "56",
-    "right": "16",
-    "bottom": "56",
-    "left": "16",
-    "isLinked": false
-   },
    "background_background": "classic",
    "background_color": "#FFFFFF",
    "background_image": {
-    "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/BACKGROUND.png",
-    "id": 17
+    "id": 17,
+    "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/BACKGROUND.png"
    },
    "background_position": "center center",
    "background_repeat": "no-repeat",
-   "background_size": "contain"
+   "background_size": "contain",
+   "boxed_width": {
+    "size": 1240,
+    "unit": "px"
+   },
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "isLinked": true,
+    "row": "0",
+    "size": 0,
+    "unit": "px"
+   },
+   "padding": {
+    "bottom": "40",
+    "isLinked": false,
+    "left": "16",
+    "right": "16",
+    "top": "40",
+    "unit": "px"
+   },
+   "padding_mobile": {
+    "bottom": "56",
+    "isLinked": false,
+    "left": "16",
+    "right": "16",
+    "top": "56",
+    "unit": "px"
+   }
   },
   "elements": [
    {
@@ -48,25 +48,25 @@
     "elType": "container",
     "settings": {
      "content_width": "full",
+     "flex_align_items": "center",
      "flex_direction": "row",
+     "flex_direction_mobile": "column",
      "flex_gap": {
       "column": "32",
-      "row": "32",
-      "unit": "px",
       "isLinked": true,
-      "size": 32
+      "row": "32",
+      "size": 32,
+      "unit": "px"
      },
-     "padding": {
-      "unit": "px",
-      "top": "0",
-      "right": "0",
-      "bottom": "0",
-      "left": "0",
-      "isLinked": true
-     },
-     "flex_align_items": "center",
      "flex_wrap": "nowrap",
-     "flex_direction_mobile": "column"
+     "padding": {
+      "bottom": "0",
+      "isLinked": true,
+      "left": "0",
+      "right": "0",
+      "top": "0",
+      "unit": "px"
+     }
     },
     "elements": [
      {
@@ -77,155 +77,155 @@
        "flex_direction": "column",
        "flex_gap": {
         "column": "0",
-        "row": "0",
-        "unit": "px",
         "isLinked": true,
-        "size": 0
+        "row": "0",
+        "size": 0,
+        "unit": "px"
        },
        "padding": {
-        "unit": "px",
-        "top": "0",
-        "right": "0",
         "bottom": "0",
+        "isLinked": true,
         "left": "0",
-        "isLinked": true
+        "right": "0",
+        "top": "0",
+        "unit": "px"
        },
        "width": {
-        "unit": "%",
-        "size": 50
+        "size": 50,
+        "unit": "%"
        },
        "width_mobile": {
-        "unit": "%",
-        "size": 100
+        "size": 100,
+        "unit": "%"
        }
       },
       "elements": [
        {
         "id": "b000001",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "GERÇEK KAHVEYİ<br>KEŞFET!",
-         "header_size": "h1",
          "align": "left",
+         "align_mobile": "center",
+         "header_size": "h1",
+         "title": "GERÇEK KAHVEYİ<br>KEŞFET!",
          "title_color": "#2D3748",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 78
+          "size": 78,
+          "unit": "px"
+         },
+         "typography_font_size_mobile": {
+          "size": 44,
+          "unit": "px"
+         },
+         "typography_font_size_tablet": {
+          "size": 56,
+          "unit": "px"
          },
          "typography_font_weight": "700",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1.02
+          "size": 1.02,
+          "unit": "em"
          },
          "typography_text_transform": "uppercase",
-         "typography_font_size_tablet": {
-          "unit": "px",
-          "size": 56
-         },
-         "typography_font_size_mobile": {
-          "unit": "px",
-          "size": 44
-         },
-         "align_mobile": "center"
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b000002",
         "elType": "widget",
-        "widgetType": "text-editor",
         "settings": {
-         "editor": "<p>Kendi kavurduğumuz çekirdekler, beş şehirdeki şubelerimizde ve online mağazamızda.</p>",
-         "text_color": "#4A5568",
-         "typography_typography": "custom",
-         "typography_font_size": {
-          "unit": "px",
-          "size": 17
+         "_margin": {
+          "bottom": "30",
+          "isLinked": false,
+          "left": "0",
+          "right": "0",
+          "top": "22",
+          "unit": "px"
          },
-         "typography_font_weight": "400",
          "align": "left",
          "align_mobile": "center",
-         "_margin": {
-          "unit": "px",
-          "top": "22",
-          "right": "0",
-          "bottom": "30",
-          "left": "0",
-          "isLinked": false
-         }
+         "editor": "<p>Kendi kavurduğumuz çekirdekler, beş şehirdeki şubelerimizde ve online mağazamızda.</p>",
+         "text_color": "#4A5568",
+         "typography_font_size": {
+          "size": 17,
+          "unit": "px"
+         },
+         "typography_font_weight": "400",
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "text-editor"
        },
        {
         "id": "b000005",
         "elType": "container",
         "settings": {
          "content_width": "full",
+         "flex_align_items": "center",
          "flex_direction": "row",
          "flex_gap": {
           "column": "12",
-          "row": "12",
-          "unit": "px",
           "isLinked": true,
-          "size": 12
+          "row": "12",
+          "size": 12,
+          "unit": "px"
          },
-         "padding": {
-          "unit": "px",
-          "top": "0",
-          "right": "0",
-          "bottom": "0",
-          "left": "0",
-          "isLinked": true
-         },
-         "flex_align_items": "center",
+         "flex_justify_content_mobile": "center",
          "flex_wrap": "wrap",
-         "flex_justify_content_mobile": "center"
+         "padding": {
+          "bottom": "0",
+          "isLinked": true,
+          "left": "0",
+          "right": "0",
+          "top": "0",
+          "unit": "px"
+         }
         },
         "elements": [
          {
           "id": "b000003",
           "elType": "widget",
-          "widgetType": "button",
           "settings": {
-           "text": "Kahve Noktaları",
+           "align": "left",
            "link": {
             "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?page_id=54"
            },
-           "align": "left"
+           "text": "Kahve Noktaları"
           },
-          "elements": []
+          "elements": [],
+          "widgetType": "button"
          },
          {
           "id": "b000004",
           "elType": "widget",
-          "widgetType": "button",
           "settings": {
-           "text": "Kahve Al!",
-           "link": {
-            "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/shop/"
-           },
            "align": "left",
-           "button_text_color": "#2D3748",
            "background_background": "classic",
            "background_color": "rgba(255,255,255,0)",
            "border_border": "solid",
-           "border_width": {
-            "unit": "px",
-            "top": "2",
-            "right": "2",
-            "bottom": "2",
-            "left": "2",
-            "isLinked": true
-           },
            "border_color": "#2D3748",
-           "hover_color": "#FFFFFF",
+           "border_width": {
+            "bottom": "2",
+            "isLinked": true,
+            "left": "2",
+            "right": "2",
+            "top": "2",
+            "unit": "px"
+           },
            "button_background_hover_background": "classic",
            "button_background_hover_color": "#2D3748",
-           "button_hover_border_color": "#2D3748"
+           "button_hover_border_color": "#2D3748",
+           "button_text_color": "#2D3748",
+           "hover_color": "#FFFFFF",
+           "link": {
+            "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/shop/"
+           },
+           "text": "Kahve Al!"
           },
-          "elements": []
+          "elements": [],
+          "widgetType": "button"
          }
         ],
         "isInner": false
@@ -241,53 +241,53 @@
        "flex_direction": "column",
        "flex_gap": {
         "column": "0",
-        "row": "0",
-        "unit": "px",
         "isLinked": true,
-        "size": 0
+        "row": "0",
+        "size": 0,
+        "unit": "px"
        },
        "padding": {
-        "unit": "px",
-        "top": "0",
-        "right": "0",
         "bottom": "0",
+        "isLinked": true,
         "left": "0",
-        "isLinked": true
+        "right": "0",
+        "top": "0",
+        "unit": "px"
        },
        "width": {
-        "unit": "%",
-        "size": 50
+        "size": 50,
+        "unit": "%"
        },
        "width_mobile": {
-        "unit": "%",
-        "size": 100
+        "size": 100,
+        "unit": "%"
        }
       },
       "elements": [
        {
         "id": "b000007",
         "elType": "widget",
-        "widgetType": "image",
         "settings": {
+         "_css_classes": "bc-float",
+         "align": "right",
+         "align_mobile": "center",
          "image": {
-          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/KAHVE.png",
+          "alt": "Black Cat logolu fincandan sıçrayan kahve ve çekirdekler",
           "id": 16,
-          "alt": "Black Cat logolu fincandan sıçrayan kahve ve çekirdekler"
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/KAHVE.png"
          },
          "image_size": "full",
-         "align": "right",
          "width": {
-          "unit": "%",
-          "size": 100
+          "size": 100,
+          "unit": "%"
          },
-         "_css_classes": "bc-float",
-         "align_mobile": "center",
          "width_mobile": {
-          "unit": "%",
-          "size": 80
+          "size": 80,
+          "unit": "%"
          }
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "image"
        }
       ],
       "isInner": false
@@ -302,211 +302,211 @@
   "id": "b000020",
   "elType": "container",
   "settings": {
-   "content_width": "boxed",
+   "background_background": "classic",
+   "background_color": "#F7FAFC",
    "boxed_width": {
-    "unit": "px",
-    "size": 1240
+    "size": 1240,
+    "unit": "px"
    },
+   "content_width": "boxed",
    "flex_direction": "column",
    "flex_gap": {
     "column": "0",
-    "row": "0",
-    "unit": "px",
     "isLinked": true,
-    "size": 0
+    "row": "0",
+    "size": 0,
+    "unit": "px"
    },
    "padding": {
-    "unit": "px",
-    "top": "84",
-    "right": "16",
     "bottom": "84",
+    "isLinked": false,
     "left": "16",
-    "isLinked": false
+    "right": "16",
+    "top": "84",
+    "unit": "px"
    },
    "padding_mobile": {
-    "unit": "px",
-    "top": "56",
-    "right": "16",
     "bottom": "56",
+    "isLinked": false,
     "left": "16",
-    "isLinked": false
-   },
-   "background_background": "classic",
-   "background_color": "#F7FAFC"
+    "right": "16",
+    "top": "56",
+    "unit": "px"
+   }
   },
   "elements": [
    {
     "id": "b00001f",
     "elType": "container",
     "settings": {
+     "container_type": "grid",
      "content_width": "full",
      "flex_direction": "column",
      "flex_gap": {
       "column": "0",
-      "row": "0",
-      "unit": "px",
       "isLinked": true,
-      "size": 0
+      "row": "0",
+      "size": 0,
+      "unit": "px"
      },
-     "padding": {
-      "unit": "px",
-      "top": "0",
-      "right": "0",
-      "bottom": "0",
-      "left": "0",
-      "isLinked": true
-     },
-     "container_type": "grid",
+     "grid_auto_flow": "row",
      "grid_columns_grid": {
-      "unit": "fr",
-      "size": 4
-     },
-     "grid_columns_grid_tablet": {
-      "unit": "fr",
-      "size": 2
+      "size": 4,
+      "unit": "fr"
      },
      "grid_columns_grid_mobile": {
-      "unit": "fr",
-      "size": 1
+      "size": 1,
+      "unit": "fr"
      },
-     "grid_rows_grid": {
-      "unit": "fr",
-      "size": 1
+     "grid_columns_grid_tablet": {
+      "size": 2,
+      "unit": "fr"
      },
      "grid_gaps": {
       "column": "20",
+      "isLinked": true,
       "row": "20",
-      "unit": "px",
-      "isLinked": true
+      "unit": "px"
      },
-     "grid_auto_flow": "row"
+     "grid_rows_grid": {
+      "size": 1,
+      "unit": "fr"
+     },
+     "padding": {
+      "bottom": "0",
+      "isLinked": true,
+      "left": "0",
+      "right": "0",
+      "top": "0",
+      "unit": "px"
+     }
     },
     "elements": [
      {
       "id": "b00000f",
       "elType": "container",
       "settings": {
-       "content_width": "full",
-       "flex_direction": "column",
-       "flex_gap": {
-        "column": "10",
-        "row": "10",
-        "unit": "px",
-        "isLinked": true,
-        "size": 10
-       },
-       "padding": {
-        "unit": "px",
-        "top": "26",
-        "right": "22",
-        "bottom": "26",
-        "left": "22",
-        "isLinked": false
-       },
        "background_background": "classic",
        "background_color": "#FFFFFF",
        "border_radius": {
-        "unit": "px",
-        "top": "8",
-        "right": "8",
         "bottom": "8",
+        "isLinked": true,
         "left": "8",
-        "isLinked": true
+        "right": "8",
+        "top": "8",
+        "unit": "px"
        },
-       "flex_align_items": "center",
-       "overflow": "hidden",
-       "box_shadow_box_shadow_type": "yes",
        "box_shadow_box_shadow": {
-        "horizontal": 0,
-        "vertical": 10,
         "blur": 30,
+        "color": "rgba(26,32,44,0.08)",
+        "horizontal": 0,
         "spread": 0,
-        "color": "rgba(26,32,44,0.08)"
+        "vertical": 10
+       },
+       "box_shadow_box_shadow_type": "yes",
+       "content_width": "full",
+       "flex_align_items": "center",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "10",
+        "isLinked": true,
+        "row": "10",
+        "size": 10,
+        "unit": "px"
+       },
+       "overflow": "hidden",
+       "padding": {
+        "bottom": "26",
+        "isLinked": false,
+        "left": "22",
+        "right": "22",
+        "top": "26",
+        "unit": "px"
        }
       },
       "elements": [
        {
         "id": "b00000b",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "01",
-         "header_size": "div",
+         "_css_classes": "bc-dot",
          "align": "center",
+         "header_size": "div",
+         "title": "01",
          "title_color": "#718096",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 12
+          "size": 12,
+          "unit": "px"
          },
          "typography_font_weight": "600",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1.1
+          "size": 1.1,
+          "unit": "em"
          },
          "typography_text_transform": "uppercase",
-         "_css_classes": "bc-dot"
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b00000c",
         "elType": "widget",
-        "widgetType": "image",
         "settings": {
+         "align": "center",
          "image": {
-          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_01.png",
+          "alt": "Fincan ikonu",
           "id": 20,
-          "alt": "Fincan ikonu"
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_01.png"
          },
          "image_size": "full",
-         "align": "center",
          "width": {
-          "unit": "px",
-          "size": 36
+          "size": 36,
+          "unit": "px"
          }
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "image"
        },
        {
         "id": "b00000d",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "KALİTELİ ÇEKİRDEKLER",
-         "header_size": "h3",
          "align": "center",
+         "header_size": "h3",
+         "title": "KALİTELİ ÇEKİRDEKLER",
          "title_color": "#2D3748",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 16
+          "size": 16,
+          "unit": "px"
          },
          "typography_font_weight": "700",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1.1
+          "size": 1.1,
+          "unit": "em"
          },
-         "typography_text_transform": "uppercase"
+         "typography_text_transform": "uppercase",
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b00000e",
         "elType": "widget",
-        "widgetType": "text-editor",
         "settings": {
+         "align": "center",
          "editor": "<p>İyi bir kahve iyi bir çekirdek ile başlar!</p>",
          "text_color": "#718096",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 13
+          "size": 13,
+          "unit": "px"
          },
          "typography_font_weight": "400",
-         "align": "center"
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "text-editor"
        }
       ],
       "isInner": false
@@ -515,127 +515,127 @@
       "id": "b000014",
       "elType": "container",
       "settings": {
-       "content_width": "full",
-       "flex_direction": "column",
-       "flex_gap": {
-        "column": "10",
-        "row": "10",
-        "unit": "px",
-        "isLinked": true,
-        "size": 10
-       },
-       "padding": {
-        "unit": "px",
-        "top": "26",
-        "right": "22",
-        "bottom": "26",
-        "left": "22",
-        "isLinked": false
-       },
        "background_background": "classic",
        "background_color": "#FFFFFF",
        "border_radius": {
-        "unit": "px",
-        "top": "8",
-        "right": "8",
         "bottom": "8",
+        "isLinked": true,
         "left": "8",
-        "isLinked": true
+        "right": "8",
+        "top": "8",
+        "unit": "px"
        },
-       "flex_align_items": "center",
-       "overflow": "hidden",
-       "box_shadow_box_shadow_type": "yes",
        "box_shadow_box_shadow": {
-        "horizontal": 0,
-        "vertical": 10,
         "blur": 30,
+        "color": "rgba(26,32,44,0.08)",
+        "horizontal": 0,
         "spread": 0,
-        "color": "rgba(26,32,44,0.08)"
+        "vertical": 10
+       },
+       "box_shadow_box_shadow_type": "yes",
+       "content_width": "full",
+       "flex_align_items": "center",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "10",
+        "isLinked": true,
+        "row": "10",
+        "size": 10,
+        "unit": "px"
+       },
+       "overflow": "hidden",
+       "padding": {
+        "bottom": "26",
+        "isLinked": false,
+        "left": "22",
+        "right": "22",
+        "top": "26",
+        "unit": "px"
        }
       },
       "elements": [
        {
         "id": "b000010",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "02",
-         "header_size": "div",
+         "_css_classes": "bc-dot",
          "align": "center",
+         "header_size": "div",
+         "title": "02",
          "title_color": "#718096",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 12
+          "size": 12,
+          "unit": "px"
          },
          "typography_font_weight": "600",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1.1
+          "size": 1.1,
+          "unit": "em"
          },
          "typography_text_transform": "uppercase",
-         "_css_classes": "bc-dot"
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b000011",
         "elType": "widget",
-        "widgetType": "image",
         "settings": {
+         "align": "center",
          "image": {
-          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_02.png",
+          "alt": "Madalya ikonu",
           "id": 21,
-          "alt": "Madalya ikonu"
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_02.png"
          },
          "image_size": "full",
-         "align": "center",
          "width": {
-          "unit": "px",
-          "size": 36
+          "size": 36,
+          "unit": "px"
          }
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "image"
        },
        {
         "id": "b000012",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "En uygun kavurma",
-         "header_size": "h3",
          "align": "center",
+         "header_size": "h3",
+         "title": "En uygun kavurma",
          "title_color": "#2D3748",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 16
+          "size": 16,
+          "unit": "px"
          },
          "typography_font_weight": "700",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1.1
+          "size": 1.1,
+          "unit": "em"
          },
-         "typography_text_transform": "uppercase"
+         "typography_text_transform": "uppercase",
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b000013",
         "elType": "widget",
-        "widgetType": "text-editor",
         "settings": {
+         "align": "center",
          "editor": "<p>Dünya standartlarında kavurma yöntemleri ile kavrulur!</p>",
          "text_color": "#718096",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 13
+          "size": 13,
+          "unit": "px"
          },
          "typography_font_weight": "400",
-         "align": "center"
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "text-editor"
        }
       ],
       "isInner": false
@@ -644,127 +644,127 @@
       "id": "b000019",
       "elType": "container",
       "settings": {
-       "content_width": "full",
-       "flex_direction": "column",
-       "flex_gap": {
-        "column": "10",
-        "row": "10",
-        "unit": "px",
-        "isLinked": true,
-        "size": 10
-       },
-       "padding": {
-        "unit": "px",
-        "top": "26",
-        "right": "22",
-        "bottom": "26",
-        "left": "22",
-        "isLinked": false
-       },
        "background_background": "classic",
        "background_color": "#FFFFFF",
        "border_radius": {
-        "unit": "px",
-        "top": "8",
-        "right": "8",
         "bottom": "8",
+        "isLinked": true,
         "left": "8",
-        "isLinked": true
+        "right": "8",
+        "top": "8",
+        "unit": "px"
        },
-       "flex_align_items": "center",
-       "overflow": "hidden",
-       "box_shadow_box_shadow_type": "yes",
        "box_shadow_box_shadow": {
-        "horizontal": 0,
-        "vertical": 10,
         "blur": 30,
+        "color": "rgba(26,32,44,0.08)",
+        "horizontal": 0,
         "spread": 0,
-        "color": "rgba(26,32,44,0.08)"
+        "vertical": 10
+       },
+       "box_shadow_box_shadow_type": "yes",
+       "content_width": "full",
+       "flex_align_items": "center",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "10",
+        "isLinked": true,
+        "row": "10",
+        "size": 10,
+        "unit": "px"
+       },
+       "overflow": "hidden",
+       "padding": {
+        "bottom": "26",
+        "isLinked": false,
+        "left": "22",
+        "right": "22",
+        "top": "26",
+        "unit": "px"
        }
       },
       "elements": [
        {
         "id": "b000015",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "03",
-         "header_size": "div",
+         "_css_classes": "bc-dot",
          "align": "center",
+         "header_size": "div",
+         "title": "03",
          "title_color": "#718096",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 12
+          "size": 12,
+          "unit": "px"
          },
          "typography_font_weight": "600",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1.1
+          "size": 1.1,
+          "unit": "em"
          },
          "typography_text_transform": "uppercase",
-         "_css_classes": "bc-dot"
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b000016",
         "elType": "widget",
-        "widgetType": "image",
         "settings": {
+         "align": "center",
          "image": {
-          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_03.png",
+          "alt": "Kahve çekirdeği ikonu",
           "id": 22,
-          "alt": "Kahve çekirdeği ikonu"
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_03.png"
          },
          "image_size": "full",
-         "align": "center",
          "width": {
-          "unit": "px",
-          "size": 36
+          "size": 36,
+          "unit": "px"
          }
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "image"
        },
        {
         "id": "b000017",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "Özel paketleme",
-         "header_size": "h3",
          "align": "center",
+         "header_size": "h3",
+         "title": "Özel paketleme",
          "title_color": "#2D3748",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 16
+          "size": 16,
+          "unit": "px"
          },
          "typography_font_weight": "700",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1.1
+          "size": 1.1,
+          "unit": "em"
          },
-         "typography_text_transform": "uppercase"
+         "typography_text_transform": "uppercase",
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b000018",
         "elType": "widget",
-        "widgetType": "text-editor",
         "settings": {
+         "align": "center",
          "editor": "<p>Uygun koşullarda dayanıklı kalacak şekilde paketlenir!</p>",
          "text_color": "#718096",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 13
+          "size": 13,
+          "unit": "px"
          },
          "typography_font_weight": "400",
-         "align": "center"
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "text-editor"
        }
       ],
       "isInner": false
@@ -773,127 +773,127 @@
       "id": "b00001e",
       "elType": "container",
       "settings": {
-       "content_width": "full",
-       "flex_direction": "column",
-       "flex_gap": {
-        "column": "10",
-        "row": "10",
-        "unit": "px",
-        "isLinked": true,
-        "size": 10
-       },
-       "padding": {
-        "unit": "px",
-        "top": "26",
-        "right": "22",
-        "bottom": "26",
-        "left": "22",
-        "isLinked": false
-       },
        "background_background": "classic",
        "background_color": "#FFFFFF",
        "border_radius": {
-        "unit": "px",
-        "top": "8",
-        "right": "8",
         "bottom": "8",
+        "isLinked": true,
         "left": "8",
-        "isLinked": true
+        "right": "8",
+        "top": "8",
+        "unit": "px"
        },
-       "flex_align_items": "center",
-       "overflow": "hidden",
-       "box_shadow_box_shadow_type": "yes",
        "box_shadow_box_shadow": {
-        "horizontal": 0,
-        "vertical": 10,
         "blur": 30,
+        "color": "rgba(26,32,44,0.08)",
+        "horizontal": 0,
         "spread": 0,
-        "color": "rgba(26,32,44,0.08)"
+        "vertical": 10
+       },
+       "box_shadow_box_shadow_type": "yes",
+       "content_width": "full",
+       "flex_align_items": "center",
+       "flex_direction": "column",
+       "flex_gap": {
+        "column": "10",
+        "isLinked": true,
+        "row": "10",
+        "size": 10,
+        "unit": "px"
+       },
+       "overflow": "hidden",
+       "padding": {
+        "bottom": "26",
+        "isLinked": false,
+        "left": "22",
+        "right": "22",
+        "top": "26",
+        "unit": "px"
        }
       },
       "elements": [
        {
         "id": "b00001a",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "04",
-         "header_size": "div",
+         "_css_classes": "bc-dot",
          "align": "center",
+         "header_size": "div",
+         "title": "04",
          "title_color": "#718096",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 12
+          "size": 12,
+          "unit": "px"
          },
          "typography_font_weight": "600",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1.1
+          "size": 1.1,
+          "unit": "em"
          },
          "typography_text_transform": "uppercase",
-         "_css_classes": "bc-dot"
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b00001b",
         "elType": "widget",
-        "widgetType": "image",
         "settings": {
+         "align": "center",
          "image": {
-          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_04.png",
+          "alt": "Kahve paketi ikonu",
           "id": 23,
-          "alt": "Kahve paketi ikonu"
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/icon_04.png"
          },
          "image_size": "full",
-         "align": "center",
          "width": {
-          "unit": "px",
-          "size": 36
+          "size": 36,
+          "unit": "px"
          }
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "image"
        },
        {
         "id": "b00001c",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "Mükemmel aroma",
-         "header_size": "h3",
          "align": "center",
+         "header_size": "h3",
+         "title": "Mükemmel aroma",
          "title_color": "#2D3748",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 16
+          "size": 16,
+          "unit": "px"
          },
          "typography_font_weight": "700",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1.1
+          "size": 1.1,
+          "unit": "em"
          },
-         "typography_text_transform": "uppercase"
+         "typography_text_transform": "uppercase",
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b00001d",
         "elType": "widget",
-        "widgetType": "text-editor",
         "settings": {
+         "align": "center",
          "editor": "<p>Sonucunda da mükemmel bir aroma verir!</p>",
          "text_color": "#718096",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 13
+          "size": 13,
+          "unit": "px"
          },
          "typography_font_weight": "400",
-         "align": "center"
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "text-editor"
        }
       ],
       "isInner": false
@@ -908,247 +908,247 @@
   "id": "b00002c",
   "elType": "container",
   "settings": {
-   "content_width": "boxed",
    "boxed_width": {
-    "unit": "px",
-    "size": 1240
+    "size": 1240,
+    "unit": "px"
    },
+   "content_width": "boxed",
    "flex_direction": "column",
    "flex_gap": {
     "column": "0",
-    "row": "0",
-    "unit": "px",
     "isLinked": true,
-    "size": 0
+    "row": "0",
+    "size": 0,
+    "unit": "px"
    },
    "padding": {
-    "unit": "px",
-    "top": "84",
-    "right": "16",
     "bottom": "84",
+    "isLinked": false,
     "left": "16",
-    "isLinked": false
+    "right": "16",
+    "top": "84",
+    "unit": "px"
    },
    "padding_mobile": {
-    "unit": "px",
-    "top": "56",
-    "right": "16",
     "bottom": "56",
+    "isLinked": false,
     "left": "16",
-    "isLinked": false
+    "right": "16",
+    "top": "56",
+    "unit": "px"
    }
   },
   "elements": [
    {
     "id": "b000021",
     "elType": "widget",
-    "widgetType": "heading",
     "settings": {
-     "title": "<span>ONLINE</span> ÜRÜNLERİMİZ",
-     "header_size": "h2",
+     "_css_classes": "bc-st",
+     "_margin": {
+      "bottom": "44",
+      "isLinked": false,
+      "left": "0",
+      "right": "0",
+      "top": "0",
+      "unit": "px"
+     },
      "align": "center",
+     "header_size": "h2",
+     "title": "<span>ONLINE</span> ÜRÜNLERİMİZ",
      "title_color": "#2D3748",
-     "typography_typography": "custom",
      "typography_font_size": {
-      "unit": "px",
-      "size": 38
+      "size": 38,
+      "unit": "px"
+     },
+     "typography_font_size_mobile": {
+      "size": 26,
+      "unit": "px"
      },
      "typography_font_weight": "700",
      "typography_line_height": {
-      "unit": "em",
-      "size": 1.1
+      "size": 1.1,
+      "unit": "em"
      },
      "typography_text_transform": "uppercase",
-     "typography_font_size_mobile": {
-      "unit": "px",
-      "size": 26
-     },
-     "_css_classes": "bc-st",
-     "_margin": {
-      "unit": "px",
-      "top": "0",
-      "right": "0",
-      "bottom": "44",
-      "left": "0",
-      "isLinked": false
-     }
+     "typography_typography": "custom"
     },
-    "elements": []
+    "elements": [],
+    "widgetType": "heading"
    },
    {
     "id": "b00002b",
     "elType": "container",
     "settings": {
+     "container_type": "grid",
      "content_width": "full",
      "flex_direction": "column",
      "flex_gap": {
       "column": "0",
-      "row": "0",
-      "unit": "px",
       "isLinked": true,
-      "size": 0
+      "row": "0",
+      "size": 0,
+      "unit": "px"
      },
-     "padding": {
-      "unit": "px",
-      "top": "0",
-      "right": "0",
-      "bottom": "0",
-      "left": "0",
-      "isLinked": true
-     },
-     "container_type": "grid",
+     "grid_auto_flow": "row",
      "grid_columns_grid": {
-      "unit": "fr",
-      "size": 3
-     },
-     "grid_columns_grid_tablet": {
-      "unit": "fr",
-      "size": 1
+      "size": 3,
+      "unit": "fr"
      },
      "grid_columns_grid_mobile": {
-      "unit": "fr",
-      "size": 1
+      "size": 1,
+      "unit": "fr"
      },
-     "grid_rows_grid": {
-      "unit": "fr",
-      "size": 1
+     "grid_columns_grid_tablet": {
+      "size": 1,
+      "unit": "fr"
      },
      "grid_gaps": {
       "column": "20",
+      "isLinked": true,
       "row": "20",
-      "unit": "px",
-      "isLinked": true
+      "unit": "px"
      },
-     "grid_auto_flow": "row"
+     "grid_rows_grid": {
+      "size": 1,
+      "unit": "fr"
+     },
+     "padding": {
+      "bottom": "0",
+      "isLinked": true,
+      "left": "0",
+      "right": "0",
+      "top": "0",
+      "unit": "px"
+     }
     },
     "elements": [
      {
       "id": "b000024",
       "elType": "container",
       "settings": {
+       "background_background": "classic",
+       "background_image": {
+        "id": 24,
+        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/kahve2.jpg"
+       },
+       "background_position": "center center",
+       "background_size": "cover",
+       "border_radius": {
+        "bottom": "8",
+        "isLinked": true,
+        "left": "8",
+        "right": "8",
+        "top": "8",
+        "unit": "px"
+       },
+       "box_shadow_box_shadow": {
+        "blur": 30,
+        "color": "rgba(26,32,44,0.08)",
+        "horizontal": 0,
+        "spread": 0,
+        "vertical": 10
+       },
+       "box_shadow_box_shadow_type": "yes",
        "content_width": "full",
+       "flex_align_items": "flex-start",
        "flex_direction": "column",
        "flex_gap": {
         "column": "12",
-        "row": "12",
-        "unit": "px",
         "isLinked": true,
-        "size": 12
-       },
-       "padding": {
-        "unit": "px",
-        "top": "0",
-        "right": "22",
-        "bottom": "0",
-        "left": "22",
-        "isLinked": false
-       },
-       "background_background": "classic",
-       "background_image": {
-        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/kahve2.jpg",
-        "id": 24
-       },
-       "background_size": "cover",
-       "background_position": "center center",
-       "min_height": {
-        "unit": "px",
-        "size": 214
-       },
-       "min_height_mobile": {
-        "unit": "px",
-        "size": 160
+        "row": "12",
+        "size": 12,
+        "unit": "px"
        },
        "flex_justify_content": "center",
-       "flex_align_items": "flex-start",
-       "border_radius": {
-        "unit": "px",
-        "top": "8",
-        "right": "8",
-        "bottom": "8",
-        "left": "8",
-        "isLinked": true
+       "min_height": {
+        "size": 214,
+        "unit": "px"
+       },
+       "min_height_mobile": {
+        "size": 160,
+        "unit": "px"
        },
        "overflow": "hidden",
-       "box_shadow_box_shadow_type": "yes",
-       "box_shadow_box_shadow": {
-        "horizontal": 0,
-        "vertical": 10,
-        "blur": 30,
-        "spread": 0,
-        "color": "rgba(26,32,44,0.08)"
+       "padding": {
+        "bottom": "0",
+        "isLinked": false,
+        "left": "22",
+        "right": "22",
+        "top": "0",
+        "unit": "px"
        }
       },
       "elements": [
        {
         "id": "b000022",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "Kahveler",
-         "header_size": "h3",
+         "_css_classes": "bc-cat-title",
          "align": "left",
+         "header_size": "h3",
+         "title": "Kahveler",
          "title_color": "#2D3748",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 24
+          "size": 24,
+          "unit": "px"
+         },
+         "typography_font_size_mobile": {
+          "size": 22,
+          "unit": "px"
          },
          "typography_font_weight": "700",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1.1
+          "size": 1.1,
+          "unit": "em"
          },
          "typography_text_transform": "uppercase",
-         "typography_font_size_mobile": {
-          "unit": "px",
-          "size": 22
-         },
-         "_css_classes": "bc-cat-title"
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b000023",
         "elType": "widget",
-        "widgetType": "button",
         "settings": {
-         "text": "İncele",
-         "link": {
-          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=kahveler"
-         },
          "align": "left",
-         "button_text_color": "#2D3748",
          "background_background": "classic",
          "background_color": "#FFFFFF",
          "border_border": "solid",
-         "border_width": {
-          "unit": "px",
-          "top": "2",
-          "right": "2",
-          "bottom": "2",
-          "left": "2",
-          "isLinked": true
-         },
          "border_color": "#FFFFFF",
-         "hover_color": "#FFFFFF",
+         "border_width": {
+          "bottom": "2",
+          "isLinked": true,
+          "left": "2",
+          "right": "2",
+          "top": "2",
+          "unit": "px"
+         },
          "button_background_hover_background": "classic",
          "button_background_hover_color": "#2D3748",
          "button_hover_border_color": "#2D3748",
-         "text_padding": {
-          "unit": "px",
-          "top": "7",
-          "right": "16",
-          "bottom": "7",
-          "left": "16",
-          "isLinked": false
+         "button_text_color": "#2D3748",
+         "hover_color": "#FFFFFF",
+         "link": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=kahveler"
          },
-         "typography_typography": "custom",
+         "text": "İncele",
+         "text_padding": {
+          "bottom": "7",
+          "isLinked": false,
+          "left": "16",
+          "right": "16",
+          "top": "7",
+          "unit": "px"
+         },
          "typography_font_size": {
-          "unit": "px",
-          "size": 12
-         }
+          "size": 12,
+          "unit": "px"
+         },
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "button"
        }
       ],
       "isInner": false
@@ -1157,129 +1157,129 @@
       "id": "b000027",
       "elType": "container",
       "settings": {
+       "background_background": "classic",
+       "background_image": {
+        "id": 25,
+        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/aksesuar-1.jpg"
+       },
+       "background_position": "center center",
+       "background_size": "cover",
+       "border_radius": {
+        "bottom": "8",
+        "isLinked": true,
+        "left": "8",
+        "right": "8",
+        "top": "8",
+        "unit": "px"
+       },
+       "box_shadow_box_shadow": {
+        "blur": 30,
+        "color": "rgba(26,32,44,0.08)",
+        "horizontal": 0,
+        "spread": 0,
+        "vertical": 10
+       },
+       "box_shadow_box_shadow_type": "yes",
        "content_width": "full",
+       "flex_align_items": "flex-start",
        "flex_direction": "column",
        "flex_gap": {
         "column": "12",
-        "row": "12",
-        "unit": "px",
         "isLinked": true,
-        "size": 12
-       },
-       "padding": {
-        "unit": "px",
-        "top": "0",
-        "right": "22",
-        "bottom": "0",
-        "left": "22",
-        "isLinked": false
-       },
-       "background_background": "classic",
-       "background_image": {
-        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/aksesuar-1.jpg",
-        "id": 25
-       },
-       "background_size": "cover",
-       "background_position": "center center",
-       "min_height": {
-        "unit": "px",
-        "size": 214
-       },
-       "min_height_mobile": {
-        "unit": "px",
-        "size": 160
+        "row": "12",
+        "size": 12,
+        "unit": "px"
        },
        "flex_justify_content": "center",
-       "flex_align_items": "flex-start",
-       "border_radius": {
-        "unit": "px",
-        "top": "8",
-        "right": "8",
-        "bottom": "8",
-        "left": "8",
-        "isLinked": true
+       "min_height": {
+        "size": 214,
+        "unit": "px"
+       },
+       "min_height_mobile": {
+        "size": 160,
+        "unit": "px"
        },
        "overflow": "hidden",
-       "box_shadow_box_shadow_type": "yes",
-       "box_shadow_box_shadow": {
-        "horizontal": 0,
-        "vertical": 10,
-        "blur": 30,
-        "spread": 0,
-        "color": "rgba(26,32,44,0.08)"
+       "padding": {
+        "bottom": "0",
+        "isLinked": false,
+        "left": "22",
+        "right": "22",
+        "top": "0",
+        "unit": "px"
        }
       },
       "elements": [
        {
         "id": "b000025",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "Aksesuar",
-         "header_size": "h3",
+         "_css_classes": "bc-cat-title",
          "align": "left",
+         "header_size": "h3",
+         "title": "Aksesuar",
          "title_color": "#2D3748",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 24
+          "size": 24,
+          "unit": "px"
+         },
+         "typography_font_size_mobile": {
+          "size": 22,
+          "unit": "px"
          },
          "typography_font_weight": "700",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1.1
+          "size": 1.1,
+          "unit": "em"
          },
          "typography_text_transform": "uppercase",
-         "typography_font_size_mobile": {
-          "unit": "px",
-          "size": 22
-         },
-         "_css_classes": "bc-cat-title"
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b000026",
         "elType": "widget",
-        "widgetType": "button",
         "settings": {
-         "text": "İncele",
-         "link": {
-          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=aksesuarlar"
-         },
          "align": "left",
-         "button_text_color": "#2D3748",
          "background_background": "classic",
          "background_color": "#FFFFFF",
          "border_border": "solid",
-         "border_width": {
-          "unit": "px",
-          "top": "2",
-          "right": "2",
-          "bottom": "2",
-          "left": "2",
-          "isLinked": true
-         },
          "border_color": "#FFFFFF",
-         "hover_color": "#FFFFFF",
+         "border_width": {
+          "bottom": "2",
+          "isLinked": true,
+          "left": "2",
+          "right": "2",
+          "top": "2",
+          "unit": "px"
+         },
          "button_background_hover_background": "classic",
          "button_background_hover_color": "#2D3748",
          "button_hover_border_color": "#2D3748",
-         "text_padding": {
-          "unit": "px",
-          "top": "7",
-          "right": "16",
-          "bottom": "7",
-          "left": "16",
-          "isLinked": false
+         "button_text_color": "#2D3748",
+         "hover_color": "#FFFFFF",
+         "link": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=aksesuarlar"
          },
-         "typography_typography": "custom",
+         "text": "İncele",
+         "text_padding": {
+          "bottom": "7",
+          "isLinked": false,
+          "left": "16",
+          "right": "16",
+          "top": "7",
+          "unit": "px"
+         },
          "typography_font_size": {
-          "unit": "px",
-          "size": 12
-         }
+          "size": 12,
+          "unit": "px"
+         },
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "button"
        }
       ],
       "isInner": false
@@ -1288,129 +1288,129 @@
       "id": "b00002a",
       "elType": "container",
       "settings": {
+       "background_background": "classic",
+       "background_image": {
+        "id": 26,
+        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/hediye.jpg"
+       },
+       "background_position": "center center",
+       "background_size": "cover",
+       "border_radius": {
+        "bottom": "8",
+        "isLinked": true,
+        "left": "8",
+        "right": "8",
+        "top": "8",
+        "unit": "px"
+       },
+       "box_shadow_box_shadow": {
+        "blur": 30,
+        "color": "rgba(26,32,44,0.08)",
+        "horizontal": 0,
+        "spread": 0,
+        "vertical": 10
+       },
+       "box_shadow_box_shadow_type": "yes",
        "content_width": "full",
+       "flex_align_items": "flex-start",
        "flex_direction": "column",
        "flex_gap": {
         "column": "12",
-        "row": "12",
-        "unit": "px",
         "isLinked": true,
-        "size": 12
-       },
-       "padding": {
-        "unit": "px",
-        "top": "0",
-        "right": "22",
-        "bottom": "0",
-        "left": "22",
-        "isLinked": false
-       },
-       "background_background": "classic",
-       "background_image": {
-        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/hediye.jpg",
-        "id": 26
-       },
-       "background_size": "cover",
-       "background_position": "center center",
-       "min_height": {
-        "unit": "px",
-        "size": 214
-       },
-       "min_height_mobile": {
-        "unit": "px",
-        "size": 160
+        "row": "12",
+        "size": 12,
+        "unit": "px"
        },
        "flex_justify_content": "center",
-       "flex_align_items": "flex-start",
-       "border_radius": {
-        "unit": "px",
-        "top": "8",
-        "right": "8",
-        "bottom": "8",
-        "left": "8",
-        "isLinked": true
+       "min_height": {
+        "size": 214,
+        "unit": "px"
+       },
+       "min_height_mobile": {
+        "size": 160,
+        "unit": "px"
        },
        "overflow": "hidden",
-       "box_shadow_box_shadow_type": "yes",
-       "box_shadow_box_shadow": {
-        "horizontal": 0,
-        "vertical": 10,
-        "blur": 30,
-        "spread": 0,
-        "color": "rgba(26,32,44,0.08)"
+       "padding": {
+        "bottom": "0",
+        "isLinked": false,
+        "left": "22",
+        "right": "22",
+        "top": "0",
+        "unit": "px"
        }
       },
       "elements": [
        {
         "id": "b000028",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "HEDİYE<br>PAKETLERİ",
-         "header_size": "h3",
+         "_css_classes": "bc-cat-title",
          "align": "left",
+         "header_size": "h3",
+         "title": "HEDİYE<br>PAKETLERİ",
          "title_color": "#2D3748",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 24
+          "size": 24,
+          "unit": "px"
+         },
+         "typography_font_size_mobile": {
+          "size": 22,
+          "unit": "px"
          },
          "typography_font_weight": "700",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1.1
+          "size": 1.1,
+          "unit": "em"
          },
          "typography_text_transform": "uppercase",
-         "typography_font_size_mobile": {
-          "unit": "px",
-          "size": 22
-         },
-         "_css_classes": "bc-cat-title"
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b000029",
         "elType": "widget",
-        "widgetType": "button",
         "settings": {
-         "text": "İncele",
-         "link": {
-          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=hediye-paketleri"
-         },
          "align": "left",
-         "button_text_color": "#2D3748",
          "background_background": "classic",
          "background_color": "#FFFFFF",
          "border_border": "solid",
-         "border_width": {
-          "unit": "px",
-          "top": "2",
-          "right": "2",
-          "bottom": "2",
-          "left": "2",
-          "isLinked": true
-         },
          "border_color": "#FFFFFF",
-         "hover_color": "#FFFFFF",
+         "border_width": {
+          "bottom": "2",
+          "isLinked": true,
+          "left": "2",
+          "right": "2",
+          "top": "2",
+          "unit": "px"
+         },
          "button_background_hover_background": "classic",
          "button_background_hover_color": "#2D3748",
          "button_hover_border_color": "#2D3748",
-         "text_padding": {
-          "unit": "px",
-          "top": "7",
-          "right": "16",
-          "bottom": "7",
-          "left": "16",
-          "isLinked": false
+         "button_text_color": "#2D3748",
+         "hover_color": "#FFFFFF",
+         "link": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=hediye-paketleri"
          },
-         "typography_typography": "custom",
+         "text": "İncele",
+         "text_padding": {
+          "bottom": "7",
+          "isLinked": false,
+          "left": "16",
+          "right": "16",
+          "top": "7",
+          "unit": "px"
+         },
          "typography_font_size": {
-          "unit": "px",
-          "size": 12
-         }
+          "size": 12,
+          "unit": "px"
+         },
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "button"
        }
       ],
       "isInner": false
@@ -1425,88 +1425,97 @@
   "id": "b000035",
   "elType": "container",
   "settings": {
-   "content_width": "boxed",
-   "boxed_width": {
-    "unit": "px",
-    "size": 1240
-   },
-   "flex_direction": "column",
-   "flex_gap": {
-    "column": "0",
-    "row": "0",
-    "unit": "px",
-    "isLinked": true,
-    "size": 0
-   },
-   "padding": {
-    "unit": "px",
-    "top": "20",
-    "right": "16",
-    "bottom": "20",
-    "left": "16",
-    "isLinked": false
-   },
-   "padding_mobile": {
-    "unit": "px",
-    "top": "56",
-    "right": "16",
-    "bottom": "56",
-    "left": "16",
-    "isLinked": false
-   },
    "background_background": "classic",
    "background_color": "#FFFFFF",
    "background_image": {
-    "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/background-SMALL.png",
-    "id": 18
+    "id": 18,
+    "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/background-SMALL.png"
    },
-   "background_repeat": "repeat",
    "background_position": "top left",
-   "background_size": "initial"
+   "background_repeat": "repeat",
+   "background_size": "initial",
+   "boxed_width": {
+    "size": 1240,
+    "unit": "px"
+   },
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "isLinked": true,
+    "row": "0",
+    "size": 0,
+    "unit": "px"
+   },
+   "padding": {
+    "bottom": "20",
+    "isLinked": false,
+    "left": "16",
+    "right": "16",
+    "top": "20",
+    "unit": "px"
+   },
+   "padding_mobile": {
+    "bottom": "56",
+    "isLinked": false,
+    "left": "16",
+    "right": "16",
+    "top": "56",
+    "unit": "px"
+   },
+   "background_attachment": "fixed",
+   "background_bg_width": {
+    "size": 305,
+    "unit": "px"
+   },
+   "background_bg_width_mobile": {
+    "size": 240,
+    "unit": "px"
+   }
   },
   "elements": [
    {
     "id": "b000034",
     "elType": "container",
     "settings": {
-     "content_width": "full",
-     "flex_direction": "row",
-     "flex_gap": {
-      "column": "20",
-      "row": "20",
-      "unit": "px",
-      "isLinked": true,
-      "size": 20
-     },
-     "padding": {
-      "unit": "px",
-      "top": "0",
-      "right": "0",
-      "bottom": "0",
-      "left": "0",
-      "isLinked": true
-     },
-     "flex_align_items": "stretch",
-     "flex_wrap": "nowrap",
-     "flex_direction_mobile": "column",
      "background_background": "classic",
      "background_color": "#FFFFFF",
      "border_radius": {
-      "unit": "px",
-      "top": "10",
-      "right": "10",
       "bottom": "10",
+      "isLinked": true,
       "left": "10",
-      "isLinked": true
+      "right": "10",
+      "top": "10",
+      "unit": "px"
      },
-     "overflow": "hidden",
-     "box_shadow_box_shadow_type": "yes",
      "box_shadow_box_shadow": {
-      "horizontal": 0,
-      "vertical": 10,
       "blur": 30,
+      "color": "rgba(26,32,44,0.08)",
+      "horizontal": 0,
       "spread": 0,
-      "color": "rgba(26,32,44,0.08)"
+      "vertical": 10
+     },
+     "box_shadow_box_shadow_type": "yes",
+     "content_width": "full",
+     "flex_align_items": "stretch",
+     "flex_direction": "row",
+     "flex_direction_mobile": "column",
+     "flex_gap": {
+      "column": "20",
+      "isLinked": true,
+      "row": "20",
+      "size": 20,
+      "unit": "px"
+     },
+     "flex_wrap": "nowrap",
+     "overflow": "hidden",
+     "padding": {
+      "bottom": "0",
+      "isLinked": true,
+      "left": "0",
+      "right": "0",
+      "top": "0",
+      "unit": "px"
      }
     },
     "elements": [
@@ -1518,195 +1527,195 @@
        "flex_direction": "column",
        "flex_gap": {
         "column": "0",
-        "row": "0",
-        "unit": "px",
         "isLinked": true,
-        "size": 0
+        "row": "0",
+        "size": 0,
+        "unit": "px"
        },
        "padding": {
-        "unit": "px",
-        "top": "40",
-        "right": "0",
         "bottom": "40",
+        "isLinked": false,
         "left": "44",
-        "isLinked": false
-       },
-       "width": {
-        "unit": "%",
-        "size": 50
-       },
-       "width_mobile": {
-        "unit": "%",
-        "size": 100
+        "right": "0",
+        "top": "40",
+        "unit": "px"
        },
        "padding_mobile": {
-        "unit": "px",
-        "top": "30",
-        "right": "22",
         "bottom": "0",
+        "isLinked": false,
         "left": "22",
-        "isLinked": false
+        "right": "22",
+        "top": "30",
+        "unit": "px"
+       },
+       "width": {
+        "size": 50,
+        "unit": "%"
+       },
+       "width_mobile": {
+        "size": 100,
+        "unit": "%"
        }
       },
       "elements": [
        {
         "id": "b00002d",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "The Black Cat",
-         "header_size": "h2",
+         "_css_classes": "bc-ghost",
          "align": "left",
+         "header_size": "h2",
+         "title": "The Black Cat",
          "title_color": "#2D3748",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 68
+          "size": 68,
+          "unit": "px"
+         },
+         "typography_font_size_mobile": {
+          "size": 40,
+          "unit": "px"
+         },
+         "typography_font_size_tablet": {
+          "size": 56,
+          "unit": "px"
          },
          "typography_font_weight": "800",
          "typography_line_height": {
-          "unit": "em",
-          "size": 0.9
+          "size": 0.9,
+          "unit": "em"
          },
-         "typography_font_size_tablet": {
-          "unit": "px",
-          "size": 56
-         },
-         "typography_font_size_mobile": {
-          "unit": "px",
-          "size": 40
-         },
-         "_css_classes": "bc-ghost"
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b00002e",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "THE BLACK CAT TERMOSUNU GETİR",
-         "header_size": "h2",
+         "_margin": {
+          "bottom": "0",
+          "isLinked": false,
+          "left": "0",
+          "right": "0",
+          "top": "-30",
+          "unit": "px"
+         },
          "align": "left",
+         "header_size": "h2",
+         "title": "THE BLACK CAT TERMOSUNU GETİR",
          "title_color": "#2D3748",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 28
+          "size": 28,
+          "unit": "px"
+         },
+         "typography_font_size_mobile": {
+          "size": 20,
+          "unit": "px"
          },
          "typography_font_weight": "700",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1.1
+          "size": 1.1,
+          "unit": "em"
          },
          "typography_text_transform": "uppercase",
-         "typography_font_size_mobile": {
-          "unit": "px",
-          "size": 20
-         },
-         "_margin": {
-          "unit": "px",
-          "top": "-30",
-          "right": "0",
-          "bottom": "0",
-          "left": "0",
-          "isLinked": false
-         }
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b00002f",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "%20",
-         "header_size": "div",
+         "_css_classes": "bc-outline",
          "align": "left",
+         "header_size": "div",
+         "title": "%20",
          "title_color": "#2D3748",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 128
+          "size": 128,
+          "unit": "px"
+         },
+         "typography_font_size_mobile": {
+          "size": 80,
+          "unit": "px"
          },
          "typography_font_weight": "300",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1
+          "size": 1,
+          "unit": "em"
          },
          "typography_text_transform": "uppercase",
-         "typography_font_size_mobile": {
-          "unit": "px",
-          "size": 80
-         },
-         "_css_classes": "bc-outline"
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b000030",
         "elType": "widget",
-        "widgetType": "heading",
         "settings": {
-         "title": "İNDİRİMLİ KAHVENİ AL",
-         "header_size": "h3",
+         "_margin": {
+          "bottom": "22",
+          "isLinked": false,
+          "left": "0",
+          "right": "0",
+          "top": "0",
+          "unit": "px"
+         },
          "align": "left",
+         "header_size": "h3",
+         "title": "İNDİRİMLİ KAHVENİ AL",
          "title_color": "#2D3748",
-         "typography_typography": "custom",
          "typography_font_size": {
-          "unit": "px",
-          "size": 28
+          "size": 28,
+          "unit": "px"
+         },
+         "typography_font_size_mobile": {
+          "size": 20,
+          "unit": "px"
          },
          "typography_font_weight": "700",
          "typography_line_height": {
-          "unit": "em",
-          "size": 1.1
+          "size": 1.1,
+          "unit": "em"
          },
          "typography_text_transform": "uppercase",
-         "typography_font_size_mobile": {
-          "unit": "px",
-          "size": 20
-         },
-         "_margin": {
-          "unit": "px",
-          "top": "0",
-          "right": "0",
-          "bottom": "22",
-          "left": "0",
-          "isLinked": false
-         }
+         "typography_typography": "custom"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "heading"
        },
        {
         "id": "b000031",
         "elType": "widget",
-        "widgetType": "button",
         "settings": {
-         "text": "Termoslar",
-         "link": {
-          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=aksesuarlar"
-         },
          "align": "left",
-         "button_text_color": "#2D3748",
          "background_background": "classic",
          "background_color": "rgba(255,255,255,0)",
          "border_border": "solid",
-         "border_width": {
-          "unit": "px",
-          "top": "2",
-          "right": "2",
-          "bottom": "2",
-          "left": "2",
-          "isLinked": true
-         },
          "border_color": "#2D3748",
-         "hover_color": "#FFFFFF",
+         "border_width": {
+          "bottom": "2",
+          "isLinked": true,
+          "left": "2",
+          "right": "2",
+          "top": "2",
+          "unit": "px"
+         },
          "button_background_hover_background": "classic",
          "button_background_hover_color": "#2D3748",
-         "button_hover_border_color": "#2D3748"
+         "button_hover_border_color": "#2D3748",
+         "button_text_color": "#2D3748",
+         "hover_color": "#FFFFFF",
+         "link": {
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/?product_cat=aksesuarlar"
+         },
+         "text": "Termoslar"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "button"
        }
       ],
       "isInner": false
@@ -1715,46 +1724,46 @@
       "id": "b000033",
       "elType": "container",
       "settings": {
+       "background_background": "classic",
+       "background_image": {
+        "id": 19,
+        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/BACKGROUND.jpg"
+       },
+       "background_position": "center right",
+       "background_size": "cover",
        "content_width": "full",
        "flex_direction": "column",
        "flex_gap": {
         "column": "0",
-        "row": "0",
-        "unit": "px",
         "isLinked": true,
-        "size": 0
-       },
-       "padding": {
-        "unit": "px",
-        "top": "0",
-        "right": "0",
-        "bottom": "0",
-        "left": "0",
-        "isLinked": true
-       },
-       "width": {
-        "unit": "%",
-        "size": 50
-       },
-       "width_mobile": {
-        "unit": "%",
-        "size": 100
+        "row": "0",
+        "size": 0,
+        "unit": "px"
        },
        "min_height": {
-        "unit": "px",
-        "size": 340
+        "size": 340,
+        "unit": "px"
        },
        "min_height_mobile": {
-        "unit": "px",
-        "size": 220
+        "size": 220,
+        "unit": "px"
        },
-       "background_background": "classic",
-       "background_image": {
-        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/BACKGROUND.jpg",
-        "id": 19
+       "padding": {
+        "bottom": "0",
+        "isLinked": true,
+        "left": "0",
+        "right": "0",
+        "top": "0",
+        "unit": "px"
        },
-       "background_size": "cover",
-       "background_position": "center right"
+       "width": {
+        "size": 50,
+        "unit": "%"
+       },
+       "width_mobile": {
+        "size": 100,
+        "unit": "%"
+       }
       },
       "elements": [],
       "isInner": false
@@ -1769,124 +1778,133 @@
   "id": "b00003b",
   "elType": "container",
   "settings": {
-   "content_width": "boxed",
-   "boxed_width": {
-    "unit": "px",
-    "size": 1240
-   },
-   "flex_direction": "column",
-   "flex_gap": {
-    "column": "0",
-    "row": "0",
-    "unit": "px",
-    "isLinked": true,
-    "size": 0
-   },
-   "padding": {
-    "unit": "px",
-    "top": "84",
-    "right": "16",
-    "bottom": "84",
-    "left": "16",
-    "isLinked": false
-   },
-   "padding_mobile": {
-    "unit": "px",
-    "top": "56",
-    "right": "16",
-    "bottom": "56",
-    "left": "16",
-    "isLinked": false
-   },
    "background_background": "classic",
    "background_color": "#FFFFFF",
    "background_image": {
-    "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/background-SMALL.png",
-    "id": 18
+    "id": 18,
+    "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/background-SMALL.png"
    },
-   "background_repeat": "repeat",
    "background_position": "top left",
+   "background_repeat": "repeat",
    "background_size": "initial",
-   "border_border": "solid",
+   "border_border": "",
+   "border_color": "#E2E8F0",
    "border_width": {
-    "unit": "px",
-    "top": "1",
-    "right": "0",
     "bottom": "0",
+    "isLinked": true,
     "left": "0",
-    "isLinked": false
+    "right": "0",
+    "top": "0",
+    "unit": "px"
    },
-   "border_color": "#E2E8F0"
+   "boxed_width": {
+    "size": 1240,
+    "unit": "px"
+   },
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "flex_gap": {
+    "column": "0",
+    "isLinked": true,
+    "row": "0",
+    "size": 0,
+    "unit": "px"
+   },
+   "padding": {
+    "bottom": "84",
+    "isLinked": false,
+    "left": "16",
+    "right": "16",
+    "top": "40",
+    "unit": "px"
+   },
+   "padding_mobile": {
+    "bottom": "56",
+    "isLinked": false,
+    "left": "16",
+    "right": "16",
+    "top": "56",
+    "unit": "px"
+   },
+   "background_attachment": "fixed",
+   "background_bg_width": {
+    "size": 305,
+    "unit": "px"
+   },
+   "background_bg_width_mobile": {
+    "size": 240,
+    "unit": "px"
+   }
   },
   "elements": [
    {
     "id": "b000036",
     "elType": "widget",
-    "widgetType": "heading",
     "settings": {
-     "title": "<span>POPÜLER</span> ÜRÜNLERİMİZ",
-     "header_size": "h2",
+     "_css_classes": "bc-st",
+     "_margin": {
+      "bottom": "44",
+      "isLinked": false,
+      "left": "0",
+      "right": "0",
+      "top": "0",
+      "unit": "px"
+     },
      "align": "center",
+     "header_size": "h2",
+     "title": "<span>POPÜLER</span> ÜRÜNLERİMİZ",
      "title_color": "#2D3748",
-     "typography_typography": "custom",
      "typography_font_size": {
-      "unit": "px",
-      "size": 38
+      "size": 38,
+      "unit": "px"
+     },
+     "typography_font_size_mobile": {
+      "size": 26,
+      "unit": "px"
      },
      "typography_font_weight": "700",
      "typography_line_height": {
-      "unit": "em",
-      "size": 1.1
+      "size": 1.1,
+      "unit": "em"
      },
      "typography_text_transform": "uppercase",
-     "typography_font_size_mobile": {
-      "unit": "px",
-      "size": 26
-     },
-     "_css_classes": "bc-st",
-     "_margin": {
-      "unit": "px",
-      "top": "0",
-      "right": "0",
-      "bottom": "44",
-      "left": "0",
-      "isLinked": false
-     }
+     "typography_typography": "custom"
     },
-    "elements": []
+    "elements": [],
+    "widgetType": "heading"
    },
    {
     "id": "b000038",
     "elType": "container",
     "settings": {
      "content_width": "full",
+     "css_classes": "bc-products",
      "flex_direction": "column",
      "flex_gap": {
       "column": "0",
-      "row": "0",
-      "unit": "px",
       "isLinked": true,
-      "size": 0
+      "row": "0",
+      "size": 0,
+      "unit": "px"
      },
      "padding": {
-      "unit": "px",
-      "top": "0",
-      "right": "0",
       "bottom": "0",
+      "isLinked": true,
       "left": "0",
-      "isLinked": true
-     },
-     "css_classes": "bc-products"
+      "right": "0",
+      "top": "0",
+      "unit": "px"
+     }
     },
     "elements": [
      {
       "id": "b000037",
       "elType": "widget",
-      "widgetType": "shortcode",
       "settings": {
        "shortcode": "[products limit=\"6\" columns=\"3\" orderby=\"popularity\" category=\"kahveler\"]"
       },
-      "elements": []
+      "elements": [],
+      "widgetType": "shortcode"
      }
     ],
     "isInner": false
@@ -1899,58 +1917,58 @@
      "flex_direction": "column",
      "flex_gap": {
       "column": "0",
-      "row": "0",
-      "unit": "px",
       "isLinked": true,
-      "size": 0
-     },
-     "padding": {
-      "unit": "px",
-      "top": "0",
-      "right": "0",
-      "bottom": "0",
-      "left": "0",
-      "isLinked": true
+      "row": "0",
+      "size": 0,
+      "unit": "px"
      },
      "margin": {
-      "unit": "px",
-      "top": "24",
-      "right": "0",
       "bottom": "0",
+      "isLinked": false,
       "left": "0",
-      "isLinked": false
+      "right": "0",
+      "top": "24",
+      "unit": "px"
+     },
+     "padding": {
+      "bottom": "0",
+      "isLinked": true,
+      "left": "0",
+      "right": "0",
+      "top": "0",
+      "unit": "px"
      }
     },
     "elements": [
      {
       "id": "b000039",
       "elType": "widget",
-      "widgetType": "button",
       "settings": {
-       "text": "Tüm ürünler",
-       "link": {
-        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/shop/"
-       },
        "align": "center",
-       "button_text_color": "#2D3748",
        "background_background": "classic",
        "background_color": "rgba(255,255,255,0)",
        "border_border": "solid",
-       "border_width": {
-        "unit": "px",
-        "top": "2",
-        "right": "2",
-        "bottom": "2",
-        "left": "2",
-        "isLinked": true
-       },
        "border_color": "#2D3748",
-       "hover_color": "#FFFFFF",
+       "border_width": {
+        "bottom": "2",
+        "isLinked": true,
+        "left": "2",
+        "right": "2",
+        "top": "2",
+        "unit": "px"
+       },
        "button_background_hover_background": "classic",
        "button_background_hover_color": "#2D3748",
-       "button_hover_border_color": "#2D3748"
+       "button_hover_border_color": "#2D3748",
+       "button_text_color": "#2D3748",
+       "hover_color": "#FFFFFF",
+       "link": {
+        "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/shop/"
+       },
+       "text": "Tüm ürünler"
       },
-      "elements": []
+      "elements": [],
+      "widgetType": "button"
      }
     ],
     "isInner": false
@@ -1962,100 +1980,100 @@
   "id": "b000042",
   "elType": "container",
   "settings": {
-   "content_width": "boxed",
+   "_element_id": "takip",
+   "background_background": "classic",
+   "background_color": "#F7FAFC",
    "boxed_width": {
-    "unit": "px",
-    "size": 1240
+    "size": 1240,
+    "unit": "px"
    },
+   "content_width": "boxed",
    "flex_direction": "column",
    "flex_gap": {
     "column": "0",
-    "row": "0",
-    "unit": "px",
     "isLinked": true,
-    "size": 0
+    "row": "0",
+    "size": 0,
+    "unit": "px"
    },
    "padding": {
-    "unit": "px",
-    "top": "84",
-    "right": "16",
     "bottom": "84",
+    "isLinked": false,
     "left": "16",
-    "isLinked": false
+    "right": "16",
+    "top": "84",
+    "unit": "px"
    },
    "padding_mobile": {
-    "unit": "px",
-    "top": "56",
-    "right": "16",
     "bottom": "56",
+    "isLinked": false,
     "left": "16",
-    "isLinked": false
-   },
-   "background_background": "classic",
-   "background_color": "#F7FAFC",
-   "_element_id": "takip"
+    "right": "16",
+    "top": "56",
+    "unit": "px"
+   }
   },
   "elements": [
    {
     "id": "b00003c",
     "elType": "widget",
-    "widgetType": "heading",
     "settings": {
-     "title": "<span>SİPARİŞ</span> TAKİP",
-     "header_size": "h2",
+     "_css_classes": "bc-st",
+     "_margin": {
+      "bottom": "44",
+      "isLinked": false,
+      "left": "0",
+      "right": "0",
+      "top": "0",
+      "unit": "px"
+     },
      "align": "center",
+     "header_size": "h2",
+     "title": "<span>SİPARİŞ</span> TAKİP",
      "title_color": "#2D3748",
-     "typography_typography": "custom",
      "typography_font_size": {
-      "unit": "px",
-      "size": 38
+      "size": 38,
+      "unit": "px"
+     },
+     "typography_font_size_mobile": {
+      "size": 26,
+      "unit": "px"
      },
      "typography_font_weight": "700",
      "typography_line_height": {
-      "unit": "em",
-      "size": 1.1
+      "size": 1.1,
+      "unit": "em"
      },
      "typography_text_transform": "uppercase",
-     "typography_font_size_mobile": {
-      "unit": "px",
-      "size": 26
-     },
-     "_css_classes": "bc-st",
-     "_margin": {
-      "unit": "px",
-      "top": "0",
-      "right": "0",
-      "bottom": "44",
-      "left": "0",
-      "isLinked": false
-     }
+     "typography_typography": "custom"
     },
-    "elements": []
+    "elements": [],
+    "widgetType": "heading"
    },
    {
     "id": "b000041",
     "elType": "container",
     "settings": {
      "content_width": "full",
+     "flex_align_items": "center",
      "flex_direction": "row",
+     "flex_direction_mobile": "column",
      "flex_gap": {
       "column": "40",
-      "row": "40",
-      "unit": "px",
       "isLinked": true,
-      "size": 40
+      "row": "40",
+      "size": 40,
+      "unit": "px"
      },
-     "padding": {
-      "unit": "px",
-      "top": "0",
-      "right": "0",
-      "bottom": "0",
-      "left": "0",
-      "isLinked": true
-     },
-     "flex_align_items": "center",
      "flex_wrap": "nowrap",
-     "flex_direction_mobile": "column"
+     "padding": {
+      "bottom": "0",
+      "isLinked": true,
+      "left": "0",
+      "right": "0",
+      "top": "0",
+      "unit": "px"
+     }
     },
     "elements": [
      {
@@ -2066,37 +2084,37 @@
        "flex_direction": "column",
        "flex_gap": {
         "column": "0",
-        "row": "0",
-        "unit": "px",
         "isLinked": true,
-        "size": 0
+        "row": "0",
+        "size": 0,
+        "unit": "px"
        },
        "padding": {
-        "unit": "px",
-        "top": "0",
-        "right": "0",
         "bottom": "0",
+        "isLinked": true,
         "left": "0",
-        "isLinked": true
+        "right": "0",
+        "top": "0",
+        "unit": "px"
        },
        "width": {
-        "unit": "%",
-        "size": 55
+        "size": 55,
+        "unit": "%"
        },
        "width_mobile": {
-        "unit": "%",
-        "size": 100
+        "size": 100,
+        "unit": "%"
        }
       },
       "elements": [
        {
         "id": "b00003d",
         "elType": "widget",
-        "widgetType": "shortcode",
         "settings": {
          "shortcode": "[woocommerce_order_tracking]"
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "shortcode"
        }
       ],
       "isInner": false
@@ -2109,53 +2127,81 @@
        "flex_direction": "column",
        "flex_gap": {
         "column": "0",
-        "row": "0",
-        "unit": "px",
         "isLinked": true,
-        "size": 0
+        "row": "0",
+        "size": 0,
+        "unit": "px"
        },
        "padding": {
-        "unit": "px",
-        "top": "0",
-        "right": "0",
         "bottom": "0",
+        "isLinked": true,
         "left": "0",
-        "isLinked": true
+        "right": "0",
+        "top": "0",
+        "unit": "px"
        },
        "width": {
-        "unit": "%",
-        "size": 45
+        "size": 45,
+        "unit": "%"
        },
        "width_mobile": {
-        "unit": "%",
-        "size": 100
+        "size": 100,
+        "unit": "%"
        }
       },
       "elements": [
        {
         "id": "b00003f",
         "elType": "widget",
-        "widgetType": "image",
         "settings": {
+         "align": "center",
          "image": {
-          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/4-1.png",
+          "alt": "Kedi silüetinde Black Cat ekibi fotoğrafları",
           "id": 27,
-          "alt": "Kedi silüetinde Black Cat ekibi fotoğrafları"
+          "url": "https://fbsoftwarethemes.com.tr/theblackcatcoffeeshop/wp-content/uploads/2026/10/4-1.png"
          },
          "image_size": "full",
-         "align": "center",
          "width": {
-          "unit": "%",
-          "size": 100
+          "size": 100,
+          "unit": "%"
          }
         },
-        "elements": []
+        "elements": [],
+        "widgetType": "image"
        }
       ],
       "isInner": false
      }
     ],
     "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "bccookie",
+  "elType": "container",
+  "settings": {
+   "_title": "Cookie banner script",
+   "content_width": "full",
+   "padding": {
+    "bottom": "0",
+    "isLinked": true,
+    "left": "0",
+    "right": "0",
+    "top": "0",
+    "unit": "px"
+   }
+  },
+  "elements": [
+   {
+    "id": "bccookiejs",
+    "elType": "widget",
+    "settings": {
+     "html": "<script>(function(){var d=document.documentElement,k='bc_consent',s=null;try{s=localStorage.getItem(k)}catch(e){}if(!s)d.classList.add('bc-ask');function save(v){try{localStorage.setItem(k,JSON.stringify(v))}catch(x){}d.classList.remove('bc-ask')}function close(){d.classList.remove('bc-modal-open')}document.addEventListener('click',function(e){var t=e.target;if(t.closest('.bc-bayi')&&document.getElementById('bc-modal')){e.preventDefault();d.classList.add('bc-modal-open');var f=document.querySelector('#bc-modal input[type=text]');if(f)setTimeout(function(){f.focus()},200);return}if(t.closest('#bc-modal [data-close]')){close();return}var b=t.closest('.bc-cookie button');if(!b)return;var c=b.closest('.bc-cookie');if(b.dataset.consent==='all')save({analytics:true,marketing:true});else if(b.dataset.consent==='necessary')save({analytics:false,marketing:false});else if(b.dataset.prefs){if(!c.classList.contains('open')){c.classList.add('open');b.textContent='SEÇİMİ KAYDET'}else save({analytics:c.querySelector('[name=analytics]').checked,marketing:c.querySelector('[name=marketing]').checked})}});document.addEventListener('keydown',function(e){if(e.key==='Escape')close()})})();</script>"
+    },
+    "elements": [],
+    "widgetType": "html"
    }
   ],
   "isInner": false
